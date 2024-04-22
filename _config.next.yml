@@ -1,0 +1,39 @@
+# Allow to cache content generation.
+cache:
+  enable: true
+# Remove unnecessary files after hexo generate.
+minify: true
+
+# Set the default view scheme
+#scheme: Muse
+#scheme: Mist
+scheme: Pisces
+# scheme: Gemini
+
+# Light or Dark Mode
+darkmode: true
+
+# Enable or Disable Open Graph Protocol
+open_graph:
+  enable: true
+  # Add pairs each line to customize
+  options:
+    type: blog
+
+# Menu entries
+menu:
+  home: / || fa fa-home
+  about: /about/ || fa fa-user
+  #tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
+  archives: /archives/ || fa fa-archive
+  #schedule: /schedule/ || fa fa-calendar
+  #sitemap: /sitemap.xml || fa fa-sitemap
+  #commonweal: /404/ || fa fa-heartbeat
+
+menu_settings:
+#  icons: true
+  badges: true
+
+# Vanilla JavaScript plugin for lazyloading images.
+lazyload: true
