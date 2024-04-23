@@ -4,7 +4,7 @@ on:
   push:
     branches:
       # - main  # default branch
-      - main/hexo
+      - master
 
 jobs:
   build:
