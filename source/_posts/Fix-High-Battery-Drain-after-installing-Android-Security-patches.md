@@ -46,7 +46,9 @@ Type the following command:<br>
 >`adb shell`
 
 Make sure you allow authorization for the device to connect it in development mode.
-![Authorization Prompt](image.jpg)
+<span>
+![Authorization Prompt](https://i.imgur.com/WyTIxH4.jpg)
+</span>
 
 Now, type the commands or copy them:
 >`pm bg-dexopt-job && reboot`
