@@ -19,7 +19,7 @@ As of 2023, you will see general availability is PCIe 4 with x4 lanes with reads
 
 Theoretically if HMB and firmware is implemented properly that can properly perform garbage collection and cleanup the write cache once the data is written to the flash media. Now, you will ask me what's the point of writing this article if all's good.
 Let's take a look at affected drive i.e [WD SN570](https://www.techpowerup.com/ssd-specs/western-digital-sn570-1-tb.d467) which is a budget NVMe with HMB cache size of 64MB. HMB cache is different from [pseudo-SLC cache](https://sabrent.com/blogs/storage/slc-caching) which uses part of the capacity to be used as SLC cache for faster write performance. Usually bigger sizes have bigger SLC cache in essence, 1TB will have double the SLC cache of 512GB drive of the same manufacturer.
-> ## What's the fix? <br>
+> ## What\'s the fix? <br>
 What I can I say, I found a fix after constantly going around review articles and finally came across reddit posts that provided a fix when there was nothing listed in WD articles about the issue.
 
 Hey, don't test our patience! We're literally pulling our hairs out and going bald.
