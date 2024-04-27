@@ -29,7 +29,7 @@ There are 2 ways where you can change the drive settings:
 2. Device Manager
 
 ---
-**Let's discuss the First method:**
+**Let\'s discuss the First method:** <br>
 1. Open File Explorer and click on **This PC** in the left sidebar. Right Click on the Drive and Select Properties. <br><br> <span>![This PC Page](https://i.imgur.com/SBF1bnu.png)</span>
 2. Click on the Hardware Tab or Section of drive properties window. Click on Properties. <br><br><span>![Drive Properties](https://i.imgur.com/WDy5Mo2.png)</span>
 3. Click on Change Settings which requires Administrator Privileges <br><br><span>![Change Global Drive Settings](https://i.imgur.com/23Iu9mz.png)</span>
@@ -37,7 +37,9 @@ There are 2 ways where you can change the drive settings:
 5. Click on OK button to close the window and now you can enjoy the drive without running into slow write speed issues (10-20MB/s) when the drive is heavily loaded while downloading from Steam/Epic/Hugging Face models etc..
 <br>
 ---
-Let's discuss the Second Method:
+
+**Let\'s discuss the Second Method:** <br>
+
 1. Open Device Manager as Administrator and select the Drive i.e SN570 <br><br><span>![Device Manager](https://i.imgur.com/a5ICTCu.png)</span>
 2. Double Click or Right Click on the selected drive and select **Properties** <br><br><span>![Device Manager](https://i.imgur.com/qL3qkNJ.png)</span>
 3. Click on Policies Tab or Section, uncheck ***Enable write caching on the drive*** <br><br><span>![Policies Tab](https://i.imgur.com/wHXGsjQ.png)</span>
