@@ -17,7 +17,7 @@ Hello fellow readers, the objective of the article will be to reduce high batter
 
 > ## Background
 If you've heard the phone is being re-indexing or optimizing the apps and media in the background causing worse battery drain and thermals until the process is completed. The actual problem stems from a better user experience approach introduced in Android 7 or later which makes it optional to optimize the apps to reduce the installation time and enable quick startup.
-If you had lower power devices from Samsung, Redmi etc you will notice it was a welcome change to quicken the patching process and minimize the time we pray to God it won\'t get stuck at **Updating Progress Screen**.
+If you had lower power devices from Samsung, Redmi etc you will notice it was a welcome change to quicken the patching process and minimize the time we pray to God it won\'t get stuck at **Updating Progress Screen**. <!-- more -->
 So ergo, with latest android version the optimizer logic works when one of the following conditions are met or satisfied:
 1. The phone is connected to the charger,
 

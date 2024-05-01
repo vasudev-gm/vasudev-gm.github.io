@@ -9,7 +9,7 @@ tags:
   - steam
   - epic
 ---
-Hello fellow readers, in this article I will be providing a fix for Slow Write Speed issues on WD SN570 when using Steam/Epic Downloads and media transfers.
+Hello fellow readers, in this article I will be providing a fix for Slow Write Speed issues on WD SN570 when using Steam/Epic Downloads and media transfers.<!-- more -->
 
 ## Background <br>
 The advent of Host Memory Buffer on budget NVMe drives to give better write performance instead of adding DRAM on the drive. With HMB, SSD manufacturers can save on BOM costs and make the drive more compact to focus on higher storage size. As you are aware, most NVMe SSDs are available in [M.2](https://en.wikipedia.org/wiki/M.2) format with different sizes aka lengths i.e 30mm, 42mm and 80mm. There are few sizes used in enterprise SSDs optimized for more write endurance such as 60mm and 110mm.

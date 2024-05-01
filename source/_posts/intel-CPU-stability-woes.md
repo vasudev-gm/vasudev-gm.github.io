@@ -16,8 +16,8 @@ tags:
 
 ### Initial Reports
 Couple of weeks ago, many Intel 13<sup>th</sup> and 14<sup>th</sup> Generation CPUs especially their unlocked series i.e. K, KF & KS series reported [performance and stability issues in NVIDIA forums](https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing) that few games and game development engines such as Epic's Unreal Engine 5.
-There are several reports from lot of users from [Intel Community Forums](https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en), News Outlets such as [TechPowerUp](https://www.techpowerup.com/321461/nvidia-points-intel-raptor-lake-cpu-users-to-get-help-from-intel-amid-system-instability-issues),[PC GamesN](https://www.pcgamesn.com/nvidia/gpu-intel-raptor-lake-issues),[Ars Technica](https://arstechnica.com/gadgets/2024/04/intel-is-investigating-game-crashes-on-top-end-core-i9-desktop-cpus/),[OC.Net](https://www.overclock.net/threads/official-asus-strix-maximus-z790-owners-thread.1800191/page-853#post-29323821) etc.
-
+There are several reports from lot of users from [Intel Community Forums](https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en), News Outlets such as [TechPowerUp](https://www.techpowerup.com/321461/nvidia-points-intel-raptor-lake-cpu-users-to-get-help-from-intel-amid-system-instability-issues), [PC GamesN](https://www.pcgamesn.com/nvidia/gpu-intel-raptor-lake-issues), [Ars Technica](https://arstechnica.com/gadgets/2024/04/intel-is-investigating-game-crashes-on-top-end-core-i9-desktop-cpus/), [OC.Net](https://www.overclock.net/threads/official-asus-strix-maximus-z790-owners-thread.1800191/page-853#post-29323821) etc.
+<!-- more -->
 
 ### What is the fix officially or unofficially?
 
