@@ -102,3 +102,11 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: ''
+
+analytics:
+    # google_analytics:
+    #     enable: true
+    #     measurement_id: <your measurement id>
+    microsoft_clarity:
+        enable: true
+        project_id: ${{ secrets.MSFT_CLARITY }}
