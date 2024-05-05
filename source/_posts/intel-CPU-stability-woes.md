@@ -45,11 +45,10 @@ Intel did ask motherboard vendors such as Asus,MSI,GigaByte,ASRock etc to provid
 [Ars Technica][def5]
 [Intel][def2]
 [NVIDIA][def]
-[Hardware Unboxed](https://youtu.be/OdF5erDRO-c?si=P4tQYerS0MZJXHJx)
-[Actually Hardcore Overclocking Asus Motherboard](https://youtu.be/1LluNJiJ88A?si=RDIGdnwbGLJ1MbRE)
-[Actually Hardcore Overclocking GigaByte Motherboard](https://youtu.be/jNwFFJyAqQU?si=dlr4WgDM2IuKj0Bo)
-[Raptor Lake CPU Wiki](https://en.wikipedia.org/wiki/Raptor_Lake)
-
+[Hardware Unboxed][def10]
+[Actually Hardcore Overclocking Asus Motherboard][def11]
+[Actually Hardcore Overclocking GigaByte Motherboard][def12]
+[Raptor Lake CPU Wiki][def13]
 
 [def]: https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing
 [def2]: https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en
@@ -60,3 +59,7 @@ Intel did ask motherboard vendors such as Asus,MSI,GigaByte,ASRock etc to provid
 [def7]: https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-formula/helpdesk_bios/
 [def8]: https://www.msi.com/blog/improving-gaming-stability-for-intel-core-i9-13900k-and-core-i9-14900k
 [def9]: https://www.techpowerup.com/321905/superior-stability-by-gigabyte-beta-bios-with-intel-baseline-on-z790-b760-motherboards
+[def10]: https://youtu.be/OdF5erDRO-c?si=P4tQYerS0MZJXHJx
+[def11]: https://youtu.be/1LluNJiJ88A?si=RDIGdnwbGLJ1MbRE
+[def12]: https://youtu.be/jNwFFJyAqQU?si=dlr4WgDM2IuKj0Bo
+[def13]: https://en.wikipedia.org/wiki/Raptor_Lake
