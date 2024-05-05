@@ -37,3 +37,6 @@ menu_settings:
 
 # Vanilla JavaScript plugin for lazyloading images.
 lazyload: true
+
+# Microsoft Clarity Analytics
+clarity_analytics: ${{ secrets.MSFT_CLARITY }}
