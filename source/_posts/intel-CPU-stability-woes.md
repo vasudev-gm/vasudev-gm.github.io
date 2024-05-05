@@ -16,8 +16,8 @@ tags:
 
 ### Initial Reports
 
-Couple of weeks ago, many Intel 13<sup>th</sup> and 14<sup>th</sup> Generation CPUs especially their unlocked series i.e. K, KF & KS series reported [performance and stability issues in NVIDIA forums](https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing) that few games and game development engines such as Epic's Unreal Engine 5.
-There are several reports from lot of users from [Intel Community Forums](https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en), News Outlets such as [TechPowerUp](https://www.techpowerup.com/321461/nvidia-points-intel-raptor-lake-cpu-users-to-get-help-from-intel-amid-system-instability-issues), [PC GamesN](https://www.pcgamesn.com/nvidia/gpu-intel-raptor-lake-issues), [Ars Technica](https://arstechnica.com/gadgets/2024/04/intel-is-investigating-game-crashes-on-top-end-core-i9-desktop-cpus/), [OC.Net](https://www.overclock.net/threads/official-asus-strix-maximus-z790-owners-thread.1800191/page-853#post-29323821) etc.
+Couple of weeks ago, many Intel 13<sup>th</sup> and 14<sup>th</sup> Generation CPUs especially their unlocked series i.e. K, KF & KS series reported [performance and stability issues in NVIDIA forums][def] that few games and game development engines such as Epic's Unreal Engine 5.
+There are several reports from lot of users from [Intel Community Forums][def2], News Outlets such as [TechPowerUp][def3], [PC GamesN][def4], [Ars Technica][def5], [OC.Net][def6] etc.
 <!-- more -->
 
 ### What is the fix officially or unofficially?
@@ -35,17 +35,28 @@ Intel did suggest few settings that vendors applied through the BIOS/UEFI that w
 - Increasing PL1 and PL2 beyond Intel recommended limits
 
 Intel did ask motherboard vendors such as Asus,MSI,GigaByte,ASRock etc to provide end users with Intel Baseline profile that uses Intel Recommended CPU settings to ensure better stability with a performance penalty. Intel will issue public notice regarding the same and its status by May 2024.
-[Asus](https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-formula/helpdesk_bios/),[MSI](https://www.msi.com/blog/improving-gaming-stability-for-intel-core-i9-13900k-and-core-i9-14900k) and [GigaByte](https://www.techpowerup.com/321905/superior-stability-by-gigabyte-beta-bios-with-intel-baseline-on-z790-b760-motherboards) have issued Beta BIOS/UEFI that adds Intel Baseline Profile that forces the affected SKUs to respect recommended power and thermal constraints.
+[Asus][def7],[MSI][def8] and [GigaByte][def9] have issued Beta BIOS/UEFI that adds Intel Baseline Profile that forces the affected SKUs to respect recommended power and thermal constraints.
 
 ### Source(s)
 
 [TechPowerUp](https://www.techpowerup.com/321959/intel-statement-on-stability-issues-motherboard-makers-to-blame)
-[OC.Net](https://www.overclock.net/threads/official-asus-strix-maximus-z790-owners-thread.1800191/page-853#post-29323821)
-[PCGamesN](https://www.pcgamesn.com/nvidia/gpu-intel-raptor-lake-issues)
-[Ars Technica](https://arstechnica.com/gadgets/2024/04/intel-is-investigating-game-crashes-on-top-end-core-i9-desktop-cpus/)
-[Intel](https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en)
-[NVIDIA](https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing)
+[OC.Net][def6]
+[PCGamesN][def4]
+[Ars Technica][def5]
+[Intel][def2]
+[NVIDIA][def]
 [Hardware Unboxed](https://youtu.be/OdF5erDRO-c?si=P4tQYerS0MZJXHJx)
 [Actually Hardcore Overclocking Asus Motherboard](https://youtu.be/1LluNJiJ88A?si=RDIGdnwbGLJ1MbRE)
 [Actually Hardcore Overclocking GigaByte Motherboard](https://youtu.be/jNwFFJyAqQU?si=dlr4WgDM2IuKj0Bo)
 [Raptor Lake CPU Wiki](https://en.wikipedia.org/wiki/Raptor_Lake)
+
+
+[def]: https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing
+[def2]: https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en
+[def3]: https://www.techpowerup.com/321461/nvidia-points-intel-raptor-lake-cpu-users-to-get-help-from-intel-amid-system-instability-issues
+[def4]: https://www.pcgamesn.com/nvidia/gpu-intel-raptor-lake-issues
+[def5]: https://arstechnica.com/gadgets/2024/04/intel-is-investigating-game-crashes-on-top-end-core-i9-desktop-cpus/
+[def6]: https://www.overclock.net/threads/official-asus-strix-maximus-z790-owners-thread.1800191/page-853#post-29323821
+[def7]: https://rog.asus.com/motherboards/rog-maximus/rog-maximus-z790-formula/helpdesk_bios/
+[def8]: https://www.msi.com/blog/improving-gaming-stability-for-intel-core-i9-13900k-and-core-i9-14900k
+[def9]: https://www.techpowerup.com/321905/superior-stability-by-gigabyte-beta-bios-with-intel-baseline-on-z790-b760-motherboards

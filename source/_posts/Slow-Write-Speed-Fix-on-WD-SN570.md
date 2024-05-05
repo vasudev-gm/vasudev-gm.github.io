@@ -33,7 +33,7 @@ There are 2 ways where you can change the drive settings:
 2. Device Manager
 
 ---
-**Let\'s discuss the First method:** <br>
+**Let\'s discuss the First method:**
 
 1. Open File Explorer and click on **This PC** in the left sidebar. Right Click on the Drive and Select Properties. <br><br> <span>![This PC Page](https://i.imgur.com/SBF1bnu.png)</span>
 2. Click on the Hardware Tab or Section of drive properties window. Click on Properties. <br><br><span>![Drive Properties](https://i.imgur.com/WDy5Mo2.png)</span>
@@ -52,7 +52,7 @@ There are 2 ways where you can change the drive settings:
 > **Well, that's all folks! Hope you enjoyed the article and simply brought smiles after seeing those huge improvement write speed on your SN570.**
 ---
 
-> ## Source(s) <br>
+> ## Source(s)
 
 [Crazy Latency Spikes and Slow Writes on SN570](https://old.reddit.com/r/buildapc/comments/12jepzn/wd_blue_sn570_crazy_latency_spikes_and_extremely/)<br>
 [Slow Writes with Steam Games on SN570](https://old.reddit.com/r/buildapc/comments/t0q6d0/steam_write_speed_to_ssd_very_slow_1020_mbs_how/)<br>
