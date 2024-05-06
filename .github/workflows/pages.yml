@@ -44,6 +44,7 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
+      MSFT_CLARITY: ${secrets.MSFT_CLARITY}
     runs-on: ubuntu-latest
     steps:
       - name: Deploy to GitHub Pages
