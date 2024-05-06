@@ -30,8 +30,6 @@ jobs:
           ${{ runner.OS }}-npm-cache
     - name: Install Dependencies
       run: npm install
-      env:
-        MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Build
       run: npm run build
     - name: Upload Pages artifact
@@ -46,7 +44,6 @@ jobs:
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
-      MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     runs-on: ubuntu-latest
     steps:
     - name: Deploy to GitHub Pages
