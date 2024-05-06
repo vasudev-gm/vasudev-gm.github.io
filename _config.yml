@@ -109,4 +109,4 @@ analytics:
   #     measurement_id: <your measurement id>
   microsoft_clarity:
     enable: true
-    project_id: ${MSFT_CLARITY}
+    project_id: ${{secrets.MSFT_CLARITY}}
