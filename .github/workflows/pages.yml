@@ -43,6 +43,7 @@ jobs:
       id-token: write
     environment:
       name: github-pages
+      MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
