@@ -110,3 +110,5 @@ analytics:
   microsoft_clarity:
     enable: true
     project_id: "m7eh41ui8f"
+custom_file_path:
+  head: source/_data/head.swig
