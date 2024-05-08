@@ -37,6 +37,16 @@ Intel did suggest few settings that vendors applied through the BIOS/UEFI that w
 Intel did ask motherboard vendors such as Asus,MSI,GigaByte,ASRock etc to provide end users with Intel Baseline profile that uses Intel Recommended CPU settings to ensure better stability with a performance penalty. Intel will issue public notice regarding the same and its status by May 2024.
 [Asus][def7],[MSI][def8] and [GigaByte][def9] have issued Beta BIOS/UEFI that adds Intel Baseline Profile that forces the affected SKUs to respect recommended power and thermal constraints.
 
+Few updates as of 8 May 2024:
+
+As per new thermal specifications from Intel which are applicable to all Notebook and Desktop (**under Section 4.4 Processor Line Thermal and Power Specifications**) which can be found in the PDF file [here][def14]
+
+In a nutshell just for desktop CPUs the baseline power listed by [Steve from Hardware Unboxed](https://youtu.be/bHILyzooR58?si=jJ2ZyH17i6m_KLe4)
+
+1. Baseline profile(Power Optimized) will have PL1 and PL2 set to 125W and 188W respectively.
+2. Performance profile will have PL1 and PL2 set to 125W and 253W respectively.
+3. Extreme profile will have PL1 and PL2 both set to 253W respectively.
+
 ### Source(s)
 
 [TechPowerUp](https://www.techpowerup.com/321959/intel-statement-on-stability-issues-motherboard-makers-to-blame)
@@ -63,3 +73,4 @@ Intel did ask motherboard vendors such as Asus,MSI,GigaByte,ASRock etc to provid
 [def11]: https://youtu.be/1LluNJiJ88A?si=RDIGdnwbGLJ1MbRE
 [def12]: https://youtu.be/jNwFFJyAqQU?si=dlr4WgDM2IuKj0Bo
 [def13]: https://en.wikipedia.org/wiki/Raptor_Lake
+[def14]: https://cdrdv2.intel.com/v1/dl/getContent/743844?explicitVersion=true
