@@ -103,12 +103,5 @@ theme: next
 deploy:
   type: ''
 
-analytics:
-  # google_analytics:
-  #     enable: true
-  #     measurement_id: <your measurement id>
-  microsoft_clarity:
-    enable: true
-    project_id: "m7eh41ui8f"
 custom_file_path:
   head: source/_data/head.swig
