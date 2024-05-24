@@ -4,9 +4,9 @@
 
 # Site
 title: Your Daily Tech Dose
-subtitle: ''
+subtitle: 'getRecommendedTechPills(dose):'
 description: ''
-keywords:
+keywords: tech,blog
 author: Vasudev Menon
 language: en
 timezone: ''

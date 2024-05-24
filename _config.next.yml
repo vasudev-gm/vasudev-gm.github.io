@@ -38,7 +38,31 @@ menu_settings:
 # Vanilla JavaScript plugin for lazyloading images.
 lazyload: true
 
+back2top:
+  # Scroll percent label in b2t button.
+  scrollpercent: true
+
 # Better SEO
 index_with_subtitle: true
 exturl: true
 exturl_icon: true
+
+# Use Animate.css to animate everything.
+# For more information: https://animate.style
+motion:
+  enable: true
+  async: true
+  transition:
+    # All available Transition variants: https://theme-next.js.org/animate/
+    menu_item: fadeInDown
+    post_block: fadeIn
+    post_header: fadeInDown
+    post_body: zoomIn
+    coll_header: fadeInLeft
+    # Only for Pisces | Gemini.
+    sidebar: fadeInLeft
+
+# Follow me on GitHub banner in right-top corner.
+github_banner:
+  enable: true
+  permalink: https://github.com/vasudev-gm
