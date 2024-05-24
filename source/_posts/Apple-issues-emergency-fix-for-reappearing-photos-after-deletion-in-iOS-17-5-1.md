@@ -25,7 +25,7 @@ Make sure you have backed up all the photos to iCloud or OneDrive or Google Phot
 
 - [Apple Security Release iOS 17.5](def)
 - [MacRumors][def2]
-- [Notebook Talk Forum][def3]
+- [Deep Cleaning iOS Devices article at Notebook Talk Forum][def3]
 - [Apple Security Release iOS 17.5.1][def4]
 
 [def]: https://support.apple.com/en-us/HT214101

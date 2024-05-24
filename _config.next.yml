@@ -29,11 +29,16 @@ menu:
   archives: /archives/ || fa fa-archive
   Schedule Meeting: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
-  #commonweal: /404/ || fa fa-heartbeat
+#commonweal: /404/ || fa fa-heartbeat
 
 menu_settings:
-#  icons: true
+  #  icons: true
   badges: true
 
 # Vanilla JavaScript plugin for lazyloading images.
 lazyload: true
+
+# Better SEO
+index_with_subtitle: true
+exturl: true
+exturl_icon: true
