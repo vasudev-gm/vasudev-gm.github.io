@@ -31,7 +31,7 @@ tags:
 
 Hey there fellow tech readers and enthusiasts who have been patiently waiting for Qualcomm\'s new x86 competitor System-On-Chip (SoC) named [Oryon aka Nuvia Cores][def2] to beat Intel, AMD and take the fight with Apple Silicon.
 
-On this historic day that is, **May 20 2024** Microsoft announced their AI powered PCs tailored for best **CoPilot experiences** on Windows 11 called [Copilot+ PCs][def] certified PCs optimized for AI through the use of **NPU** (Neural Processing Unit).
+On this historic day that is, **May 20 2024** Microsoft announced their AI powered PCs tailored for best **CoPilot experiences** on Windows 11 called [Copilot+ PCs][def] certified PCs optimized for AI through the use of **NPU** (Neural Processing Unit).<!-- more -->
 
 ## Highlights of AI powered Experiences
 
