@@ -9,6 +9,7 @@ tags:
     - intel
     - amd
     - x86
+    - arm
     - ARM
     - ARMv8
     - Copilot+
@@ -26,6 +27,10 @@ tags:
     - Acer Swift
     - Samsung
     - Galaxy
+    - laptops
+    - 2 in 1 portables
+    - surface pen
+    - surface
 ---
 ## Intro
 

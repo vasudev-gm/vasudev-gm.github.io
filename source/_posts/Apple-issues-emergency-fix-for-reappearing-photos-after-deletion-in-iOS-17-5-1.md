@@ -21,14 +21,18 @@ If you're wondering whether there is a sure-shot way to erase all photos databas
 
 Make sure you have backed up all the photos to iCloud or OneDrive or Google Photos before proceeding as it will permanently delete the photos or videos from your device.
 
+Here is the link to [iAppleBytes Battery and Performance Testing Video][def5]
+
 ## Source(s)
 
 - [Apple Security Release iOS 17.5](def)
 - [MacRumors][def2]
 - [Deep Cleaning iOS Devices article at Notebook Talk Forum][def3]
 - [Apple Security Release iOS 17.5.1][def4]
+- [iOS 17.5.1 Performance Testing][def5]
 
 [def]: https://support.apple.com/en-us/HT214101
 [def2]: https://www.macrumors.com/2024/05/20/apple-releases-ios-17-5-1-photos-bug/
 [def3]: https://notebooktalk.net/topic/188-deep-clean-ios-devices-using-3utools-on-windows/
 [def4]: https://support.apple.com/en-us/HT201222
+[def5]: https://youtu.be/2E2anfCEjuA?si=TOpFxVfZ9yCbEpRm
