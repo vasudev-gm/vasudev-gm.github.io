@@ -14,11 +14,11 @@ tags:
   - batterydrain
 ---
 Hello fellow readers, the objective of the article will be to reduce high battery drain after installing Android Security patches on your android device be it smartphone or tablet. This is applicable to any vendors after enabling developer options.
-
+<!-- more -->
 > ## Background
 
 If you've heard the phone is being re-indexing or optimizing the apps and media in the background causing worse battery drain and thermals until the process is completed. The actual problem stems from a better user experience approach introduced in Android 7 or later which makes it optional to optimize the apps to reduce the installation time and enable quick startup.
-If you had lower power devices from Samsung, Redmi etc you will notice it was a welcome change to quicken the patching process and minimize the time we pray to God it won\'t get stuck at **Updating Progress Screen**. <!-- more -->
+If you had lower power devices from Samsung, Redmi etc you will notice it was a welcome change to quicken the patching process and minimize the time we pray to God it won\'t get stuck at **Updating Progress Screen**.
 So ergo, with latest android version the optimizer logic works when one of the following conditions are met or satisfied:
 
 1. The phone is connected to the charger,
