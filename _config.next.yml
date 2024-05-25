@@ -66,3 +66,9 @@ motion:
 github_banner:
   enable: true
   permalink: https://github.com/vasudev-gm
+
+# Mobile Device Adaptation
+mobile_layout_economy: true
+
+# Enable FancyBox Plugin for displaying images, videos and more. Touch enabled, responsive and fully customizable.
+fancybox: true
