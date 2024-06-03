@@ -1,5 +1,5 @@
 ---
-title: Apple Delays Complex AI feature till next on iOS 18
+title: Apple Delays Complex AI feature till 2025 on iOS 18
 date: 2024-06-02 20:16:04
 tags:
     - apple
