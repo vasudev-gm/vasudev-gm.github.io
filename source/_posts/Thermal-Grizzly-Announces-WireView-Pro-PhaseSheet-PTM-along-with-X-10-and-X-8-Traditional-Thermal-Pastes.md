@@ -16,6 +16,7 @@ tags:
 ---
 
 Thermal Grizzly announces their update lineup of thermal paste, phase change sheet (similar to [Honeywell PTM7950][def3]), [Wireview][def4] successor named Wireview Pro at [Computex 2024][def].
+<!-- more -->
 
 Wireview Pro can monitor power delivery to your GPU and alert you through audible alarms when there is overcurrent or overheating of the wires at the connector to prevent burnout and supports [12V-2x6(H++)][def5] and 12VHPWR (600W) standards.
 
