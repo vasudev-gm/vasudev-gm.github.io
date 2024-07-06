@@ -1,5 +1,5 @@
 ---
-title: Starlink unveils Starlink Mini priced at
+title: Starlink unveils Starlink Mini priced at $299
 date: 2024-06-30 19:02:07
 tags:
     - starlink
