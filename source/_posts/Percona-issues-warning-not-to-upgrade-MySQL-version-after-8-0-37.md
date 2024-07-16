@@ -15,6 +15,7 @@ tags:
 ### Quick Report
 
 Percona in their blog post issued strong warning not to upgrade MySQL version after 8.0.37. The upgrade may cause crash after restarting MySQL instance after adding large amount of tables.
+<!-- more -->
 
 At the moment, Percona is working on a fix for this issue and recommends not to upgrade to MySQL 8.0.37 until the issue is resolved. They created a [JIRA ticket][def] to track the progress of the fix after it was brought to attention by Jean-François Gagné bug report at [MySQL bug tracker][def2] which is now marked private and not available for public view.
 

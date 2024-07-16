@@ -14,6 +14,7 @@ tags:
 ### Quick Report
 
 In a community blog post, ARM announced Accuracy Super Resolution (ASR), an open source solution for upscaling games on mobile devices based on [AMD FSR 2][def]. The solution works similar to FSR 2 by accepting a lower input resolution and upscaling in real time to a higher output resolution for improved frame rates and power efficient mobile devices to enhance battery life and thermals.
+<!-- more -->
 
 ARM collaborated with Mediatek to test power consumption in specific workloads which brought up to 40% power savings. At the moment, ARM only shared a tech demo of ASR and will be available for developers in the coming months.
 
