@@ -1,5 +1,5 @@
 ---
-title: intel CPU stability woes
+title: intel CPU stability woes (Microcode Fix Incoming August 2024)
 date: 2024-04-30 23:03:04
 tags:
    - intel cpu
@@ -12,6 +12,7 @@ tags:
    - asus
    - msi
    - gigabyte
+   - intel
 ---
 
 ### Initial Reports
@@ -47,6 +48,15 @@ In a nutshell just for desktop CPUs the baseline power listed by [Steve from Har
 2. Performance profile will have PL1 and PL2 set to 125W and 253W respectively.
 3. Extreme profile will have PL1 and PL2 both set to 253W respectively.
 
+Updates as of 23 July 2024:
+
+Intel spokesperson Thomas Hannaford has confirmed in their [community forum][def15] they are root caused the issue to faulty microcode which exposed the CPU to higher voltages and the fix will be pushed via EFI firmware updates to motherboard vendors.
+
+Here is the official statement or excerpt:
+> Based on extensive analysis of Intel Core 13th/14th Gen desktop processors returned to us due to instability issues, we have determined that elevated operating voltage is causing instability issues in some 13th/14th Gen desktop processors. Our analysis of returned processors confirms that the elevated operating voltage is stemming from a microcode algorithm resulting in incorrect voltage requests to the processor.
+Intel is delivering a microcode patch which addresses the root cause of exposure to elevated voltages. We are continuing validation to ensure that scenarios of instability reported to Intel regarding its Core 13th/14th Gen desktop processors are addressed. Intel is currently targeting mid-August for patch release to partners following full validation.
+Intel is committed to making this right with our customers, and we continue asking any customers currently experiencing instability issues on their Intel Core 13th/14th Gen desktop processors reach out to Intel Customer Support for further assistance.
+
 ### Source(s)
 
 [TechPowerUp](https://www.techpowerup.com/321959/intel-statement-on-stability-issues-motherboard-makers-to-blame)
@@ -59,6 +69,7 @@ In a nutshell just for desktop CPUs the baseline power listed by [Steve from Har
 [Actually Hardcore Overclocking Asus Motherboard][def11]
 [Actually Hardcore Overclocking GigaByte Motherboard][def12]
 [Raptor Lake CPU Wiki][def13]
+[Microcode Fix for 13th and 14th gen desktop CPUs][def15]
 
 [def]: https://www.nvidia.com/en-us/geforce/forums/game-ready-drivers/13/542018/performance-issues-and-stability-problems-with-nvi/#!%2Ffollowing
 [def2]: https://community.intel.com/t5/Processors/Regarding-Reports-of-13th-14th-Gen-Unlocked-Desktop-Users/td-p/1575863?profile.language=en
@@ -74,3 +85,4 @@ In a nutshell just for desktop CPUs the baseline power listed by [Steve from Har
 [def12]: https://youtu.be/jNwFFJyAqQU?si=dlr4WgDM2IuKj0Bo
 [def13]: https://en.wikipedia.org/wiki/Raptor_Lake
 [def14]: https://cdrdv2.intel.com/v1/dl/getContent/743844?explicitVersion=true
+[def15]: https://community.intel.com/t5/Processors/July-2024-Update-on-Instability-Reports-on-Intel-Core-13th-and/td-p/1617113
