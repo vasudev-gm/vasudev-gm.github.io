@@ -10,18 +10,17 @@ tags:
 
 ### Quick Report
 
-AMD\'s computing and graphics SVP Jack Huynh has released a statement on [X (formerly Twitter)][def] owing to inventory issues due to failing testing procedures and avoid potential recall. Originally, slated to release on July 31 2024 to retailers and reviewers, the new release date is now set between August 8 and 15 2024.
+Microsoft July 2024 update KB5040442 build 3880 frenzies Bitlocker users after many Windows 11 users complained about unbootable PCs after applying July 2024 update[KB5040442][def] on Patch Tuesday dated July 9 2024.
 
-Excerpt from Jack Huynh:
-> We appreciate the excitement around Ryzen 9000 series processors. During final checks, we found the initial production units that were shipped to our channel partners did not meet our full quality expectations. Out of an abundance of caution and to maintain the highest quality experiences for every Ryzen user, we are working with our channel partners to replace the initial production units with fresh units. As a result, there will be a short delay in retail availability. The Ryzen 7 9700X and Ryzen 5 9600X processors will now go on sale on August 8th and the Ryzen 9 9950X and Ryzen 9 9900X processors will go on-sale on August 15th. We pride ourselves in providing a high-quality experience for every Ryzen user, and we look forward to our fans having a great experience with the new Ryzen 9000 series.
+After installing the update, the PCs were stuck at Bitlocker recovery screen asking for recovery key to unlock the drive. Many users were frustrated as they were not able to boot their PCs. Microsoft has acknowledged the problem and has made available a [portal][def2] which allows to download the recovery key after logging into their Microsoft Account.
+
+The update contains security fixes for RADIUS and secure boot validation profile.
 
 ### Source(s)
 
-- [TPU Article][def2]
-- [Ars Technica Article][def3]
-- [Tom's Hardware Article][def4]
+- [Bleeping Computer Article][def3]
+- [Microsoft Update Catalog][def]
 
-[def]: https://x.com/JackMHuynh/status/1816210711254639031
-[def2]: https://www.techpowerup.com/324887/amd-delays-launch-of-ryzen-9000-series-processors
-[def3]: https://arstechnica.com/gadgets/2024/07/quality-issue-pushes-amds-ryzen-9000-cpu-launch-from-july-to-august/
-[def4]: https://www.tomshardware.com/pc-components/cpus/amd-delays-its-ryzen-9000-launch-due-to-unspecified-quality-issue-new-launch-in-august-chipmaker-pulls-back-all-units-shipped-globally-for-quality-checks
+[def]: https://support.microsoft.com/en-us/topic/july-9-2024-kb5040442-os-builds-22621-3880-and-22631-3880-0864308e-61cc-413b-8194-0294331aba52
+[def2]: https://account.microsoft.com/devices/recoverykey
+[def3]: https://www.bleepingcomputer.com/news/microsoft/windows-july-security-updates-send-pcs-into-bitlocker-recovery/
