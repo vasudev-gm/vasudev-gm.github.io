@@ -13,7 +13,7 @@ tags:
 
 ### Quick Report
 
-AMD\'s computing and graphics SVP Jack Huynh has released a statement on [X (formerly Twitter)][def] owing to inventory issues due to failing testing procedures and avoid potential recall. Originally, slated to release on July 31 2024 to retailers and reviewers, the new release date is now set between August 8 and 15 2024.
+AMD\'s computing and graphics SVP Jack Huynh has released a statement on [X (formerly Twitter)][def] owing to inventory issues due to failing testing procedures and avoid potential recall. Originally, slated to release on July 31 2024 to retailers and reviewers, the new release date is now set between August 8 and 15 2024.<!-- more -->
 
 Excerpt from Jack Huynh:
 > We appreciate the excitement around Ryzen 9000 series processors. During final checks, we found the initial production units that were shipped to our channel partners did not meet our full quality expectations. Out of an abundance of caution and to maintain the highest quality experiences for every Ryzen user, we are working with our channel partners to replace the initial production units with fresh units. As a result, there will be a short delay in retail availability. The Ryzen 7 9700X and Ryzen 5 9600X processors will now go on sale on August 8th and the Ryzen 9 9950X and Ryzen 9 9900X processors will go on-sale on August 15th. We pride ourselves in providing a high-quality experience for every Ryzen user, and we look forward to our fans having a great experience with the new Ryzen 9000 series.

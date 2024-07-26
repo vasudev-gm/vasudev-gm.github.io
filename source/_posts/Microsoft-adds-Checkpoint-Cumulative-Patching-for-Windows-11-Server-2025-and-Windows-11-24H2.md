@@ -17,6 +17,7 @@ tags:
 ### Quick Report
 
 Microsoft announced they will add **Checkpoint Cumulative Updates** for systems running Windows 11 Server 2025 and Windows 11 24H2 and above.
+<!-- more -->
 
 This feature will significantly reduce the update size if you had previous CU (Cumulative Update) applied resulting in faster install speed, smaller network traffic and less disk usage.
 

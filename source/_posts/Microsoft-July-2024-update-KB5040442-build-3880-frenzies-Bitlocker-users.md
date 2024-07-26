@@ -10,7 +10,7 @@ tags:
 
 ### Quick Report
 
-Microsoft July 2024 update KB5040442 build 3880 frenzies Bitlocker users after many Windows 11 users complained about unbootable PCs after applying July 2024 update[KB5040442][def] on Patch Tuesday dated July 9 2024.
+Microsoft July 2024 update KB5040442 build 3880 frenzies Bitlocker users after many Windows 11 users complained about unbootable PCs after applying July 2024 update[KB5040442][def] on Patch Tuesday dated July 9 2024.<!-- more -->
 
 After installing the update, the PCs were stuck at Bitlocker recovery screen asking for recovery key to unlock the drive. Many users were frustrated as they were not able to boot their PCs. Microsoft has acknowledged the problem and has made available a [portal][def2] which allows to download the recovery key after logging into their Microsoft Account.
 
