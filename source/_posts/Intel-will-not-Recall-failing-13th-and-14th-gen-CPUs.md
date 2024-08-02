@@ -25,5 +25,4 @@ I did cover the microcode issue in my earlier posts.
 
 - [TPU Article][def]
 
-
 [def]: https://www.techpowerup.com/324963/intel-will-not-recall-failing-13th-and-14th-gen-cpus
