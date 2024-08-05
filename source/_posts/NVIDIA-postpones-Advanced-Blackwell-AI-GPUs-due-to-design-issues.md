@@ -13,7 +13,8 @@ tags:
 
 ### Quick Report
 
-Anonymous sources close to [Bloomberg][def5] hinted that NVIDIA's Advanced version of Blackwell GPU will be delayed due to design issues fabbed at TSMC. TSMC noticed interconnect issues with multi-chip Blackwell GB200 during production testing and NVIDIA will be prioritizing the production of the single-chip Blackwell version to expedite delivery.
+Anonymous sources close to [Bloomberg][def5] hinted that NVIDIA\'s Advanced version of Blackwell GPU will be delayed due to design issues fabbed at TSMC. TSMC noticed interconnect issues with multi-chip Blackwell GB200 during production testing and NVIDIA will be prioritizing the production of the single-chip Blackwell version to expedite delivery.
+<!-- more -->
 
 Dylan Patel from SemiAnalysis posted on [X (formerly Twitter)][def] that Blackwell supply will be lower than anticipated in Q4 2024 and early quarter of 2025. The delay is due to transitioning from [CoWoS (Chip-on-Wafer-on-Substrate)][def2] to [CoWoS-L (Chip-on-Wafer-on-Substrate with Local Silicon Interconnect)][def3] which requires NVIDIA to re-design the entire multi-die Blackwell GPUs. At the moment, TSMC\'s AP3 packaging facility is dedicated to CoWoS-S production, while initial CoWoS-L capacity is being installed in the AP6 facility.
 
