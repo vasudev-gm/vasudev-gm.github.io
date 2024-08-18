@@ -19,7 +19,6 @@ Ola, an Indian Automotive company is planning to develop a local AI chip called 
 Bodhi is optimized for AI workloads built using in-house foundation models called **Krutrim** to power their Edge AI applications including their cars, bikes and XR devices.
 
 Excerpt from the [Techpowerup][def] and [X][def2] Articles:
-
 >Bodhi-1: A mid-range chip for large language models and inferencing, set for 2026 release.
 Bodhi-2: A more advanced chip for high-end AI workloads, aimed at exa-scale computing, planned for 2028.
 Ojas: India's first edge AI chip, likely to be used in Ola's future electric vehicles.
