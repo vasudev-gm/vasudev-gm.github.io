@@ -12,6 +12,7 @@ tags:
 ### Quick Report
 
 Microsoft has officially confirmed [plans to retire control panel][def] in favor of Settings app for modern and streamlined experience. The news might come as a shock to some but they were already adding more features to settings app in every Windows 10 and 11 released every year.
+<!-- more -->
 
 Settings app was introduced first on Windows 8 and was also present in their mobile version natively. Whilst, Microsoft did not announced a exact timeline for complete removal and encouraging users to use Settings app since Control Panel solely exists for compatibility reasons.
 

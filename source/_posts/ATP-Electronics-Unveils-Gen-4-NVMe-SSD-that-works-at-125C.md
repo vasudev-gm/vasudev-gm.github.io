@@ -11,6 +11,7 @@ tags:
 ### Quick Report
 
 ATP Electronics announced their high endurance NVMe Gen 4 M.2 2280 called **N751Pi** configured with pseudo-Single Level Cache (pSLC).
+<!-- more -->
 
 Thanks to stringent vertical integration of prime NAND package Integrated Circuits (IC) and validation creating a 150K P/E(Program Erase) cycling configuration was achieved.
 

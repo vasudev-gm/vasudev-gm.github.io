@@ -21,6 +21,7 @@ tags:
 ### Quick Report
 
 After disappointing reviews of recently announced Ryzen 9000 Series aka Granite Ridge and huge variations of benchmark results of reviewers and AMD\'s automated test bench results. While reviewers were unimpressed with its claimed performance compared to Zen 4 it did give semblance of hope due to improved power efficiency which was missing with Zen 4.
+<!-- more -->
 
 After this, AMD decided to study the root cause issue and attributed that test bench were run in admin mode using Windows 11 23H2 which improved performance due to branch prediction optimizations present in Zen 5.
 
