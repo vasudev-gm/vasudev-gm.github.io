@@ -11,7 +11,7 @@ tags:
 ---
 ### Quick Report
 
-ARM has cancelled Qualcomm's license to use the ARM ISA after violating ARM\'s license terms. Qualcomm attempted to transfer Nuvia\'s ARM server license and IP to ARM, but ARM refused to accept the transfer. ARM has issued a 60-day notice to Qualcomm to cease using the ARM ISA.
+ARM has cancelled Qualcomm\'s license to use the ARM ISA after violating ARM\'s license terms. Qualcomm attempted to transfer Nuvia\'s ARM server license and IP to ARM, but ARM refused to accept the transfer. ARM has issued a 60-day notice to Qualcomm to cease using the ARM ISA.
 <!-- more -->
 
 This comes as a shock to most users but Qualcomm has decided to clean slate design with their X Elite design aka Oryon Core which debuted in their mobile platform with Snapdragon 8 Gen Elite. It was marketed as Apple M series competitor with low power and high performance design.  Qualcomm did say ARM is trying to strong arm their **Long time partner**
