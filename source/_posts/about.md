@@ -9,7 +9,7 @@ tags:
 ---
 ## About Me
 
-Hi readers, I\'m Vasudev Menon and always wanted to create a blog which took a long time until I came across Hexo.
+Hi readers, I\'m Vasudev Menon and wanted to create a blog which took a long time until I came across Hexo.
 Hexo simply allows me to focus on writing my blogs rather than use a programming language or Web Development based on TS,JS,HTML5,Django etc.
 
 I will cover latest AI techniques, newer technology, development tools, android, iOS, Windows, Linux and gadgets.
