@@ -1,5 +1,5 @@
 ---
-title: Intel is working on a fix for Arrow Lake to fix underwhelming performance at
+title: Intel is working on a fix for Arrow Lake's underwhelming performance at
   launch
 date: 2024-11-11 00:56:17
 tags:
