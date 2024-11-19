@@ -21,7 +21,7 @@ Florian said Intel is planning to add large shared L3 cache approach in a phased
 
 At the moment Intel is busy with providing microcode fixes for Arrow Lake CPUs that began shipping in November 2024 to compete against AMD Zen 5 X3D variants and non-X3D variants.
 
-### SOurce(s)
+### Source(s)
 
 - [TPU][def]
 - [Der8auer German Video][def2]
