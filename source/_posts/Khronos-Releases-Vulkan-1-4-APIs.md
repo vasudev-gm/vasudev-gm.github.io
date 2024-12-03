@@ -23,7 +23,7 @@ tags:
 ### Quick Report
 
 Khronos has released Vulkan 1.4 APIs which is a developer driven update to provide stable cross platform compute and graphics APIs aligning with our roadmap which has finally come into fruition said Tom Olson former Vulkan Working Group Chair as he is stepping down.
-
+<!-- more -->
 Vulkan 1.4 includes the following new features:
 
 - 8K resolution support
