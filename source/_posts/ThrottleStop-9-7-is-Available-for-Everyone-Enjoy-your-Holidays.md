@@ -15,6 +15,8 @@ tags:
 
 ThrottleStop 9.7 aka TS is now available for download to fix thermals with undervolting on supported CPUs for better performance. TS 9.7 introduces lots of requested features for the community.
 
+<!-- more -->
+
 Changelog:
 
 - Added per profile adjustment of the turbo power limits, Speed Shift Min Max and PROCHOT offset values.
