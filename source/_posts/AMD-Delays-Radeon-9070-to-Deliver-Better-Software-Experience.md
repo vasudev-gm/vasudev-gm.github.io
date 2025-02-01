@@ -17,7 +17,7 @@ tags:
 ### Quick Report
 
 AMD has delayed the release of the Radeon 9070 series to deliver a better software experience. The company is working on optimizing the software for the new GPU, which is expected to be released towards the end of March 2025.
-The main highlights of RDNA4 is their ML focussed FSR experience to compete with DLSS 3 to provide betetr performance and quality.
+The main highlights of RDNA4 is their ML focussed FSR experience to compete with DLSS 3 to provide better performance and quality.
 <!-- more -->
 
 The pricing for the models are unknown and retailers are stocking up AMD GPUs to compete against Nvidia Blackwelll RTX 50 series GPUs.
