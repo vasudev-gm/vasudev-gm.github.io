@@ -125,7 +125,7 @@ sitemap:
   rel: false
   tags: true
   categories: true
-  template: ./sitemap_template.xml
+  # template: ./sitemap_template.xml
   changefreq: daily
   priority: 0.8
 
