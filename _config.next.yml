@@ -19,20 +19,33 @@ open_graph:
   # Add pairs each line to customize
   options:
     type: blog
+    title: Your Daily Tech Dose
+    url: https://vasudev-gm.github.io
+    site_name: Your Daily Tech Dose
+    description: Latest tech news and analysis covering AMD, Apple, and emerging technologies
+    image: /images/logo.svg
+    fb_app_id:
+    fb_admins:
+    twitter_card: summary_large_image
+    twitter_id:
+    twitter_site:
+    google_plus:
+    fb_admins:
+    fb_app_id:
 
 # Menu entries
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  #tags: /tags/ || fa fa-tags
-  #categories: /categories/ || fa fa-th
+  tags: /tags/ || fa fa-tags
+  # categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
   Schedule Meeting: /schedule/ || fa fa-calendar
-  #sitemap: /sitemap.xml || fa fa-sitemap
+  sitemap: /sitemap.xml || fa fa-sitemap
 #commonweal: /404/ || fa fa-heartbeat
 
 menu_settings:
-  #  icons: true
+  icons: true
   badges: true
 
 # Vanilla JavaScript plugin for lazyloading images.
