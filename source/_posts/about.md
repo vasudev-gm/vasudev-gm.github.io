@@ -15,7 +15,7 @@ My goal is to break down complex technical concepts into clear, actionable insig
 
 ## What I do?
 
-I\'m a Python Developer and have worked on Django, Flask, Web Scraping, App Containerization, file based DB (SQLite), RDBMS (MySQL,Postgres) and Document Based (MongoDB)
+I\'m a Python Backend Developer and have worked on Django, Flask, FastAPI, Web Scraping, App Containerization, file based DB (SQLite), RDBMS (MySQL,Postgres), and Document Based (MongoDB)
 
 ## Where can we find you?
 
