@@ -9,7 +9,7 @@ tags:
 
 ---
 <!-- more -->
-> You can connect with me at topmate and support me!
+You can connect with me on Topmate platform and support my work. Your support means a lot!
 [Connect with Me](https://topmate.io/embed/profile/vasudev_menon?theme=D5534D)
 <!-- <script
         src="https://topmate-embed.s3.ap-south-1.amazonaws.com/v1/topmate-embed.js"
