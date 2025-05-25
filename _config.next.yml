@@ -89,5 +89,5 @@ github_banner:
 mobile_layout_economy: true
 
 # Enable FancyBox Plugin for displaying images, videos and more. Touch enabled, responsive and fully customizable.
-fancybox: false  # Disable if not needed
-mediumzoom: true # Lighter alternative to fancybox
+fancybox: true  # Disable if not needed
+mediumzoom: false # Lighter alternative to fancybox
