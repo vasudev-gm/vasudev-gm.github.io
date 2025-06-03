@@ -1,6 +1,6 @@
 ---
 title: Adding File Integrity on ReFS Partitions
-date: 2025-06-03 11:37:00
+date: 2025-06-03 23:41:36
 tags:
     - ReFS
     - Windows
@@ -29,7 +29,7 @@ Integrity streams can be enabled at multiple levels:
 - Directories
 - Entire volumes
 
-Once enabled, ReFS creates and maintains a checksum for the specified file(s) in the file's metadata. Before returning any data that has integrity streams enabled, ReFS calculates its checksum and compares it to the stored checksum:
+Once enabled, ReFS creates and maintains a checksum for the specified file(s) in the file\'s metadata. Before returning any data that has integrity streams enabled, ReFS calculates its checksum and compares it to the stored checksum:
 
 - If checksums match: Data is marked as valid and returned to the user
 - If checksums don't match: Data is considered corrupt
@@ -109,6 +109,12 @@ ReFS integrity streams provide a robust solution for ensuring data integrity thr
 
 For more information about ReFS, check out these Microsoft resources:
 
-- [ReFS overview](https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview)
-- [ReFS block cloning](https://learn.microsoft.com/en-us/windows-server/storage/refs/block-cloning)
-- [Storage Spaces Direct overview](https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview)
+- [ReFS overview][def]
+- [ReFS block cloning][def2]
+- [Storage Spaces Direct overview][def3]
+- [My YouTube Short Video](TBD)
+
+
+[def]: https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview
+[def2]: https://learn.microsoft.com/en-us/windows-server/storage/refs/block-cloning
+[def3]: https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview
