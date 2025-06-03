@@ -1,5 +1,5 @@
 ---
-title: Plug and Play: The Sennheiser BTD 700 brings the best of Bluetooth to everyone
+title: The Sennheiser BTD 700 brings the best of Bluetooth to everyone
 date: 2025-06-03 23:01:00
 tags:
     - sennheiser
