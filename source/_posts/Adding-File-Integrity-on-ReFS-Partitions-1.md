@@ -112,9 +112,9 @@ For more information about ReFS, check out these Microsoft resources:
 - [ReFS overview][def]
 - [ReFS block cloning][def2]
 - [Storage Spaces Direct overview][def3]
-- [My YouTube Short Video](TBD)
-
+- [My YouTube Short Video][def4]
 
 [def]: https://learn.microsoft.com/en-us/windows-server/storage/refs/refs-overview
 [def2]: https://learn.microsoft.com/en-us/windows-server/storage/refs/block-cloning
 [def3]: https://learn.microsoft.com/en-us/windows-server/storage/storage-spaces/storage-spaces-direct-overview
+[def4]: https://youtu.be/h3B_o90I-9M?si=hsgymae3cB1myV1b
