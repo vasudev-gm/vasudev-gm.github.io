@@ -40,6 +40,5 @@ AMD will officially unveil the complete specifications and capabilities of the I
 - [ComputerBase][def]
 - [TPU][def2]
 
-
 [def]: https://www.computerbase.de/news/grafikkarten/amd-instinct-mi350-serie-288-gbyte-hbm3e-cdna-4-architektur-und-bis-zu-1-400-watt.93076/
 [def2]: https://www.techpowerup.com/337940/amd-instinct-mi355x-draws-up-to-1-400-watts-in-oam-form-factor
