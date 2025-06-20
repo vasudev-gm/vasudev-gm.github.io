@@ -1,6 +1,6 @@
 ---
 title: Nvidia and Foxconn to deploy humanoid robots at Houston AI server plant
-date: 2025-06-21 10:30:00
+date: 2025-06-21 23:45:00
 tags:
     - nvidia
     - foxconn
