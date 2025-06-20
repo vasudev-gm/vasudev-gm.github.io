@@ -19,6 +19,8 @@ Intel has announced the end-of-life (EOL) status for several Arc Alchemist GPUs,
 
 The EOL designations come shortly after Intel\'s leadership change, with Lip-Bu Tan taking over as CEO. Despite these product discontinuations, there\'s no indication that Intel plans to exit the discrete GPU market. The company\'s Arc Alchemist GPUs have made some impact in the mainstream and entry-level markets, even though they haven\'t achieved the market penetration of AMD and NVIDIA products.
 
+**Written using GitHub Copilot Claude 3.7 Sonnet in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+
 ### Source(s)
 
 - [HotHardware][def]
