@@ -1,6 +1,6 @@
 ---
 title: ASUS Announces ROG NUC 2025 with Intel Core Ultra 2 and Blackwell Mobile GPU
-date: 2024-12-20 23:30:00
+date: 2025-06-20 23:30:00
 tags:
     - asus
     - rog
