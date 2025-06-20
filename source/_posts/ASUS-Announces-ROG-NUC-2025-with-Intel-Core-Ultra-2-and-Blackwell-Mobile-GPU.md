@@ -22,9 +22,9 @@ ASUS Republic of Gamers (ROG) has officially announced the ROG NUC 2025 (NUC15JN
 
 ### Key Features
 
-The ROG NUC 2025 comes equipped with Intel's newest Core Ultra processors (Series 2) ARL-HX, with configurations available up to the flagship Core Ultra 9. The new Intel chips feature a hybrid architecture with up to 24 cores (8 Performance cores and 16 Efficiency cores) and can reach boost speeds of up to 5.5 GHz.
+The ROG NUC 2025 comes equipped with Intel\'s newest Core Ultra processors (Series 2) ARL-HX, with configurations available up to the flagship Core Ultra 9. The new Intel chips feature a hybrid architecture with up to 24 cores (8 Performance cores and 16 Efficiency cores) and can reach boost speeds of up to 5.5 GHz.
 
-On the graphics side, ASUS has managed to pack NVIDIA's latest Blackwell architecture GPUs into this compact machine, with configurations available up to the GeForce RTX 5080 Laptop GPU. These new GPUs come with:
+On the graphics side, ASUS has managed to pack NVIDIA\'s latest Blackwell architecture GPUs into this compact machine, with configurations available up to the GeForce RTX 5080 Laptop GPU. These new GPUs come with:
 
 - Fifth-generation Tensor Cores optimized for AI performance and DLSS 4
 - New Streaming Multiprocessors for neural shader processing
@@ -70,7 +70,7 @@ For content creators, ASUS is bundling 3 months of Adobe Creative Cloud (valued 
 
 ### Pricing and Availability
 
-ASUS has not yet announced pricing or specific availability dates for the ROG NUC 2025, but it's expected to launch in early 2025 with varying configurations.
+ASUS has not yet announced pricing or specific availability dates for the ROG NUC 2025, but it\'s expected to launch in early 2025 with varying configurations.
 
 **Written using GitHub Copilot Claude 3.7 Sonnet in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
