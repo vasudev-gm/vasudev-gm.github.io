@@ -36,7 +36,7 @@ Nvidia\'s Unix driver deprecation schedule also includes other notable changes:
 
 **Written using GitHub Copilot Claude 3.7 Sonnet in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
-### Source
+### Source(s)
 
 - [Nvidia Developer Forums][def]
 - [Phoronix][def2]
