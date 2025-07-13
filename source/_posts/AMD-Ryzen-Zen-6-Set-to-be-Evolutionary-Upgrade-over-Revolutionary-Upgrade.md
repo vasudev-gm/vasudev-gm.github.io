@@ -1,6 +1,6 @@
 ---
 title: AMD Ryzen Zen 6 Set to be Evolutionary Upgrade over Revolutionary Upgrade
-date: 2025-07-13 12:00:00
+date: 2025-07-13 22:00:00
 tags:
   - AMD
   - Ryzen
@@ -62,5 +62,8 @@ AMD has maintained leadership in gaming performance, power efficiency, and many 
 
 ### Source(s)
 
-- [AMD Zen 6 To Feature Three CCD Configurations](https://wccftech.com/amd-zen-6-three-ccd-configurations-8-16-32-cores-zen-5c-16-cores-single-ccx/) - WCCFtech
-- [TPU](https://www.techpowerup.com/338854/amd-sampling-next-gen-ryzen-desktop-medusa-ridge-sees-incremental-ipc-upgrade-new-ciod)
+- [AMD Zen 6 To Feature Three CCD Configurations][def]
+- [TPU][def2]
+
+[def]: https://wccftech.com/amd-zen-6-three-ccd-configurations-8-16-32-cores-zen-5c-16-cores-single-ccx/
+[def2]: https://www.techpowerup.com/338854/amd-sampling-next-gen-ryzen-desktop-medusa-ridge-sees-incremental-ipc-upgrade-new-ciod
