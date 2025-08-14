@@ -56,7 +56,6 @@ For users who continue to experience issues or simply prefer not to have AI feat
    - Type `about:config` in the address bar
    - Search for `browser.ml.enable` and set it to "false"
 
-
 This incident highlights a growing tension in the tech industry as companies race to integrate AI features into existing products, sometimes at the expense of performance and user experience. Mozilla is far from alone in this trend, as web browsers, productivity software, and operating systems increasingly embed AI capabilities.
 
 **Written using GitHub Copilot Claude 3.7 Sonnet in agentic mode instructed to follow current codebase style and conventions for writing articles.**
