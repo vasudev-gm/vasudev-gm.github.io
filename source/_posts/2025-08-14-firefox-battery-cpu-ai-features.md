@@ -1,6 +1,6 @@
 ---
 title: Firefox 141 Sipping More Battery and CPU, and the Culprit is AI-Backed Features
-date: 2025-08-14 10:15:00
+date: 2025-08-14 23:40:00
 tags:
   - firefox
   - mozilla
