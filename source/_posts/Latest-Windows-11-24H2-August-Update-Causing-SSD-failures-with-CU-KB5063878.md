@@ -1,6 +1,6 @@
 ---
 title: Latest Windows 11 24H2 August Update Causing SSD failures with CU KB5063878
-date: 2025-08-18 22:30:00
+date: 2025-08-19 21:30:00
 tags:
   - windows 11
   - 24h2
@@ -46,12 +46,19 @@ If you're running Windows 11 24H2 with the KB5063878 update, here are some preca
 3. **Roll back the update**: If you have already installed the update, consider rolling back to the previous version
 4. **Backup important data**: As a general precaution, ensure all critical data is backed up
 
+Updated Excerpts from Phison:
+
+> Phison has recently been made aware of the industry-wide effects of the KB5063878 and KB5062660 updates on Windows 11 that potentially impacted several storage devices, including some supported by Phison. We understand the disruption this may have caused and promptly engaged industry stakeholders. We are steadfast in our commitment to product integrity and the success of our partners and end users. At this time, the controllers that may have been affected are under review and we are working with partners. We will continue to provide updates and advisories to partners who may have been impacted to provide support and ensure any applicable remediation.
+
 **Written using GitHub Copilot Claude 3.7 Sonnet in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
-[NotebookCheck][def]
-[TPU][def2]
+- [NotebookCheck][def]
+- [TPU][def2]
+- [Toms Hardware][def3]
+
 
 [def]: https://www.notebookcheck.net/Latest-Windows-11-update-reportedly-triggers-SSD-failures-during-heavy-file-transfers.1089249.0.html
 [def2]: https://www.techpowerup.com/340032/microsoft-windows-11-24h2-update-may-cause-ssd-failures
+[def3]: https://www.tomshardware.com/pc-components/ssds/latest-windows-11-security-patch-might-be-breaking-ssds-under-heavy-workloads-users-report-disappearing-drives-following-file-transfers-including-some-that-cannot-be-recovered-after-a-reboot
