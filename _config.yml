@@ -6,7 +6,7 @@
 title: Your Daily Tech Dose
 subtitle: 'Insights and Trends in Technology'
 description: 'Latest tech news and analysis covering AMD, Apple, and emerging technologies. In-depth coverage of CPUs, GPUs, AI developments, and industry trends.'
-keywords: tech news, AMD, Apple, CPU, GPU, AI, technology news, RDNA, Ryzen, hardware news, tech analysis
+keywords: tech news, AMD, Apple, CPU, GPU, AI, technology news, RDNA, Ryzen, hardware news, tech analysis, tech blog, vasudev tech blog
 author: Vasudev Menon
 language: en
 timezone: 'Asia/Kolkata'
@@ -30,7 +30,7 @@ category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
-  - 'verification/**'
+- 'verification/**'
 
 # Writing
 new_post_name: :title.md # File name of new posts
