@@ -58,7 +58,6 @@ Updated Excerpts from Phison:
 - [TPU][def2]
 - [Toms Hardware][def3]
 
-
 [def]: https://www.notebookcheck.net/Latest-Windows-11-update-reportedly-triggers-SSD-failures-during-heavy-file-transfers.1089249.0.html
 [def2]: https://www.techpowerup.com/340032/microsoft-windows-11-24h2-update-may-cause-ssd-failures
 [def3]: https://www.tomshardware.com/pc-components/ssds/latest-windows-11-security-patch-might-be-breaking-ssds-under-heavy-workloads-users-report-disappearing-drives-following-file-transfers-including-some-that-cannot-be-recovered-after-a-reboot

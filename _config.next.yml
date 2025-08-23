@@ -22,7 +22,7 @@ open_graph:
     title: Your Daily Tech Dose
     url: https://vasudev-gm.github.io
     site_name: Your Daily Tech Dose
-    description: Latest tech news and analysis covering AMD, Apple, and emerging technologies
+    description: Latest tech news and analysis covering AMD, Apple, and emerging technologies. In-depth coverage of CPUs, GPUs, AI developments, and industry trends.
     image: /images/logo.svg
     fb_app_id:
     fb_admins:
@@ -89,5 +89,5 @@ github_banner:
 mobile_layout_economy: true
 
 # Enable FancyBox Plugin for displaying images, videos and more. Touch enabled, responsive and fully customizable.
-fancybox: true  # Disable if not needed
+fancybox: true # Disable if not needed
 mediumzoom: false # Lighter alternative to fancybox

@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<BingSiteAuth xmlns="http://www.bing.com/schemas/sitemap/2008">
+    <BingSiteAuthenticationID>YOUR_BING_VERIFICATION_CODE</BingSiteAuthenticationID>
+</BingSiteAuth>
