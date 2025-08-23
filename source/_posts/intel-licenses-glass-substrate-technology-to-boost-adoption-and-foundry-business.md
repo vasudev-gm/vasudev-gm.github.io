@@ -1,5 +1,5 @@
 ---
-title: Intel Licenses Glass Substrate Technology To Boost Adoption and Foundry Business
+title: Intel To License Glass Substrate Technology To Boost Adoption and Foundry Business
 date: 2025-08-23 22:30:00
 description: "Intel pivots to licensing its glass substrate technology to Samsung and Absolics, monetizing innovation while deferring production beyond 2030."
 tags:
