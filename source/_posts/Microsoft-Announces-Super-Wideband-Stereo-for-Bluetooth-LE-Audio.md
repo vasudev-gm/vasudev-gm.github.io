@@ -37,6 +37,8 @@ To use this feature, users will need:
 
 Microsoft notes that some existing PC models will receive manufacturer driver updates to support the feature later this year, and most new mobile PCs launching in late 2025 are expected to support it out of the box.
 
+**Written using GitHub Copilot Grok Code Fast-1 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+
 ### Source(s)
 
 - [Microsoft Tech Community][def]
