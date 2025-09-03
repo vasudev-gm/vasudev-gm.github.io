@@ -474,6 +474,25 @@ describe('Hexo Blog Automated Tests', function() {
   });
 
   describe('8. Platform Independence and Robustness', function() {
+    it('should verify Node.js version is >= 20', async function() {
+      const nodeVersion = process.version;
+      const versionMatch = nodeVersion.match(/^v(\d+)\.(\d+)\.(\d+)/);
+      
+      assert.ok(versionMatch, 'Node.js version should be parseable');
+      
+      const majorVersion = parseInt(versionMatch[1], 10);
+      const minorVersion = parseInt(versionMatch[2], 10);
+      const patchVersion = parseInt(versionMatch[3], 10);
+      
+      assert.ok(
+        majorVersion >= 20,
+        `Node.js version should be >= 20.0.0, but got ${nodeVersion}. ` +
+        'Older Node.js versions cannot resolve some packages and may fail to run.'
+      );
+      
+      console.log(`✓ Node.js version ${nodeVersion} meets minimum requirement (>= 20.0.0)`);
+    });
+
     it('should verify Hexo CLI is accessible and working', async function() {
       try {
         const { stdout, stderr } = await execAsync('npx hexo version', { cwd: ROOT_DIR });
