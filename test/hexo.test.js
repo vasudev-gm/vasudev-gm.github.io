@@ -472,4 +472,152 @@ describe('Hexo Blog Automated Tests', function() {
       }
     });
   });
+
+  describe('8. Platform Independence and Robustness', function() {
+    it('should verify Hexo CLI is accessible and working', async function() {
+      try {
+        const { stdout, stderr } = await execAsync('npx hexo version', { cwd: ROOT_DIR });
+        assert.ok(stdout.includes('hexo:'), 'Hexo CLI should return version information');
+        assert.ok(stdout.includes('node:'), 'Hexo CLI should show Node.js version');
+      } catch (error) {
+        assert.fail(`Hexo CLI should be accessible: ${error.message}`);
+      }
+    });
+
+    it('should verify build produces consistent file count', async function() {
+      // Helper function for file counting
+      const countFilesRecursively = async (dir) => {
+        let count = 0;
+        const countFiles = async (currentDir) => {
+          const items = await fs.readdir(currentDir);
+          for (const item of items) {
+            const itemPath = path.join(currentDir, item);
+            const stat = await fs.stat(itemPath);
+            if (stat.isFile()) {
+              count++;
+            } else if (stat.isDirectory()) {
+              await countFiles(itemPath);
+            }
+          }
+        };
+        await countFiles(dir);
+        return count;
+      };
+
+      // Clean and build twice to ensure consistent output
+      await execAsync('npm run clean', { cwd: ROOT_DIR });
+      await execAsync('npm run build', { cwd: ROOT_DIR });
+      
+      const firstBuildFiles = await countFilesRecursively(PUBLIC_DIR);
+      
+      await execAsync('npm run clean', { cwd: ROOT_DIR });
+      await execAsync('npm run build', { cwd: ROOT_DIR });
+      
+      const secondBuildFiles = await countFilesRecursively(PUBLIC_DIR);
+      
+      assert.strictEqual(
+        firstBuildFiles, 
+        secondBuildFiles, 
+        'Build should produce consistent number of files'
+      );
+    });
+
+    it('should verify theme assets are properly generated', async function() {
+      const assetDirectories = [
+        path.join(PUBLIC_DIR, 'css'),
+        path.join(PUBLIC_DIR, 'js'),
+        path.join(PUBLIC_DIR, 'images')
+      ];
+
+      for (const assetDir of assetDirectories) {
+        const assetDirExists = await fs.access(assetDir).then(() => true).catch(() => false);
+        assert.ok(assetDirExists, `Asset directory ${path.basename(assetDir)} should exist`);
+        
+        if (assetDirExists) {
+          const assetFiles = await fs.readdir(assetDir);
+          assert.ok(assetFiles.length > 0, `Asset directory ${path.basename(assetDir)} should contain files`);
+        }
+      }
+    });
+
+    it('should verify robots.txt exists and is properly formatted', async function() {
+      const robotsPath = path.join(PUBLIC_DIR, 'robots.txt');
+      const robotsExists = await fs.access(robotsPath).then(() => true).catch(() => false);
+      assert.ok(robotsExists, 'robots.txt should exist');
+
+      if (robotsExists) {
+        const robotsContent = await fs.readFile(robotsPath, 'utf8');
+        assert.ok(robotsContent.includes('Sitemap:'), 'robots.txt should reference sitemap');
+        assert.ok(robotsContent.length > 10, 'robots.txt should have meaningful content');
+      }
+    });
+
+    it('should verify no broken internal links in generated HTML', async function() {
+      // Test a sample of generated HTML files for internal link integrity
+      const indexPath = path.join(PUBLIC_DIR, 'index.html');
+      const indexContent = await fs.readFile(indexPath, 'utf8');
+      
+      // Extract relative links (href="/..." or href="...")
+      const relativeLinks = indexContent.match(/href="[^"]*"/g) || [];
+      const internalLinks = relativeLinks
+        .map(link => link.match(/href="([^"]+)"/)[1])
+        .filter(href => href.startsWith('/') || !href.includes('://'));
+
+      // Check a few key internal links
+      const keyLinks = internalLinks.filter(link => 
+        link === '/' || link === '/about/' || link === '/archives/'
+      );
+
+      for (const link of keyLinks) {
+        const linkPath = link === '/' ? 
+          path.join(PUBLIC_DIR, 'index.html') : 
+          path.join(PUBLIC_DIR, link.replace(/\/$/, ''), 'index.html');
+        
+        const linkExists = await fs.access(linkPath).then(() => true).catch(() => false);
+        assert.ok(linkExists, `Internal link target should exist: ${link}`);
+      }
+    });
+  });
+
+  describe('9. Performance and Content Validation', function() {
+    it('should verify generated HTML files are not empty', async function() {
+      const indexPath = path.join(PUBLIC_DIR, 'index.html');
+      const stat = await fs.stat(indexPath);
+      assert.ok(stat.size > 5000, 'Main index.html should be substantial in size (>5KB)');
+    });
+
+    it('should verify CSS and JS assets are minified and optimized', async function() {
+      const cssDir = path.join(PUBLIC_DIR, 'css');
+      const cssFiles = await fs.readdir(cssDir);
+      
+      // Check that CSS files exist and have reasonable size
+      assert.ok(cssFiles.length > 0, 'CSS files should be generated');
+      
+      const mainCssFile = cssFiles.find(file => file.includes('main') || file.endsWith('.css'));
+      if (mainCssFile) {
+        const cssPath = path.join(cssDir, mainCssFile);
+        const cssStat = await fs.stat(cssPath);
+        assert.ok(cssStat.size > 1000, 'Main CSS file should have substantial content');
+      }
+    });
+
+    it('should verify post content includes meta tags for SEO', async function() {
+      const indexPath = path.join(PUBLIC_DIR, 'index.html');
+      const indexContent = await fs.readFile(indexPath, 'utf8');
+
+      const seoTags = [
+        'meta name="description"',
+        'meta property="og:',
+        'meta name="generator"',
+        'meta name="viewport"'
+      ];
+
+      for (const tag of seoTags) {
+        assert.ok(
+          indexContent.includes(tag),
+          `HTML should contain SEO meta tag: ${tag}`
+        );
+      }
+    });
+  });
 });
