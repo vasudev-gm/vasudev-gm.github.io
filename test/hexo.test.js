@@ -50,10 +50,10 @@ describe('Hexo Blog Automated Tests', function() {
       const packageJsonPath = path.join(ROOT_DIR, 'package.json');
       const packageContent = await fs.readFile(packageJsonPath, 'utf8');
       const packageData = JSON.parse(packageContent);
-      
+
       // Check essential plugins in dependencies
       const essentialPlugins = ['hexo-generator-index', 'hexo-server'];
-      
+
       for (const plugin of essentialPlugins) {
         assert.ok(
           packageData.dependencies && packageData.dependencies[plugin],
@@ -66,14 +66,14 @@ describe('Hexo Blog Automated Tests', function() {
   describe('2. Configuration Files Validation', function() {
     it('should validate _config.yml exists and contains required configuration', async function() {
       const configPath = path.join(ROOT_DIR, '_config.yml');
-      
+
       // Check file exists
       const configExists = await fs.access(configPath).then(() => true).catch(() => false);
       assert.ok(configExists, '_config.yml should exist');
 
       // Read and validate content
       const configContent = await fs.readFile(configPath, 'utf8');
-      
+
       // Check for essential configuration keys
       const requiredKeys = [
         'title:',
@@ -99,14 +99,14 @@ describe('Hexo Blog Automated Tests', function() {
 
     it('should validate _config.next.yml (NexT theme config) exists and contains valid configuration', async function() {
       const nextConfigPath = path.join(ROOT_DIR, '_config.next.yml');
-      
+
       // Check file exists
       const nextConfigExists = await fs.access(nextConfigPath).then(() => true).catch(() => false);
       assert.ok(nextConfigExists, '_config.next.yml should exist');
 
       // Read and validate content
       const nextConfigContent = await fs.readFile(nextConfigPath, 'utf8');
-      
+
       // Check for NexT theme specific configurations
       const nextThemeKeys = [
         'scheme:',
@@ -147,7 +147,7 @@ describe('Hexo Blog Automated Tests', function() {
     });
 
     it('should successfully create a new Hexo post', async function() {
-      
+
       try {
         // Create a new post using Hexo CLI
         const { stdout, stderr } = await execAsync(
@@ -162,7 +162,7 @@ describe('Hexo Blog Automated Tests', function() {
 
         // Verify post content structure
         const postContent = await fs.readFile(TEST_POST_PATH, 'utf8');
-        
+
         // Check front matter
         assert.ok(postContent.includes('---'), 'Post should have front matter delimiters');
         assert.ok(postContent.includes('title:'), 'Post should have title in front matter');
@@ -180,7 +180,7 @@ describe('Hexo Blog Automated Tests', function() {
       }
 
       const postContent = await fs.readFile(TEST_POST_PATH, 'utf8');
-      
+
       // Verify front matter format
       const frontMatterMatch = postContent.match(/^---\n([\s\S]*?)\n---/);
       assert.ok(frontMatterMatch, 'Post should have valid front matter format');
@@ -188,7 +188,7 @@ describe('Hexo Blog Automated Tests', function() {
       // Verify it has content area after front matter
       const contentAfterFrontMatter = postContent.split('---\n').slice(2).join('---\n').trim();
       assert.ok(
-        contentAfterFrontMatter.length >= 0, 
+        contentAfterFrontMatter.length >= 0,
         'Post should have content area after front matter'
       );
     });
@@ -204,7 +204,7 @@ describe('Hexo Blog Automated Tests', function() {
 
         // Verify public directory is cleaned (should not exist or be empty)
         const publicExists = await fs.access(PUBLIC_DIR).then(() => true).catch(() => false);
-        
+
         if (publicExists) {
           const publicContents = await fs.readdir(PUBLIC_DIR);
           // It's ok if public dir exists but should be mostly empty after clean
@@ -212,7 +212,7 @@ describe('Hexo Blog Automated Tests', function() {
         }
 
         assert.ok(true, 'Clean command should execute without errors');
-        
+
       } catch (error) {
         assert.fail(`Failed to clean site: ${error.message}`);
       }
@@ -234,7 +234,7 @@ describe('Hexo Blog Automated Tests', function() {
         assert.ok(publicContents.length > 0, 'Public directory should contain generated files');
 
         console.log(`    ✓ Generated ${publicContents.length} items in public directory`);
-        
+
       } catch (error) {
         assert.fail(`Failed to generate site: ${error.message}`);
       }
@@ -244,14 +244,14 @@ describe('Hexo Blog Automated Tests', function() {
   describe('5. HTML Markup Validation', function() {
     it('should verify public/index.html exists and contains valid HTML markup', async function() {
       const indexPath = path.join(PUBLIC_DIR, 'index.html');
-      
+
       // Check if index.html exists
       const indexExists = await fs.access(indexPath).then(() => true).catch(() => false);
       assert.ok(indexExists, 'public/index.html should exist');
 
       // Read and validate HTML content
       const htmlContent = await fs.readFile(indexPath, 'utf8');
-      
+
       // Check for essential HTML structure
       const htmlChecks = [
         { pattern: /<!DOCTYPE html>/i, name: 'DOCTYPE declaration' },
@@ -309,44 +309,44 @@ describe('Hexo Blog Automated Tests', function() {
       // Check if any post directories exist in public
       const publicContents = await fs.readdir(PUBLIC_DIR);
       const yearDirs = publicContents.filter(item => /^\d{4}$/.test(item));
-      
+
       assert.ok(yearDirs.length > 0, 'Public directory should contain year directories for posts');
 
       // Check one of the year directories for post content
       const yearDir = yearDirs[0];
       const yearPath = path.join(PUBLIC_DIR, yearDir);
       const yearContents = await fs.readdir(yearPath);
-      
+
       assert.ok(yearContents.length > 0, `Year directory ${yearDir} should contain month directories`);
 
       // Verify at least one post HTML file exists
       let foundPostHtml = false;
-      
+
       for (const monthDir of yearContents) {
         if (!/^\d{2}$/.test(monthDir)) continue;
-        
+
         const monthPath = path.join(yearPath, monthDir);
         const monthStat = await fs.stat(monthPath);
-        
+
         if (monthStat.isDirectory()) {
           const monthContents = await fs.readdir(monthPath);
-          
+
           for (const dayDir of monthContents) {
             if (!/^\d{2}$/.test(dayDir)) continue;
-            
+
             const dayPath = path.join(monthPath, dayDir);
             const dayStat = await fs.stat(dayPath);
-            
+
             if (dayStat.isDirectory()) {
               const dayContents = await fs.readdir(dayPath);
-              
+
               for (const postDir of dayContents) {
                 const postPath = path.join(dayPath, postDir, 'index.html');
                 const postExists = await fs.access(postPath).then(() => true).catch(() => false);
-                
+
                 if (postExists) {
                   foundPostHtml = true;
-                  
+
                   // Verify the post HTML content
                   const postContent = await fs.readFile(postPath, 'utf8');
                   assert.ok(postContent.includes('<html'), 'Post HTML should be valid HTML');
@@ -360,7 +360,7 @@ describe('Hexo Blog Automated Tests', function() {
           if (foundPostHtml) break;
         }
       }
-      
+
       assert.ok(foundPostHtml, 'At least one post should be rendered to HTML');
     });
 
@@ -368,37 +368,37 @@ describe('Hexo Blog Automated Tests', function() {
       // Find and validate a sample post
       const publicContents = await fs.readdir(PUBLIC_DIR);
       const yearDirs = publicContents.filter(item => /^\d{4}$/.test(item));
-      
+
       let samplePostPath = null;
-      
+
       // Find a sample post
       outerLoop: for (const yearDir of yearDirs) {
         const yearPath = path.join(PUBLIC_DIR, yearDir);
         const yearContents = await fs.readdir(yearPath);
-        
+
         for (const monthDir of yearContents) {
           if (!/^\d{2}$/.test(monthDir)) continue;
-          
+
           const monthPath = path.join(yearPath, monthDir);
           const monthStat = await fs.stat(monthPath);
-          
+
           if (monthStat.isDirectory()) {
             const monthContents = await fs.readdir(monthPath);
-            
+
             for (const dayDir of monthContents) {
               if (!/^\d{2}$/.test(dayDir)) continue;
-              
+
               const dayPath = path.join(monthPath, dayDir);
               const dayStat = await fs.stat(dayPath);
-              
+
               if (dayStat.isDirectory()) {
                 const dayContents = await fs.readdir(dayPath);
-                
+
                 if (dayContents.length > 0) {
                   const postDir = dayContents[0];
                   const candidatePath = path.join(dayPath, postDir, 'index.html');
                   const candidateExists = await fs.access(candidatePath).then(() => true).catch(() => false);
-                  
+
                   if (candidateExists) {
                     samplePostPath = candidatePath;
                     break outerLoop;
@@ -409,14 +409,14 @@ describe('Hexo Blog Automated Tests', function() {
           }
         }
       }
-      
+
       if (!samplePostPath) {
         this.skip('No sample post found to validate');
         return;
       }
 
       const postContent = await fs.readFile(samplePostPath, 'utf8');
-      
+
       // Validate post HTML structure
       const postChecks = [
         { pattern: /<article[^>]*>/i, name: 'article tag' },
@@ -477,19 +477,19 @@ describe('Hexo Blog Automated Tests', function() {
     it('should verify Node.js version is >= 20', async function() {
       const nodeVersion = process.version;
       const versionMatch = nodeVersion.match(/^v(\d+)\.(\d+)\.(\d+)/);
-      
+
       assert.ok(versionMatch, 'Node.js version should be parseable');
-      
+
       const majorVersion = parseInt(versionMatch[1], 10);
       const minorVersion = parseInt(versionMatch[2], 10);
       const patchVersion = parseInt(versionMatch[3], 10);
-      
+
       assert.ok(
         majorVersion >= 20,
         `Node.js version should be >= 20.0.0, but got ${nodeVersion}. ` +
         'Older Node.js versions cannot resolve some packages and may fail to run.'
       );
-      
+
       console.log(`✓ Node.js version ${nodeVersion} meets minimum requirement (>= 20.0.0)`);
     });
 
@@ -526,17 +526,17 @@ describe('Hexo Blog Automated Tests', function() {
       // Clean and build twice to ensure consistent output
       await execAsync('npm run clean', { cwd: ROOT_DIR });
       await execAsync('npm run build', { cwd: ROOT_DIR });
-      
+
       const firstBuildFiles = await countFilesRecursively(PUBLIC_DIR);
-      
+
       await execAsync('npm run clean', { cwd: ROOT_DIR });
       await execAsync('npm run build', { cwd: ROOT_DIR });
-      
+
       const secondBuildFiles = await countFilesRecursively(PUBLIC_DIR);
-      
+
       assert.strictEqual(
-        firstBuildFiles, 
-        secondBuildFiles, 
+        firstBuildFiles,
+        secondBuildFiles,
         'Build should produce consistent number of files'
       );
     });
@@ -551,7 +551,7 @@ describe('Hexo Blog Automated Tests', function() {
       for (const assetDir of assetDirectories) {
         const assetDirExists = await fs.access(assetDir).then(() => true).catch(() => false);
         assert.ok(assetDirExists, `Asset directory ${path.basename(assetDir)} should exist`);
-        
+
         if (assetDirExists) {
           const assetFiles = await fs.readdir(assetDir);
           assert.ok(assetFiles.length > 0, `Asset directory ${path.basename(assetDir)} should contain files`);
@@ -575,7 +575,7 @@ describe('Hexo Blog Automated Tests', function() {
       // Test a sample of generated HTML files for internal link integrity
       const indexPath = path.join(PUBLIC_DIR, 'index.html');
       const indexContent = await fs.readFile(indexPath, 'utf8');
-      
+
       // Extract relative links (href="/..." or href="...")
       const relativeLinks = indexContent.match(/href="[^"]*"/g) || [];
       const internalLinks = relativeLinks
@@ -583,15 +583,15 @@ describe('Hexo Blog Automated Tests', function() {
         .filter(href => href.startsWith('/') || !href.includes('://'));
 
       // Check a few key internal links
-      const keyLinks = internalLinks.filter(link => 
+      const keyLinks = internalLinks.filter(link =>
         link === '/' || link === '/about/' || link === '/archives/'
       );
 
       for (const link of keyLinks) {
-        const linkPath = link === '/' ? 
-          path.join(PUBLIC_DIR, 'index.html') : 
+        const linkPath = link === '/' ?
+          path.join(PUBLIC_DIR, 'index.html') :
           path.join(PUBLIC_DIR, link.replace(/\/$/, ''), 'index.html');
-        
+
         const linkExists = await fs.access(linkPath).then(() => true).catch(() => false);
         assert.ok(linkExists, `Internal link target should exist: ${link}`);
       }
@@ -608,10 +608,10 @@ describe('Hexo Blog Automated Tests', function() {
     it('should verify CSS and JS assets are minified and optimized', async function() {
       const cssDir = path.join(PUBLIC_DIR, 'css');
       const cssFiles = await fs.readdir(cssDir);
-      
+
       // Check that CSS files exist and have reasonable size
       assert.ok(cssFiles.length > 0, 'CSS files should be generated');
-      
+
       const mainCssFile = cssFiles.find(file => file.includes('main') || file.endsWith('.css'));
       if (mainCssFile) {
         const cssPath = path.join(cssDir, mainCssFile);
