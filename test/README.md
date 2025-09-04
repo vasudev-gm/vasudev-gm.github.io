@@ -7,34 +7,42 @@ This directory contains automated tests for the Hexo blog using Node.js and Moch
 The test suite validates:
 
 ### 1. NPM Dependencies Installation
+
 - Verifies all required Hexo dependencies are installed
 - Confirms essential plugins (hexo-generator-index, hexo-server) are available
 
 ### 2. Configuration Files Validation
+
 - Validates `_config.yml` exists and contains required Hexo configuration
 - Validates `_config.next.yml` (NexT theme config) exists and contains valid settings
 
 ### 3. Hexo Post Creation
+
 - Tests successful creation of new Hexo posts
 - Verifies proper markdown structure and front matter
 
 ### 4. Hexo Site Clean and Generation
+
 - Tests site cleaning functionality
 - Verifies site generation produces expected output
 
 ### 5. HTML Markup Validation
+
 - Checks that `public/index.html` exists and contains valid HTML
 - Verifies NexT theme elements are properly integrated
 
 ### 6. Post Rendering Verification
+
 - Ensures existing posts are rendered to HTML in public folder
 - Validates post HTML structure and content
 
 ### 7. Site Structure and Navigation
+
 - Verifies essential pages (index, archives, about) are generated
 - Checks sitemap.xml and RSS feed generation
 
 ### 8. Platform Independence and Robustness
+
 - Tests Hexo CLI accessibility
 - Verifies consistent build output
 - Validates theme assets generation
@@ -42,6 +50,7 @@ The test suite validates:
 - Tests internal link integrity
 
 ### 9. Performance and Content Validation
+
 - Verifies HTML files have substantial content
 - Checks CSS/JS asset optimization
 - Validates SEO meta tags presence
@@ -64,6 +73,7 @@ npx mocha test/**/*.test.js --timeout 30000 --reporter spec
 ## Platform Independence
 
 These tests are designed to run on any operating system with Node.js installed:
+
 - Windows
 - macOS
 - Linux
@@ -80,6 +90,7 @@ The tests use platform-independent file path handling and do not rely on OS-spec
 ## Contributing
 
 When adding new tests:
+
 1. Follow the existing naming convention
 2. Use descriptive test names
 3. Ensure tests are platform-independent
