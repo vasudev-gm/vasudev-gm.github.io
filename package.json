@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "prebuild": "node scripts/generate-clarity-config.js",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",
@@ -27,6 +28,7 @@
     "hexo-theme-next": "^8.25.0"
   },
   "devDependencies": {
-    "mocha": "^11.7.2"
+    "mocha": "^11.7.2",
+    "dotenv": "^16.0.0"
   }
 }

@@ -35,8 +35,20 @@ jobs:
           ${{ runner.OS }}-npm-cache
     - name: Install Dependencies
       run: npm install
+      env:
+        MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
+    - name: Require MSFT_CLARITY secret
+      run: |
+        if [ -z "$MSFT_CLARITY" ]; then
+          echo "MSFT_CLARITY is not set. Aborting build to avoid deploying without telemetry secret." >&2
+          exit 1
+        fi
+      env:
+        MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Build
       run: npm run build
+      env:
+        MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Upload Pages artifact
       uses: actions/upload-pages-artifact@v3
       with:

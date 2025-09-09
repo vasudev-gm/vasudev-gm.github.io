@@ -49,13 +49,9 @@ body {
 </script>
 
 <!-- MS clarity -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "m7eh41ui8f");
-</script>
+<!-- MS Clarity loader (local npm package first, CDN fallback) -->
+<script src="/js/clarity-config.js" defer></script>
+<script src="/js/clarity-init.js" defer></script>
 
 <!-- Schema.org markup -->
 <script type="application/ld+json">

@@ -199,6 +199,9 @@ dist
 # Serverless directories
 .serverless/
 
+# Don't commit generated clarity config that contains project id
+source/js/clarity-config.js
+
 # FuseBox cache
 .fusebox/
 
