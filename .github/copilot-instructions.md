@@ -81,7 +81,7 @@ tags:
 
 4. **Sources**:
    - End with "### Source(s)" heading
-   - List sources in Markdown format with hyperlinks
+   - Unordered List sources in Markdown format with hyperlinks
 
 ## Writing Style Guidelines
 
@@ -155,8 +155,9 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
 
 ### Source(s)
 
-[TechPowerUp](https://www.techpowerup.com)
-[AnandTech](https://www.anandtech.com)
+- [TechPowerUp](https://www.techpowerup.com)
+- [AnandTech](https://www.anandtech.com)
+
 ```
 
 ## Common Tasks

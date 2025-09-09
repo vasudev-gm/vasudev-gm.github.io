@@ -1,8 +1,8 @@
 ---
 title: Intel CFO Zinser Confirms 14A will be more expensive than 18A due to High EUV Tools
 date: 2025-09-09 18:30:00
-description: "Intel\'s upcoming 14A process node will cost more than 18A due to High-NA EUV lithography tools, but promises 15-20% better performance-per-watt or 25-35% lower power consumption."
-tags:
+description: "Intel's upcoming 14A process node will cost more than 18A due to High-NA EUV lithography tools, but promises 15-20% better performance-per-watt or 25-35% lower power consumption."
+
 tags:
   - intel
   - 14a
