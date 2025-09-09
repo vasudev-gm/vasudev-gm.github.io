@@ -59,6 +59,7 @@ tags:
   - tags
   - here
   - lowercase
+  - hyphenated-terms
 ---
 ```
 
@@ -92,6 +93,9 @@ tags:
 - Maintain objectivity while providing insightful analysis
 - Focus on factual reporting rather than speculation
 - Always use escaped apostrophes in contractions and possessives (\'t, \'s) instead of straight apostrophes (t, s)
+- Avoid using first person ("I", "we") - maintain a journalistic third-person perspective
+- Provide context for technical terms when they first appear in an article
+- Balance technical depth with readability for a general tech-savvy audience
 
 ## Common Topics
 
@@ -105,11 +109,16 @@ tags:
 ## SEO Practices
 
 - Use descriptive, keyword-rich titles
-- Include relevant tags (lowercase)
+- Include relevant tags (lowercase, hyphenated for multi-word terms)
+  - Exception: Person names should remain as words separated by space without hyphens (e.g., "pat gelsinger" not "pat-gelsinger")
 - Add a description field (150-160 characters) for better search indexing
 - Ensure first paragraph contains key information
 - Use proper headings (h3, h4) for structure
 - Include product names and technical specifications accurately
+- Use meta description to create a compelling summary that encourages clicks
+- Ensure URL-friendly title with proper hyphens
+- Focus on 2-3 primary keywords per article
+- Incorporate keywords naturally throughout the content
 
 ## Configuration
 
@@ -196,13 +205,22 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
   - Correct: AMD\'s, doesn\'t, it\'s, company\'s
   - Incorrect: AMD's, doesn't, it's, company's
 - Ensure consistent formatting of product names
+  - Use official capitalization (e.g., AMD Ryzen, NVIDIA GeForce)
+  - Be consistent with version numbers and product lines
 - Check for technical accuracy in specifications and details
+  - Verify performance metrics, core counts, clock speeds, etc.
+  - Double-check model numbers and generations
 - Verify that all links in the Sources section are properly formatted
-- Ensure tags are lowercase and use hyphens instead of spaces
+- Ensure tags are lowercase and use hyphens for multi-word terms except person names
+  - Correct: "high-performance", "power-consumption", "pat gelsinger", "linus torvalds"
+  - Incorrect: "high performance", "pat-gelsinger", "LinusTorvalds"
+- Proofread for typos, grammatical errors, and factual inconsistencies
+- Check that headings follow proper hierarchical structure (h3 before h4)
+- Ensure proper spacing between sections (blank line before and after headings)
 
 ## Reference Files
 
-- Blog post example: `source/_posts/Latest-Windows-11-24H2-August-Update-Causing-SSD-failures-with-CU-KB5063878.md`
+- Blog post example: `source/_posts/Intel-Announces-Key-Leadership-to-Data-Center-and-Client-Computing-Groups.md`
 - Configuration: `_config.yml` and `_config.next.yml`
 - Deployment workflow: `.github/workflows/pages.yml`
 
@@ -212,6 +230,7 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
 ---
 title: AMD Announces New Ryzen Processor with Enhanced AI Capabilities
 date: 2025-08-01 09:30:00
+description: "AMD unveils next-gen Ryzen processors with enhanced NPU for AI, promising 20% better multi-threaded and 15% improved single-core performance."
 tags:
   - amd
   - ryzen
@@ -236,8 +255,8 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
 
 ### Source(s)
 
-[TechPowerUp](https://www.techpowerup.com)
-[AnandTech](https://www.anandtech.com)
+- [TechPowerUp](https://www.techpowerup.com)
+- [AnandTech](https://www.anandtech.com)
 ```
 
 ## Specific Instructions for Copilot
@@ -246,7 +265,7 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
 2. Use current industry terminology and standards
 3. Maintain the established voice and tone of the blog
 4. Ensure proper formatting of code blocks, lists, and links
-5. Tag posts appropriately using lowercase tags for consistency
+5. Tag posts appropriately using lowercase tags with hyphens for multi-word terms (except person names)
 6. Include proper attribution for all sources
 7. Focus on providing unique insights rather than rewriting source material
 8. Proofread all content to ensure apostrophes in contractions and possessives are properly escaped (\'t, \'s)
@@ -270,6 +289,15 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
   - Correct: AMD\'s, doesn\'t, it\'s, company\'s
   - Incorrect: AMD's, doesn't, it's, company's
 - Ensure consistent formatting of product names
+  - Use official capitalization (e.g., AMD Ryzen, NVIDIA GeForce)
+  - Be consistent with version numbers and product lines
 - Check for technical accuracy in specifications and details
+  - Verify performance metrics, core counts, clock speeds, etc.
+  - Double-check model numbers and generations
 - Verify that all links in the Sources section are properly formatted
-- Ensure tags are lowercase and use hyphens instead of spaces
+- Ensure tags are lowercase and use hyphens for multi-word terms except person names
+  - Correct: "high-performance", "power-consumption", "pat gelsinger", "linus torvalds"
+  - Incorrect: "high performance", "pat-gelsinger", "LinusTorvalds"
+- Proofread for typos, grammatical errors, and factual inconsistencies
+- Check that headings follow proper hierarchical structure (h3 before h4)
+- Ensure proper spacing between sections (blank line before and after headings)
