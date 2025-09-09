@@ -1,22 +1,21 @@
 version: 2
 updates:
-  - package-ecosystem: npm
-    directory: "/"
-    schedule:
-      interval: daily
-    open-pull-requests-limit: 20
-    target-branch: "main"
-    labels:
-      - "dependencies"
-      - "npm"
-    assignees:
-      - "vasudev-gm"
-    versioning-strategy: auto
-    allow:
-      - dependency-type: "direct"
-    commit-message:
-      prefix: "deps"
-      include: "scope"
-    security-updates-only: false
-    pull-request-branch-name:
-      separator: "-"
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 20
+  target-branch: "main"
+  labels:
+  - "dependencies"
+  - "npm"
+  assignees:
+  - "vasudev-gm"
+  versioning-strategy: auto
+  allow:
+  - dependency-type: "direct"
+  commit-message:
+    prefix: "deps"
+    include: "scope"
+  pull-request-branch-name:
+    separator: "-"
