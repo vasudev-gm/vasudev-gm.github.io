@@ -30,7 +30,7 @@ open_graph:
     twitter_id:
     twitter_site:
 
-# Menu entries
+      # Menu entries
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
@@ -52,9 +52,10 @@ preconnect: true
 dns_prefetch:
   enable: true
   urls:
-    - https://github.com
-    - https://fonts.googleapis.com
-    - https://fonts.gstatic.com
+  - https://github.com
+  - https://fonts.googleapis.com
+  - https://fonts.gstatic.com
+  - https://cdnjs.cloudflare.com
 
 back2top:
   # Scroll percent label in b2t button.
