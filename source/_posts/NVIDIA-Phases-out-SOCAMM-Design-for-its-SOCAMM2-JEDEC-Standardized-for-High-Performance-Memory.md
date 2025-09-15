@@ -18,8 +18,6 @@ NVIDIA has officially transitioned from its first-generation **SOCAMM** (Small O
 
 The SOCAMM2 standard, developed with JEDEC\'s assistance, retains the 649 I/O ports of its predecessor but integrates faster LPDDR5X memory running at 9600 MT/s, compared to SOCAMM\'s 8533 MT/s. This upgrade is expected to increase bandwidth from 14.3 TB/s to 16 TB/s in systems like NVIDIA\'s Blackwell Ultra GB300 NVL72. Additionally, SOCAMM2 may support LPDDR6 in the future, with memory sourced from multiple suppliers, including Samsung and SK Hynix.
 
-### Detailed Analysis
-
 The first-generation SOCAMM was a proprietary memory module standard developed by NVIDIA, featuring a detachable design and superior specifications compared to traditional DRAM solutions. With 694 I/O ports and direct LPDDR5X memory substrate integration, SOCAMM was tailored for high-performance computing platforms, including AI servers and embedded systems.
 
 SOCAMM2 builds on this foundation by offering higher memory speeds and improved bandwidth. The new standard maintains the same 649 I/O ports exposed to the motherboard but integrates faster LPDDR5X memory running at 9600 MT/s. This represents a significant performance boost over the first-generation SOCAMM, which operated at 8533 MT/s.
