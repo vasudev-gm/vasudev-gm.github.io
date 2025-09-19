@@ -78,7 +78,7 @@ tags:
 3. **Credit Line**:
    - Add the following line before the Sources section:
    - **Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.**
-   - Replace {model name} with the actual model being used (e.g., Claude 3.7 Sonnet, GPT-4.1, Grok Code Fast-1 etc.)
+   - Replace {model name} with the actual model being used (e.g., Claude 3.7 Sonnet, GPT-4.1, Grok Code Fast-1, GPT-5 mini, Claude Sonnet 4, Gemini 2.5 Pro etc.)
 
 4. **Sources**:
    - End with "### Source(s)" heading
