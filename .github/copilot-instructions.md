@@ -78,7 +78,7 @@ tags:
 3. **Credit Line**:
    - Add the following line before the Sources section:
    - **Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.**
-   - Replace {model name} with the actual model being used (e.g., Claude 3.7 Sonnet, GPT-4.1, Grok Code Fast-1, GPT-5 mini, Claude Sonnet 4, Gemini 2.5 Pro etc.)
+   - Replace {model name} with the actual model being used (e.g., Claude 3.7 Sonnet, GPT-4.1, Grok Code Fast-1, GPT-5 mini, GPT-5, GPT-5-Codex, Claude Sonnet 4, Gemini 2.5 Pro etc.)
 
 4. **Sources**:
    - End with "### Source(s)" heading
@@ -168,6 +168,11 @@ Industry analysts suggest this release could significantly strengthen AMD\'s pos
 - [AnandTech](https://www.anandtech.com)
 
 ```
+
+## Filename conventions
+
+- When creating new posts, do not include a leading date in the filename. Filenames should be a URL-friendly slug of the title (e.g., `intel-panther-lake-configurations-leak.md`) and omit a `YYYY-MM-DD-` prefix. The published date and time must instead be set in the front-matter `date` field. This keeps file naming consistent with the repository's URL routing and avoids duplicate-date problems.
+
 
 ## Common Tasks
 
