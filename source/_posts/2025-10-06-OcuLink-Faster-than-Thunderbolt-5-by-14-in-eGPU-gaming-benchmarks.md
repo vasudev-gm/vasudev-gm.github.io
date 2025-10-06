@@ -50,6 +50,8 @@ Edge cases and unknowns:
 
 - [Tom\'s Hardware — OCuLink outpaces Thunderbolt 5 in Nvidia RTX 5070 Ti tests — latter up to 14% slower on average in gaming benchmarks][def]
 - [Try Some Tech — YouTube tests referenced in Tom\'s Hardware article][def2]
+- [TPU][def3]
 
 [def]: https://www.tomshardware.com/pc-components/gpus/oculink-outpaces-thunderbolt-5-in-nvidia-rtx-5070-ti-tests-latter-up-to-14-percent-slower-on-average-in-gaming-benchmarks
 [def2]: https://www.youtube.com/watch?v=fJxafsLZu7U
+[def3]: https://www.techpowerup.com/341632/external-gpu-connection-battle-oculink-beats-thunderbolt-5-by-about-16
