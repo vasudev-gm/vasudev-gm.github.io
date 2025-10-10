@@ -1,5 +1,5 @@
 ---
-title: TPU\'s Intel Panther Lake Architecture Deep Dive
+title: TPU's Intel Panther Lake Architecture Deep Dive
 date: 2025-10-09 23:00:00
 description: "TechPowerUp's deep dive explains how Intel's Panther Lake uses 18A, RibbonFET, PowerVia and Xe3 graphics to boost mobile AI and sustained performance."
 tags:
