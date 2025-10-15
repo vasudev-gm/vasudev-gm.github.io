@@ -3,9 +3,16 @@ const fs = require('fs');
 const path = require('path');
 
 const POSTS_DIR = path.join(__dirname, '..', 'source', '_posts');
+const CACHE_DIR = path.join(__dirname, '..', '.cache');
+const CACHE_FILE = path.join(CACHE_DIR, 'post-validation-cache.json');
+const crypto = require('crypto');
 
 function readFile(filepath) {
   return fs.readFileSync(filepath, 'utf8');
+}
+
+function hashContent(content) {
+  return crypto.createHash('sha1').update(content, 'utf8').digest('hex');
 }
 
 function parseFrontMatter(content) {
@@ -76,6 +83,7 @@ function tagsOK(tags) {
 
 function validateFile(filepath) {
   const content = readFile(filepath);
+  const currentHash = hashContent(content);
   const parsed = parseFrontMatter(content);
   const fm = parsed ? parsed.data : null;
   const filename = path.basename(filepath);
@@ -171,6 +179,26 @@ function validateFile(filepath) {
   return { errors, warnings };
 }
 
+function loadCache() {
+  try {
+    if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
+    if (!fs.existsSync(CACHE_FILE)) return {};
+    const raw = fs.readFileSync(CACHE_FILE, 'utf8');
+    return JSON.parse(raw || '{}');
+  } catch (e) {
+    return {};
+  }
+}
+
+function saveCache(cache) {
+  try {
+    if (!fs.existsSync(CACHE_DIR)) fs.mkdirSync(CACHE_DIR, { recursive: true });
+    fs.writeFileSync(CACHE_FILE, JSON.stringify(cache, null, 2), 'utf8');
+  } catch (e) {
+    // best-effort
+  }
+}
+
 function findMarkdownFiles(dir) {
   if (!fs.existsSync(dir)) return [];
   const all = fs.readdirSync(dir);
@@ -183,22 +211,38 @@ function main() {
     console.log('No markdown files found in', POSTS_DIR);
     process.exit(0);
   }
-
+  const cache = loadCache();
+  const force = process.argv.includes('--force');
   let hasErrors = false;
   for (const file of files) {
+    let content;
+    try { content = readFile(file); } catch (e) { console.error('Could not read', file); hasErrors = true; continue; }
+    const currentHash = hashContent(content);
+    const rel = path.relative(process.cwd(), file);
+
+    const cached = cache[rel];
+    if (!force && cached && cached.hash === currentHash && cached.errors === 0) {
+      console.log('\nSKIPPED (cached clean) in', rel);
+      continue;
+    }
+
     const { errors, warnings } = validateFile(file);
-    if ((errors && errors.length > 0) || (warnings && warnings.length > 0)) {
-      if (errors && errors.length > 0) {
-        hasErrors = true;
-        console.error('\nERRORS in', path.relative(process.cwd(), file));
-        for (const e of errors) console.error(' -', e);
-      }
-      if (warnings && warnings.length > 0) {
-        console.warn('\nWARNINGS in', path.relative(process.cwd(), file));
-        for (const w of warnings) console.warn(' -', w);
-      }
+    // update cache entry
+    cache[rel] = { hash: currentHash, errors: errors.length, warnings: warnings.length, checkedAt: new Date().toISOString() };
+
+    if ((errors && errors.length > 0)) {
+      hasErrors = true;
+      console.error('\nERRORS in', rel);
+      for (const e of errors) console.error(' -', e);
+    }
+    if (warnings && warnings.length > 0) {
+      console.warn('\nWARNINGS in', rel);
+      for (const w of warnings) console.warn(' -', w);
     }
   }
+
+  // persist cache
+  saveCache(cache);
 
   if (hasErrors) {
     console.error('\nValidation failed. Fix the above issues and retry.');

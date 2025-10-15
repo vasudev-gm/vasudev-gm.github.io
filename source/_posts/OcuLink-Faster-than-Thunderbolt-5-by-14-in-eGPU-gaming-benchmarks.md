@@ -28,7 +28,6 @@ The benchmarks revealed:
 - Average gaming performance: TB5 ~13%–14% slower than OCuLink across 12 titles.
 - Worst-case deltas: Spider-Man: Miles Morales (~20% drop for TB5 vs OCuLink) and Red Dead Redemption 2 (~23% drop).
 
-
 Tom\'s Hardware and Try Some Tech note that OCuLink is not a consumer-facing connector and its adoption is limited, so the practical choice for most users remains Thunderbolt (4/5). OCuLink, however, remains the performance leader where compatible hardware and cables exist.
 
 OCuLink is effectively a more native PCIe connection with less encapsulation overhead than Thunderbolt. That delivers higher sustained throughput and lower latency — both important for eGPU gaming. TB5 adds features (display and charging over USB-C style connectors) but introduces protocol layers that reduce effective PCIe bandwidth compared to a direct OCuLink link.
