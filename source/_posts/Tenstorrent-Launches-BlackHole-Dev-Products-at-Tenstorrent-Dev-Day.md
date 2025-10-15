@@ -12,7 +12,7 @@ tags:
 
 ### Quick Report
 
-Tenstorrent, a leading provider of AI chips, has announced the launch of its BlackHole Dev products at the Tenstorrent Dev Day. The BlackHole Dev products are designed to provide developers with the tools and resources they need to build and deploy AI applications on Tenstorrent's AI chips. The Dev event was in San Francisco featuring RISC-V processors optimized for AI applications.
+Tenstorrent, a leading provider of AI chips, has announced the launch of its BlackHole Dev products at the Tenstorrent Dev Day. The BlackHole Dev products are designed to provide developers with the tools and resources they need to build and deploy AI applications on Tenstorrent\'s AI chips. The Dev event was in San Francisco featuring RISC-V processors optimized for AI applications.
 <!-- more -->
 
 Blackhole products are now available for purchase on the Tenstorrent website with the following configs:

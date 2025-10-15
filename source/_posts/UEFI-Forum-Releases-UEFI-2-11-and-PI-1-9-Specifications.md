@@ -4,13 +4,13 @@ date: 2024-12-19 02:16:13
 tags:
     - uefi
     - efi
-    - PI
+    - pi
     - platform initialization
     - arm
-    - LoongArch
+    - loongarch
     - x86
     - amd64
-    - BIOS
+    - bios
     - firmware
 ---
 

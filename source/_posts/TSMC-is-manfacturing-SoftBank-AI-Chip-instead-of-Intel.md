@@ -2,18 +2,18 @@
 title: TSMC is manfacturing SoftBank AI Chip instead of Intel
 date: 2024-08-17 18:25:49
 tags:
-    - AI
-    - TSMC
-    - SoftBank
-    - Intel
+    - ai
+    - tsmc
+    - softbank
+    - intel
     - intel
     - tsmc
     - softbank
     - japan
     - ai chip
     - nvidia
-    - NVIDIA
-    - CUDA
+    - nvidia
+    - cuda
 ---
 
 ### Quick Report
@@ -21,7 +21,7 @@ tags:
 In a strange set of events for Intel Foundry, Softbank has pulled its plan and went with TSMC citing concerns about speed and volume to meet the demands of new AI chip. The AI chip is named **Project Izanagi**.
 <!-- more -->
 
-In February 2024, Softbank CEO Masayoshi Son said that the company would be using Intel's foundry to manufacture the chip to compete toe to toe against NVIDIA by investing $100 Billion. Now, it seems that Softbank has pulled out of the deal and is going with TSMC. Many claim the reason for this is that Intel's foundry is not up to the mark and is not able to meet the demand of the chip. Given the complexities of Chip manufacturing and software stack the process will take due time to materialize.
+In February 2024, Softbank CEO Masayoshi Son said that the company would be using Intel\'s foundry to manufacture the chip to compete toe to toe against NVIDIA by investing $100 Billion. Now, it seems that Softbank has pulled out of the deal and is going with TSMC. Many claim the reason for this is that Intel\'s foundry is not up to the mark and is not able to meet the demand of the chip. Given the complexities of Chip manufacturing and software stack the process will take due time to materialize.
 
 ### Source(s)
 

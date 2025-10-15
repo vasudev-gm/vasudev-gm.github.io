@@ -11,13 +11,13 @@ tags:
     - mac
     - licensing
 ---
-## Background and Current Outlook
+### Quick Report
 
 Amidst the takeover of VMWare by Broadcom things hasn\'t been looking good in terms of licensing T&C especially for enterprise customers, resellers and experts who have opted for volume licenses rather than opt for yearly subscription model [Subscription Model isn\'t welcomed!][def]. Most of the changes were received huge backlashes from community who feared the current update lifecycle and customer support.<!-- more -->
 
 In order to entice new and existing users of VMware player which was [discontinued][def2], Broadcom has offered Workstation and Fusion Pro versions for free under personal use. For commericial version they need to get licenses specifically subscription based and existing licenses will continue to work until the EOL (End of Life).
 
-## Source(s)
+### Source(s)
 
 - [9to5][def3]
 - [VMWare Blogs][def4]

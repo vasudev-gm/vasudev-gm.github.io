@@ -7,11 +7,11 @@ tags:
   - kb5063878
   - uac
   - msi
-  - security-update
-  - non-admin
+  - security update
+  - non admin
   - workaround
-  - cve 2025-50173
-  - windows-security
+  - cve2025-50173
+  - windows security
   - error 1730
 ---
 

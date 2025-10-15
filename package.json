@@ -4,6 +4,9 @@
   "private": true,
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
+    "validate-posts": "node scripts/validate-posts.js",
+    "report-posts": "node scripts/generate-remediation-report.js",
+    "install-githook": "node scripts/install-githook.js",
     "build": "hexo generate",
     "clean": "hexo clean",
     "deploy": "hexo deploy",

@@ -8,7 +8,6 @@ tags:
     - fix thermals
     - tweaking utility
     - kevin glynn
-    - throttlestop 9.7
 ---
 
 ### Quick Report

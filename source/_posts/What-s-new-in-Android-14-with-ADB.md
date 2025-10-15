@@ -2,6 +2,13 @@
 title: What's new in Android 14 with ADB
 date: 2024-04-22 01:14:48
 tags:
+    - android
+    - adb
+    - android 14
+    - android 15
+    - art
+    - performance
+    - power efficiency
 ---
 
 ## New Commands in ADB

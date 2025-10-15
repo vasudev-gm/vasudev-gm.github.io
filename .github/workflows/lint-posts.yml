@@ -1,0 +1,23 @@
+name: Lint Posts
+
+on:
+  push:
+    paths:
+    - 'source/_posts/**'
+  pull_request:
+    paths:
+    - 'source/_posts/**'
+
+jobs:
+  validate-posts:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: Use Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '20'
+    - name: Install dependencies
+      run: npm ci
+    - name: Run post validation
+      run: npm run validate-posts

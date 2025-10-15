@@ -14,11 +14,11 @@ tags:
 
 ### Quick Report
 
-TSMC has announced their Arizona factory is now on par with Taiwanese production in terms of yield and low wafer defects. This makes TSMC's efforts to expand and fabricate advanced chips in American soil a success.
-It will soon start volume production in 2025 and follow up with second fab in 2028 to advanced their ongong efforts to make 2nm and sub 2nm chips with investments around $65 Billion with $6 Billion from Chips Act and $5 Billion as loan from US govt.
+TSMC has announced their Arizona factory is now on par with Taiwanese production in terms of yield and low wafer defects. This makes TSMC\'s efforts to expand and fabricate advanced chips in American soil a success.
+It will soon start volume production in 2025 and follow up with second fab in 2028 to advanced their ongoing efforts to make 2nm and sub 2nm chips with investments around $65 Billion with $6 Billion from Chips Act and $5 Billion as loan from US govt.
 <!-- more -->
 
-Currently there are only handful of fabrication plants in the world that can make adavnced chips and TSMC is one of them who has achieved this feat in US soil.
+Currently there are only handful of fabrication plants in the world that can make advanced chips and TSMC is one of them who has achieved this feat in US soil.
 
 ### Source(s)
 

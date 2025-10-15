@@ -13,7 +13,7 @@ tags:
 
 ### Quick Report
 
-Valve the makers of Steam released a new MOBA-like game called Deadlock which had serious cheating problems, despite being an invite-only beta testing. Valve has now turned the cheaters into frogs. It's an anti-cheat system with conservative to avoid any false positives.
+Valve the makers of Steam released a new MOBA-like game called Deadlock which had serious cheating problems, despite being an invite-only beta testing. Valve has now turned the cheaters into frogs. It\'s an anti-cheat system with conservative to avoid any false positives.
 <!-- more -->
 
 According to changelog from the latest update, once the anti-cheat system detects a cheater, it will prompt rest of players in the game to either kick and ban the offending player(s) ending the match immediately or turn the cheater into a frog until the match ends and ban them indefinitely.

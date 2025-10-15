@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Cross-platform pre-commit hook: runs Node validation script
+echo "Running post-validation: npm run validate-posts"
+npm run validate-posts
+status=$?
+if [ $status -ne 0 ]; then
+  echo "Pre-commit validation failed. Fix issues and retry commit."
+  exit $status
+fi
+exit 0

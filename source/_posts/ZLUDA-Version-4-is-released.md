@@ -4,7 +4,7 @@ date: 2025-01-03 00:40:44
 tags:
     - zluda
     - cuda replacement
-    - non-nvidia gpu
+    - non nvidia gpu
     - gpu
     - cuda
     - amd

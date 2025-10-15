@@ -13,7 +13,10 @@ tags:
 ---
 ## Intro
 
-If you have ever wondered why repairing your Apple device is much more expensive when the screen or back glass is broken without Apple Care Warranty and it makes sense to trade-in for newer devices which you can get for the price of repairing old devices. <!-- more -->It\'s due to Apple pairing parts through serial number locks also known as part-pairing in their firmware which disables the features when you use a third party refurbished or new product that **is not an Apple certified part**
+If you have ever wondered why repairing your Apple device is much more expensive when the screen or back glass is broken without Apple Care Warranty and it makes sense to trade-in for newer devices which you can get for the price of repairing old devices.
+<!-- more -->
+
+It\'s due to Apple pairing parts through serial number locks also known as part-pairing in their firmware which disables the features when you use a third party refurbished or new product that **is not an Apple certified part**
 
 ## Why Apple dis this?
 
