@@ -6,10 +6,11 @@ permalink: /about/
 tags:
    - about
    - About Me
+skip_validation: true
 ---
 ## About Me
 
-Welcome! I'm Vasudev Menon, a passionate Python developer and tech enthusiast. After exploring various blogging platforms, I discovered Hexo, which has enabled me to create this space where I can share my knowledge and insights with you.
+Welcome! I\'m Vasudev Menon, a passionate Python developer and tech enthusiast. After exploring various blogging platforms, I discovered Hexo, which has enabled me to create this space where I can share my knowledge and insights with you.
 
 My goal is to break down complex technical concepts into clear, actionable insights. Here, you'll find in-depth coverage of cutting-edge AI developments, emerging technologies, practical development tools, and comprehensive guides across Android, iOS, Windows, and Linux platforms. Whether you're a fellow developer, tech enthusiast, or just curious about the latest in technology, there's something here for you.
 

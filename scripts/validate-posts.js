@@ -90,6 +90,11 @@ function validateFile(filepath) {
   const errors = [];
   const warnings = [];
 
+  // If the front-matter contains skip_validation: true, short-circuit and treat as skipped
+  if (fm && fm.skip_validation && (fm.skip_validation === true || fm.skip_validation === 'true')) {
+    return { skipped: true, errors: [], warnings: [] };
+  }
+
   // Determine cutoff once (start of today local time) or from env var.
   let cutoff;
   if (process.env.DESCRIPTION_CUTOFF) {
@@ -226,7 +231,14 @@ function main() {
       continue;
     }
 
-    const { errors, warnings } = validateFile(file);
+    const result = validateFile(file);
+    if (result && result.skipped) {
+      // mark as skipped in cache and continue
+      cache[rel] = { hash: currentHash, errors: 0, warnings: 0, checkedAt: new Date().toISOString() };
+      console.log('\nSKIPPED (skip_validation) in', rel);
+      continue;
+    }
+    const { errors, warnings } = result;
     // update cache entry
     cache[rel] = { hash: currentHash, errors: errors.length, warnings: warnings.length, checkedAt: new Date().toISOString() };
 

@@ -6,6 +6,7 @@ tags:
    - schedule
    - meeting
    - topmate
+skip_validation: true
 
 ---
 <!-- more -->

@@ -3,16 +3,16 @@ title: Windows 11 Update KB5063878 Blocks Non-Admin install (Workaround:- Use Ru
 date: 2025-09-07 02:30:00
 description: "Microsoft's KB5063878 update blocks non-admin MSI operations, requiring administrator privileges for app installation and repairs. Learn about workarounds."
 tags:
-  - windows 11
+  - windows-11
   - kb5063878
   - uac
   - msi
-  - security update
-  - non admin
+  - security-update
+  - non-admin
   - workaround
   - cve2025-50173
-  - windows security
-  - error 1730
+  - windows-security
+  - error-1730
 ---
 
 ### Quick Report
