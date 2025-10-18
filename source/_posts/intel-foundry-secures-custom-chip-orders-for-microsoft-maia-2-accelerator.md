@@ -1,7 +1,7 @@
 ---
-title: "Intel Foundry Secures Custom Chip Orders for Microsoft Maia 2 Accelerator"
+title: "Intel Foundry Secures Custom Chip Orders for Microsoft Maia 3 Accelerator"
 date: 2025-10-17 23:28:00
-description: "Intel Foundry reportedly secured an 18A/18A-P order from Microsoft to produce Maia 2 AI accelerators, a notable win for Intel's advanced-node strategy."
+description: "Intel Foundry reportedly secured an 18A/18A-P order from Microsoft to produce Maia 3 AI accelerators, a notable win for Intel's advanced-node strategy."
 tags:
   - intel
   - intel-foundry
@@ -30,6 +30,6 @@ Key details reported include high on-die compute and memory configurations tailo
 - [SemiAccurate][def2]
 - [X post by @Jukanlosreve][def3]
 
-[def]: https://www.techpowerup.com/342003/intel-foundry-reportedly-secures-18a-order-from-microsoft-for-maia-2-accelerator
+[def]: https://www.techpowerup.com/342003/intel-foundry-reportedly-secures-18a-order-from-microsoft-for-maia-3-accelerator
 [def2]: https://www.semiaccurate.com/2025/10/17/intel-foundry-has-a-large-ai-client-for-18a-ap/
 [def3]: https://x.com/Jukanlosreve/status/1979187241537933575
