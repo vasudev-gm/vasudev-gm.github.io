@@ -132,7 +132,7 @@ AIB partners have shown off their Radeon 9070 series GPUs at CES 2025. RDNA 4 GP
 
 RDNA 4 is based on TSMC 4nm node with naming scheme similar to NVIDIA\'s 5070 series to indicate the performance level. The 9070 series is expected to be available in 16GB GDDR6 memory configuration. It comes in two variants (XT and non-XT) carrying 4096 and 3072 stream processors respectively.
 
-Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
+**Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
