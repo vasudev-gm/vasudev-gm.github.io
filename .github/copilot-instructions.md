@@ -101,7 +101,44 @@ Notes and exceptions:
 - Do not include affiliate links unless explicitly requested.
 - Keep speculative language clearly marked as analysis rather than fact.
 
+## Reference files
+
 If you want, the agent can apply an automatic pre-commit hook and a CI linter in a follow-up; ask for permission before making automation that modifies repo tooling.
+
+## Example post (structure & format)
+
+Below is a copyable example post agents should use as the canonical template. It demonstrates the required front-matter, the `### Quick Report` teaser with `<!-- more -->`, escaped apostrophes in the body, the exact Copilot credit line placement, and reference-style source links.
+
+---
+title: "AIB Partners Show Off Radeon 9070 Series GPU at CES 2025"
+date: 2025-01-14 20:48:23
+description: "AIB partners showcased AMD\'s RDNA 4 Radeon 9070 series at CES 2025; expect mainstream-targeted parts and improved ray tracing and ML upscaling support."
+tags:
+	- amd
+	- radeon
+	- gpu
+	- aib
+	- asus
+	- gigabyte
+	- msi
+	- yeston
+	- powercolor
+	- 9070-series
+---
+
+### Quick Report
+
+AIB partners have shown off their Radeon 9070 series GPUs at CES 2025. RDNA 4 GPUs are targeted at the mainstream market and are expected to be released globally by the end of January 2025. At the moment, there is no pricing information available. RDNA4 brings in better ray tracing performance than RDNA3 and FSR4 for ML based Upscaler to compete against NVIDIA DLSS.<!-- more -->
+
+RDNA 4 is based on TSMC 4nm node with naming scheme similar to NVIDIA\'s 5070 series to indicate the performance level. The 9070 series is expected to be available in 16GB GDDR6 memory configuration. It comes in two variants (XT and non-XT) carrying 4096 and 3072 stream processors respectively.
+
+Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
+
+### Source(s)
+
+- [Tom\'s Hardware][def]
+
+[def]: https://www.tomshardware.com/pc-components/gpus/amd-rdna-4-radeon-rx-9000-series-gpus-revealed-targeting-mainstream-price-and-performance-with-improved-ai-and-ray-tracing
 
 ---
 
