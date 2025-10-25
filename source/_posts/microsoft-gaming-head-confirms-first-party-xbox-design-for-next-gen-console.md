@@ -1,7 +1,7 @@
 ---
 title: "Microsoft Gaming Head Confirms First Party XBox Design for Next Gen Console"
 date: 2025-10-25 21:30:00
-description: "Phil Spencer confirms Next-Generation Xbox will remain an in-house design"
+description: "Phil Spencer confirms Next-Generation Xbox will remain an in-house design despite ASUS ROG Ally launch, signaling no Microsoft handhelds until at least 2027."
 tags:
   - microsoft
   - xbox
