@@ -1,4 +1,6 @@
 name: Lint Posts
+permissions:
+  contents: read
 
 on:
   push:
