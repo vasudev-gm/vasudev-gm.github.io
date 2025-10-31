@@ -219,23 +219,23 @@ function main() {
   const cache = loadCache();
   const force = process.argv.includes('--force');
   let hasErrors = false;
+
   for (const file of files) {
     let content;
-    try { content = readFile(file); } catch (e) { console.error('Could not read', file); hasErrors = true; continue; }
+    try { content = readFile(file); } catch (e) { hasErrors = true; continue; }
     const currentHash = hashContent(content);
     const rel = path.relative(process.cwd(), file);
 
     const cached = cache[rel];
     if (!force && cached && cached.hash === currentHash && cached.errors === 0) {
-      console.log('\nSKIPPED (cached clean) in', rel);
+      // Suppress SKIPPED output for cached clean files
       continue;
     }
 
     const result = validateFile(file);
     if (result && result.skipped) {
-      // mark as skipped in cache and continue
+      // Suppress SKIPPED output for skip_validation files
       cache[rel] = { hash: currentHash, errors: 0, warnings: 0, checkedAt: new Date().toISOString() };
-      console.log('\nSKIPPED (skip_validation) in', rel);
       continue;
     }
     const { errors, warnings } = result;
@@ -246,11 +246,12 @@ function main() {
       hasErrors = true;
       console.error('\nERRORS in', rel);
       for (const e of errors) console.error(' -', e);
+      if (warnings && warnings.length > 0) {
+        console.warn('\nWARNINGS in', rel);
+        for (const w of warnings) console.warn(' -', w);
+      }
     }
-    if (warnings && warnings.length > 0) {
-      console.warn('\nWARNINGS in', rel);
-      for (const w of warnings) console.warn(' -', w);
-    }
+    // Do not print anything for files with only warnings or clean files
   }
 
   // persist cache
