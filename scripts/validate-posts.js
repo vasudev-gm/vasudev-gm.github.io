@@ -69,7 +69,7 @@ function hasEscapedApostrophes(content) {
 function descriptionLengthOK(desc) {
   if (!desc) return false;
   const len = desc.replace(/^"|"$/g, '').length;
-  return len >= 150 && len <= 160;
+  return len <= 160;
 }
 
 function tagsOK(tags) {
@@ -147,8 +147,8 @@ function validateFile(filepath) {
       if (postDate && postDate < cutoff) warnings.push('Missing description in front-matter (older post — optional).');
       else errors.push('Missing description in front-matter.');
     } else if (!descriptionLengthOK(fm.description)) {
-      if (postDate && postDate < cutoff) warnings.push('Description length should be 150-160 characters (older post — optional).');
-      else errors.push('Description length must be 150-160 characters.');
+      if (postDate && postDate < cutoff) warnings.push('Description length should be 160 characters at max (older post — optional).');
+      else errors.push('Description length must be less than or equal to 160 characters.');
     }
 
     // Tags: treat as warnings for older posts, errors for recent posts

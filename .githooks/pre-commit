@@ -1,5 +1,16 @@
 #!/usr/bin/env bash
 # Cross-platform pre-commit hook: runs Node validation script
+
+if ! command -v npm >/dev/null 2>&1; then
+  echo "npm is not installed or not in PATH. Please install Node.js and npm."
+  exit 1
+fi
+
+if [ ! -d "node_modules" ]; then
+  echo "node_modules not found. Run 'npm install' before committing."
+  exit 1
+fi
+
 echo "Running post-validation: npm run validate-posts"
 npm run validate-posts
 status=$?

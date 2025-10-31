@@ -1,7 +1,7 @@
 ---
 title: Intel Panther Lake Cinebench R23 Performance Leak
 date: 2025-11-01 01:00:00
-description: "Leaked Cinebench R23 scores for Intel Panther Lake Core Ultra X7-358H and Ultra 5-338H show concerning single and multi-core performance compared to AMD and Apple rivals."
+description: "Leaked Cinebench R23 scores for Intel Panther Lake Core Ultra X7-358H and Ultra 5-338H show weaker single and multi-core performance versus AMD and Apple."
 tags:
   - intel
   - panther-lake
