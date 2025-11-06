@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const validate = require('./validate-posts');
