@@ -41,7 +41,7 @@ Files and locations to check first:
 
 Key conventions (must follow exactly):
 - Filenames: use a URL-friendly slug of the title and DO NOT prefix with a date (e.g., `intel-panther-lake-configurations-leak.md`). The `date:` field in front-matter controls publication time.
-- Front-matter: include `title`, `date` (YYYY-MM-DD HH:MM:SS), `description` (150–160 chars), and `tags` (lowercase; hyphenate multi-word tags; person names are exceptions).
+- Front-matter: include `title`, `date` (YYYY-MM-DD HH:MM:SS), `description` (150–160 chars at max), and `tags` (lowercase; hyphenate multi-word tags; person names are exceptions).
 - Quick Report: start with a `### Quick Report` heading and put `<!-- more -->` immediately after the first paragraph to create the teaser.
 - Escaped apostrophes: always escape contractions and possessives in posts (use `\'`), e.g., `AMD\'s`.
 - Credit line: add the exact credit line before Sources: **Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.** Replace `{model name}` with the model used.
