@@ -28,10 +28,10 @@ Key directories:
 
 This file documents repository conventions and actionable rules for automated agents and human contributors. Keep guidance concise and machine-readable where possible.
 
-Agent contract (inputs / outputs / success criteria):
-- Inputs: a clear user request (title, sources, or edits), target file paths (usually `source/_posts/`), and optional metadata (date, description, tags).
-- Outputs: one or more Markdown posts or code edits that follow repository conventions; small test or validation steps run locally (build/lint/tests) when possible.
-- Success criteria: file saved under `source/_posts/` as a slug filename, valid front-matter (title, date, description, tags), escaped apostrophes, `<!-- more -->` inserted after the first paragraph, and repository build + tests pass or produce no new errors.
+ Agent contract (inputs / outputs / success criteria):
+ - Inputs: a clear user request (title, sources, or edits), target file paths (usually `source/_posts/`), and optional metadata (date, description, tags).
+ - Outputs: one or more Markdown posts or code edits that follow repository conventions; small test or validation steps run locally (build/lint/tests) when possible.
+ - Success criteria: file saved under `source/_posts/` as a slug filename, valid front-matter (title, date, description, tags), escaped apostrophes, `<!-- more -->` inserted after the first paragraph, and repository build + tests pass or produce no new errors. The `date:` field in the front-matter must always reflect the current date and time at the time of post creation (current local time when the post is generated).
 
 Files and locations to check first:
 - `package.json` — contains scripts (notably `prebuild` and `build`). Always run `npm install` before running scripts.
