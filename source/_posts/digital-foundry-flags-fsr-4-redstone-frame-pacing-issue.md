@@ -1,5 +1,5 @@
 ---
-title: "Digital Foundry Flags Frame Pacing Issues in AMD\'s FSR 4 Redstone Frame Generation"
+title: "Digital Foundry Flags Frame Pacing Issues in AMD's FSR 4 Redstone Frame Generation"
 date: 2025-12-20 21:30:53
 description: "Digital Foundry reports uneven frame pacing in AMD's FSR 4 Redstone ML frame generation, citing cases where capping FPS and enabling V-Sync can help."
 tags:
@@ -14,7 +14,8 @@ tags:
 ---
 ### Quick Report
 
-Testing highlighted by Digital Foundry suggests AMD\'s FSR 4 \"Redstone\" machine learning frame generation can suffer from inconsistent frame pacing in some titles, making gameplay feel smoother with frame generation disabled in certain cases. The report argues the issue is tied to how frames are paced, contrasting it with approaches that use hardware flip metering.<!-- more -->
+Testing highlighted by Digital Foundry suggests AMD\'s FSR 4 \"Redstone\" machine learning frame generation can suffer from inconsistent frame pacing in some titles, making gameplay feel smoother with frame generation disabled in certain cases. The report argues the issue is tied to how frames are paced, contrasting it with approaches that use hardware flip metering.
+<!-- more -->
 
 According to the coverage, one example was Industria 2, where frame times were observed swinging widely (reported as a 40ms to 160ms range). Another example mentioned was God of War Ragnarok, where pacing reportedly degraded when the camera moved slowly.
 

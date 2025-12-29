@@ -1,7 +1,7 @@
 ---
 title: "Apple's Baltra AI Chip Rumored for 2027, Focused on Inference"
 date: 2025-12-17 00:13:00
-description: "Apple\'s Baltra AI chip, expected in 2027, is rumored to be an inference-only design for data centers, focused on efficiency and cost."
+description: "Apple's Baltra AI chip, expected in 2027, is rumored to be an inference-only design for data centers, focused on efficiency and cost."
 tags:
   - apple
   - baltra

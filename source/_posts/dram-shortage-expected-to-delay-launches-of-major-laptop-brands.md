@@ -14,7 +14,8 @@ tags:
 
 ### Quick Report
 
-The ongoing DRAM shortage is predicted to lead to launch delays for major laptop brands such as HP and Lenovo, with possible 30% price hikes or spec reductions.<!-- more -->
+The ongoing DRAM shortage is predicted to lead to launch delays for major laptop brands such as HP and Lenovo, with possible 30% price hikes or spec reductions.
+<!-- more -->
 
 The ongoing RAM shortage has already had knock-on effect on the consumer market, from price hikes to system integrators starting to offer "bring your own RAM" build options and smartphone makers stepping back to offering 8 GB of RAM in flagship devices. However, the latest news suggests that the RAM shortage will soon result in delayed product launches—specifically in the laptop and mobile market, according to a report out of Korean business publication, Chosun Biz.
 

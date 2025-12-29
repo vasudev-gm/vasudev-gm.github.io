@@ -1,7 +1,7 @@
 ---
 title: "Intel 14A Node Trials Signal Confidence from Early Customers"
 date: 2025-12-02 22:50:00
-description: "Intel's 14A node trials attract early customer confidence, showing progress in advanced process technology and boosting Intel\'s foundry position."
+description: "Intel's 14A node trials attract early customer confidence, showing progress in advanced process technology and boosting Intel's foundry position."
 tags:
   - intel
   - 14a
