@@ -20,7 +20,7 @@ The ongoing RAM shortage has already had knock-on effect on the consumer market,
 
 According to the report, which quoted industry insiders and analysts, large hardware brands, like HP and Lenovo, have recently signed agreements with memory suppliers in an effort to secure RAM for the upcoming product launch cycle. Despite this, insiders are predicting that launch delays are likely as DRAM demand still exceeds supply. The alternative solutions include a price hike, which would be in the order of 30% in the premium segment—on top of an already predicted 9% industry-wide price increase—or downsizing the premium laptop segment. Whether this plays out as predicted will likely be revealed fairly soon, as CES 2026, and all of its expected product launches, is just around the corner.
 
-Written using GitHub Copilot Grok Code Fast 1 in agentic mode instructed to follow current codebase style and conventions for writing articles.
+**Written using GitHub Copilot Grok Code Fast 1 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
