@@ -1,6 +1,10 @@
 {
     "github.copilot.chat.codeGeneration.useInstructionFiles": true,
     "files.trimTrailingWhitespace": true,
-    "markdownlint.config": {"MD012": true, "MD047": true},
+    "markdownlint.config": {
+        "MD012": true,
+        "MD047": true,
+        "MD001": false
+    },
     "markdownlint.run": "onSave",
 }
