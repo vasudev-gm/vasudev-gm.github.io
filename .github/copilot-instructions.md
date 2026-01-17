@@ -24,30 +24,44 @@ Key directories:
 ```bash
 # Install dependencies
 ```instructions
-# Copilot / Agent Guide — "Your Daily Tech Dose"
 
-This file documents repository conventions and actionable rules for automated agents and human contributors. Keep guidance concise and machine-readable where possible.
+# Copilot Agent Guide — "Your Daily Tech Dose"
 
- Agent contract (inputs / outputs / success criteria):
- - Inputs: a clear user request (title, sources, or edits), target file paths (usually `source/_posts/`), and optional metadata (date, description, tags).
- - Outputs: one or more Markdown posts or code edits that follow repository conventions; small test or validation steps run locally (build/lint/tests) when possible.
- - Success criteria: file saved under `source/_posts/` as a slug filename, valid front-matter (title, date, description, tags), escaped apostrophes, `<!-- more -->` inserted after the first paragraph, and repository build + tests pass or produce no new errors. The `date:` field in the front-matter must always reflect the current date and time at the time of post creation (current local time when the post is generated).
+This file defines conventions and rules for agents and contributors. Keep instructions concise, actionable, and machine-readable.
 
-Files and locations to check first:
-- `package.json` — contains scripts (notably `prebuild` and `build`). Always run `npm install` before running scripts.
-- `scripts/generate-clarity-config.js` — a prebuild step; must be executed before `hexo generate` (this repository runs it in `npm run build`).
-- `source/_posts/` — Markdown posts live here. New posts should be created here.
-- `.github/workflows/pages.yml` — review CI behavior if touching deploy/build logic.
+## Agent Contract
+- **Inputs:** User request (title, sources, or edits), target file(s) (usually in `source/_posts/`), and optional metadata (date, description, tags).
+- **Outputs:** Markdown post(s) or code edits that follow all conventions; run quick validation (build/lint/tests) if possible.
+- **Success:**
+	- File saved in `source/_posts/` as a slug (no date prefix)
+	- Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
+	- Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
+	- `<!-- more -->` after first paragraph
+	- Copilot credit line before Sources
+	- Build/tests pass, no new errors
 
-Key conventions (must follow exactly):
-- Filenames: use a URL-friendly slug of the title and DO NOT prefix with a date (e.g., `intel-panther-lake-configurations-leak.md`). The `date:` field in front-matter controls publication time.
- - Front-matter: include `title`, `date` (YYYY-MM-DD HH:MM:SS), `description` (150–160 chars at max), and `tags` (lowercase; hyphenate multi-word tags; person names are exceptions).
-	 - The `date:` field in the front-matter must always reflect the current date and time at the time of post creation (current local time when the post is generated).
-- Post titles: always rewrite article titles to be original and avoid copyright/plagiarism. Do not copy titles verbatim from source articles. Create factually accurate titles that convey the same information using different wording and structure.
-- Quick Report: start with a `### Quick Report` heading and put `<!-- more -->` immediately after the first paragraph to create the teaser.
- - Escaped apostrophes: always escape contractions and possessives in post bodies `(use `\'`), e.g., `AMD\'s`.
-   Exception: the `title` and `description` fields in front-matter may contain non-escaped apostrophes for readability and are excluded from the repository-wide apostrophe check.
-- Credit line: add the exact credit line before Sources: **Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.** Replace `{model name}` with the model used.
+
+## Key Files
+- `package.json`: scripts (run `npm install` before scripts)
+- `scripts/generate-clarity-config.js`: prebuild step (run before `hexo generate`)
+- `source/_posts/`: all posts live here
+- `.github/workflows/pages.yml`: CI/deploy logic
+
+
+## Post Conventions (strict)
+- **Filename:** Slug of title, no date prefix (e.g., `intel-panther-lake-configurations-leak.md`)
+- **Front-matter:**
+	- `title`: original, not copied verbatim from source
+	- `date`: current local time at creation (YYYY-MM-DD HH:MM:SS)
+	- `description`: ≤160 chars
+	- `tags`: lowercase, hyphenate multi-word (except person names)
+- **Body:**
+	- Start with `### Quick Report`
+	- Place `<!-- more -->` after first paragraph
+	- Escape apostrophes in body (use `\'`), but not in `title` or `description`
+	- Add Copilot credit line before Sources:
+		- `Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.`
+- **Sources:** Use reference-style links
 
  - Credit line: add a single credit line immediately before the Sources section. Use this template exactly, replacing {model name} with the model identifier you used:
 
@@ -61,47 +75,63 @@ Key conventions (must follow exactly):
 	- The repository validator treats a missing credit line as a WARNING (not an error).
 	- The validator looks for the phrase "Written using GitHub Copilot" (case-insensitive) and will accept optional model-name text following that phrase.
 
-Quality gates (required before committing edits):
-1. Build: run the prebuild step and `npm run build` (or locally `node scripts/generate-clarity-config.js && npx hexo generate`) and confirm no build-time errors.
-2. Tests: run `npm test` (Mocha); include at least one minimal test when changing code behavior.
-3. Lint / Markdown sanity: validate Markdown structure (blank lines around lists, headings hierarchy), check for unescaped apostrophes, and ensure tags are formatted.
 
-Quick checks an agent should run automatically (fast):
-- Search for unescaped apostrophes in newly created/updated posts and fix them.
-- Verify `description` length is between 150 and 160 characters.
-- Confirm filename is slug-only and present under `source/_posts/`.
+## Quality Gates (before commit)
+1. Build: run prebuild and `npm run build` (or `node scripts/generate-clarity-config.js && npx hexo generate`); confirm no build errors
+2. Test: run `npm test` (Mocha); add minimal test if code changes
+3. Lint/Markdown: check structure, apostrophes, tag format
 
-Behavioral rules for agents (when to act vs ask):
-- If the user provides a complete post (title, content, date, description, tags), create the Markdown file, apply conventions, and run quick checks; commit the change.
-- If the user provides only a headline or a link to a source article, draft the post using the source, fill front-matter conservatively (ask for exact publish `date` if not provided), and add a TODO comment in the post if critical metadata (author/featured image) is missing.
-- When multiple source links are provided for creating posts, process them one at a time in sequence. Create each post completely (including validation) before moving to the next. This ensures quality control and allows for individual review of each article.
-- When code or build changes are requested (scripts, workflows, theme edits), run unit tests and a local `hexo generate` if possible and include the build output summary in the PR description.
-- If a requested change could affect deployment or CI (workflows, prebuild scripts), do not push directly to a protected branch; create a draft PR and include a summary of risks and required approvals.
+### Quick Agent Checks
+- Fix unescaped apostrophes in new/updated posts
+- Ensure description ≤160 chars
+- Filename is slug-only, in `source/_posts/`
 
-Small proactive extras (allowed and encouraged):
-- Add or update minimal tests for code changes (happy path + one edge case).
-- Run quick Markdown fixes (spacing around lists, headings) and include a single commit that only adjusts formatting when necessary.
-- Normalize tags to lowercase and replace spaces with hyphens (do not change person-name tags).
 
-Suggested automations (optional follow-ups):
-- Add a lightweight pre-commit hook that checks: filenames in `source/_posts/` do not start with `YYYY-`, the description length, and no unescaped apostrophes (simple grep). Keep hooks small and fast.
-- Add a CI step that lints posts for these rules and fails early with actionable messages.
+## Agent Behavior
+- If user provides a full post (title, content, date, description, tags):
+	- Create Markdown file, apply all conventions, run quick checks, commit
+- If user provides only a headline or link:
+	- Draft post from source, fill front-matter conservatively
+	- Ask for publish date if not provided
+	- Add TODO in post if critical metadata missing
+- If multiple source links:
+	- Process one at a time, fully validate each before next
+- For code/build changes:
+	- Run unit tests and local build, include build output in PR
+- For CI/deploy-affecting changes:
+	- Do not push to protected branch; open draft PR with risk summary
 
-Editing rules (apply_patch usage reminders):
-- When an edit is needed, prefer small atomic changes. Keep existing style and indentation. Use the repository's apply_patch format (patches should update files in-place).
 
-Example short checklist for creating a post (agent):
-1. Create `source/_posts/<slug>.md` with correct front-matter.
-2. Add `### Quick Report` and `<!-- more -->` after first paragraph.
-3. Escape apostrophes and normalize tags.
-4. Add the Copilot credit line before `### Source(s)`.
-5. Run quick validations (description length, filename slug, grep for unescaped apostrophes).
-6. Commit with a clear message and include PR description summarizing sources and changes.
+## Proactive Extras (encouraged)
+- Add/update minimal tests for code changes
+- Run Markdown fixes (spacing, headings) as a single commit
+- Normalize tags (lowercase, hyphens; do not change person names)
 
-Notes and exceptions:
-- Do not change `public/` (generated site) directly.
-- Do not include affiliate links unless explicitly requested.
-- Keep speculative language clearly marked as analysis rather than fact.
+
+## Suggested Automations
+- Pre-commit hook: check filenames (no date), description length, apostrophes
+- CI step: lint posts for these rules, fail early with clear messages
+
+
+## Editing Rules
+- Prefer small, atomic changes
+- Keep style/indentation
+- Use apply_patch format for in-place updates
+
+
+## Example Agent Checklist (for posts)
+1. Create `source/_posts/<slug>.md` with correct front-matter
+2. Add `### Quick Report` and `<!-- more -->` after first paragraph
+3. Escape apostrophes and normalize tags
+4. Add Copilot credit line before `### Source(s)`
+5. Run quick validations (description, filename, apostrophes)
+6. Commit with clear message and PR summary
+
+
+## Notes & Exceptions
+- Never edit `public/` directly
+- No affiliate links unless requested
+- Mark speculation as analysis, not fact
 
 ## Reference files
 
