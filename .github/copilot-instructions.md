@@ -41,11 +41,12 @@ Files and locations to check first:
 
 Key conventions (must follow exactly):
 - Filenames: use a URL-friendly slug of the title and DO NOT prefix with a date (e.g., `intel-panther-lake-configurations-leak.md`). The `date:` field in front-matter controls publication time.
-- Front-matter: include `title`, `date` (YYYY-MM-DD HH:MM:SS), `description` (150–160 chars at max), and `tags` (lowercase; hyphenate multi-word tags; person names are exceptions).
+ - Front-matter: include `title`, `date` (YYYY-MM-DD HH:MM:SS), `description` (150–160 chars at max), and `tags` (lowercase; hyphenate multi-word tags; person names are exceptions).
+	 - The `date:` field in the front-matter must always reflect the current date and time at the time of post creation (current local time when the post is generated).
 - Post titles: always rewrite article titles to be original and avoid copyright/plagiarism. Do not copy titles verbatim from source articles. Create factually accurate titles that convey the same information using different wording and structure.
 - Quick Report: start with a `### Quick Report` heading and put `<!-- more -->` immediately after the first paragraph to create the teaser.
-- Escaped apostrophes: always escape contractions and possessives in post bodies `(use `\'`), e.g., `AMD\'s`.
-	Exception: the `description` field in front-matter may contain unescaped apostrophes for readability and is excluded from the repository-wide apostrophe check.
+ - Escaped apostrophes: always escape contractions and possessives in post bodies `(use `\'`), e.g., `AMD\'s`.
+   Exception: the `title` and `description` fields in front-matter may contain non-escaped apostrophes for readability and are excluded from the repository-wide apostrophe check.
 - Credit line: add the exact credit line before Sources: **Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.** Replace `{model name}` with the model used.
 
  - Credit line: add a single credit line immediately before the Sources section. Use this template exactly, replacing {model name} with the model identifier you used:
