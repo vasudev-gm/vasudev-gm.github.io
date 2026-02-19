@@ -77,7 +77,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 
 
 ## Quality Gates (before commit)
-1. Build: run prebuild and `npm run build` (or `node scripts/generate-clarity-config.js && npx hexo generate`); confirm no build errors
+1. Build: run prebuild and `npm run build` if it doesn't exist (or `node scripts/generate-clarity-config.js && npx hexo generate`); confirm no build errors
 2. Test: run `npm test` (Mocha); add minimal test if code changes
 3. Lint/Markdown: check structure, apostrophes, tag format
 
