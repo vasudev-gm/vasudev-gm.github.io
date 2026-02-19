@@ -62,6 +62,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- Add Copilot credit line before Sources:
 		- `Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.`
 - **Sources:** Use reference-style links
+	- For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
 
  - Credit line: add a single credit line immediately before the Sources section. Use this template exactly, replacing {model name} with the model identifier you used:
 
@@ -85,6 +86,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 - Fix unescaped apostrophes in new/updated posts
 - Ensure description ≤160 chars
 - Filename is slug-only, in `source/_posts/`
+- TechPowerUp source label is `[TPU][def]`
 
 
 ## Agent Behavior
