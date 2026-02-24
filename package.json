@@ -32,7 +32,6 @@
     "hexo-theme-next": "^8.27.0"
   },
   "devDependencies": {
-    "dotenv": "^16.6.1",
-    "mocha": "^11.7.5"
+    "dotenv": "^16.6.1"
   }
 }
