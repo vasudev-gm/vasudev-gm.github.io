@@ -1,6 +1,8 @@
 {
   "name": "hexo-site",
   "version": "0.0.0",
+  "description": "My Hexo Blog Project",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
