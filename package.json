@@ -1,6 +1,8 @@
 {
   "name": "hexo-site",
   "version": "0.0.0",
+  "description": "My Hexo Blog Project",
+  "main": "index.js",
   "private": true,
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
@@ -17,11 +19,11 @@
     "version": "8.1.1"
   },
   "dependencies": {
-    "glob": "^12.0.0",
+    "glob": "^13.0.6",
     "hexo": "^8.1.1",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
-    "hexo-generator-feed": "^3.0.0",
+    "hexo-generator-feed": "^4.0.0",
     "hexo-generator-index": "^4.0.0",
     "hexo-generator-sitemap": "^3.0.1",
     "hexo-generator-tag": "^2.0.0",
@@ -32,6 +34,12 @@
     "hexo-theme-next": "^8.27.0"
   },
   "devDependencies": {
-    "dotenv": "^16.6.1"
+    "dotenv": "^17.3.1",
+    "mocha": "^11.7.5"
+  },
+  "overrides": {
+    "stylus": "^0.64.0",
+    "minimatch": "10.2.2",
+    "diff": "8.0.3"
   }
 }
