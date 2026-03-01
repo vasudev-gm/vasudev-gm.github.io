@@ -474,7 +474,7 @@ describe('Hexo Blog Automated Tests', function() {
   });
 
   describe('8. Platform Independence and Robustness', function() {
-    it('should verify Node.js version is >= 20', async function() {
+    it('should verify Node.js version is >= 22', async function() {
       const nodeVersion = process.version;
       const versionMatch = nodeVersion.match(/^v(\d+)\.(\d+)\.(\d+)/);
 
@@ -485,12 +485,12 @@ describe('Hexo Blog Automated Tests', function() {
       const patchVersion = parseInt(versionMatch[3], 10);
 
       assert.ok(
-        majorVersion >= 20,
-        `Node.js version should be >= 20.0.0, but got ${nodeVersion}. ` +
+        majorVersion >= 22,
+        `Node.js version should be >= 22.0.0, but got ${nodeVersion}. ` +
         'Older Node.js versions cannot resolve some packages and may fail to run.'
       );
 
-      console.log(`✓ Node.js version ${nodeVersion} meets minimum requirement (>= 20.0.0)`);
+      console.log(`✓ Node.js version ${nodeVersion} meets minimum requirement (>= 22.0.0)`);
     });
 
     it('should verify Hexo CLI is accessible and working', async function() {
