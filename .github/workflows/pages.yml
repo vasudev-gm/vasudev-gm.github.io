@@ -26,15 +26,17 @@ jobs:
         # Examples: 22, 20, 18.19, >=16.20.2, lts/Iron, lts/Hydrogen, *, latest, current, node
         # Ref: https://github.com/actions/setup-node#supported-version-syntax
         node-version: '22'
-    - name: Cache NPM dependencies
+    - name: Cache vlt dependencies
       uses: actions/cache@v4
       with:
         path: node_modules
-        key: ${{ runner.OS }}-npm-cache
+        key: ${{ runner.OS }}-vlt-cache
         restore-keys: |
-          ${{ runner.OS }}-npm-cache
+          ${{ runner.OS }}-vlt-cache
+    - name: Install vlt
+      run: npm install -g vlt@1.0.0-rc.18
     - name: Install Dependencies
-      run: npm install
+      run: vlt install
       env:
         MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Require MSFT_CLARITY secret
@@ -46,7 +48,7 @@ jobs:
       env:
         MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Build
-      run: npm run build
+      run: vlt run build
       env:
         MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Upload Pages artifact

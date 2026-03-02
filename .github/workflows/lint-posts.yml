@@ -19,7 +19,9 @@ jobs:
       uses: actions/setup-node@v4
       with:
         node-version: '22'
+    - name: Install vlt
+      run: npm install -g vlt@1.0.0-rc.18
     - name: Install dependencies
-      run: npm ci
+      run: vlt install
     - name: Run post validation
-      run: npm run validate-posts
+      run: vlt run validate-posts
