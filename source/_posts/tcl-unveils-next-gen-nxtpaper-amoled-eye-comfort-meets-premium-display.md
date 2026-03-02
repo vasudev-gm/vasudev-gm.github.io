@@ -15,7 +15,8 @@ tags:
 
 ### Quick Report
 
-At MWC 2026, TCL announced its next-generation NXTPAPER technology, now integrated with AMOLED displays. This breakthrough delivers vibrant, finely detailed visuals with exceptional brightness, while prioritizing eye comfort for prolonged use.<!-- more -->
+At MWC 2026, TCL announced its next-generation NXTPAPER technology, now integrated with AMOLED displays. This breakthrough delivers vibrant, finely detailed visuals with exceptional brightness, while prioritizing eye comfort for prolonged use.
+<!-- more -->
 
 Key advancements include circular polarized light (90% of natural light), blue light purification (down to 2.9%), circadian screen comfort, and dim-light eye protection. TCL introduces the first anti-glare technology for AMOLED in smartphones, minimizing reflections and enhancing the paper-like reading experience. The display offers ΔE<1 color accuracy, 100% P3 gamut, 3200 nits peak brightness, and a 120 Hz refresh rate, setting a new standard for mobile screens.
 
