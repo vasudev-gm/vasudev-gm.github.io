@@ -33,12 +33,12 @@ This file defines conventions and rules for agents and contributors. Keep instru
 - **Inputs:** User request (title, sources, or edits), target file(s) (usually in `source/_posts/`), and optional metadata (date, description, tags).
 - **Outputs:** Markdown post(s) or code edits that follow all conventions; run quick validation (build/lint/tests) if possible.
 - **Success:**
-	- File saved in `source/_posts/` as a slug (no date prefix)
-	- Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
-	- Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
-	- `<!-- more -->` after first paragraph
-	- Copilot credit line before Sources
-	- Build/tests pass, no new errors
+ - File saved in `source/_posts/` as a slug (no date prefix)
+ - Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
+ - Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
+ - `<!-- more -->` after first paragraph
+ - Copilot credit line before Sources
+ - Build/tests pass, no new errors
 
 
 ## Key Files
@@ -51,30 +51,30 @@ This file defines conventions and rules for agents and contributors. Keep instru
 ## Post Conventions (strict)
 - **Filename:** Slug of title, no date prefix (e.g., `intel-panther-lake-configurations-leak.md`)
 - **Front-matter:**
-	- `title`: original, not copied verbatim from source
-	- `date`: current local time at creation (YYYY-MM-DD HH:MM:SS)
-	- `description`: ≤160 chars
-	- `tags`: lowercase, hyphenate multi-word (except person names)
+ - `title`: original, not copied verbatim from source
+ - `date`: current local time at creation (YYYY-MM-DD HH:MM:SS)
+ - `description`: ≤160 chars
+ - `tags`: lowercase, hyphenate multi-word (except person names)
 - **Body:**
-	- Start with `### Quick Report`
-	- Place `<!-- more -->` after first paragraph
-	- Escape apostrophes in body (use `\'`), but not in `title` or `description`
-	- Add Copilot credit line before Sources:
-		- `Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.`
+ - Start with `### Quick Report`
+ - Place `<!-- more -->` after first paragraph
+ - Escape apostrophes in body (use `\'`), but not in `title` or `description`
+ - Add Copilot credit line before Sources:
+  - `Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.`
 - **Sources:** Use reference-style links
-	- For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
+ - For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
 
  - Credit line: add a single credit line immediately before the Sources section. Use this template exactly, replacing {model name} with the model identifier you used:
 
-	Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
+ Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
-	Example:
+ Example:
 
-	Written using GitHub Copilot GPT-5 mini in agentic mode instructed to follow current codebase style and conventions for writing articles.
+ Written using GitHub Copilot GPT-5 mini in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
-	Notes for validators and agents:
-	- The repository validator treats a missing credit line as a WARNING (not an error).
-	- The validator looks for the phrase "Written using GitHub Copilot" (case-insensitive) and will accept optional model-name text following that phrase.
+ Notes for validators and agents:
+ - The repository validator treats a missing credit line as a WARNING (not an error).
+ - The validator looks for the phrase "Written using GitHub Copilot" (case-insensitive) and will accept optional model-name text following that phrase.
 
 
 ## Quality Gates (before commit)
@@ -91,17 +91,17 @@ This file defines conventions and rules for agents and contributors. Keep instru
 
 ## Agent Behavior
 - If user provides a full post (title, content, date, description, tags):
-	- Create Markdown file, apply all conventions, run quick checks, commit
+ - Create Markdown file, apply all conventions, run quick checks, commit
 - If user provides only a headline or link:
-	- Draft post from source, fill front-matter conservatively
-	- Ask for publish date if not provided
-	- Add TODO in post if critical metadata missing
+ - Draft post from source, fill front-matter conservatively
+ - Ask for publish date if not provided
+ - Add TODO in post if critical metadata missing
 - If multiple source links:
-	- Process one at a time, fully validate each before next
+ - Process one at a time, fully validate each before next
 - For code/build changes:
-	- Run unit tests and local build, include build output in PR
+ - Run unit tests and local build, include build output in PR
 - For CI/deploy-affecting changes:
-	- Do not push to protected branch; open draft PR with risk summary
+ - Do not push to protected branch; open draft PR with risk summary
 
 
 ## Proactive Extras (encouraged)
@@ -148,16 +148,16 @@ title: "AIB Partners Show Off Radeon 9070 Series GPU at CES 2025"
 date: 2025-01-14 20:48:23
 description: "AIB partners showcased AMD\'s RDNA 4 Radeon 9070 series at CES 2025; expect mainstream-targeted parts and improved ray tracing and ML upscaling support."
 tags:
-	- amd
-	- radeon
-	- gpu
-	- aib
-	- asus
-	- gigabyte
-	- msi
-	- yeston
-	- powercolor
-	- 9070-series
+ - amd
+ - radeon
+ - gpu
+ - aib
+ - asus
+ - gigabyte
+ - msi
+ - yeston
+ - powercolor
+ - 9070-series
 ---
 
 ### Quick Report
