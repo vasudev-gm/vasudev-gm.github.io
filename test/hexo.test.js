@@ -504,6 +504,9 @@ describe('Hexo Blog Automated Tests', function() {
     });
 
     it('should verify build produces consistent file count', async function() {
+      // This test performs two full clean+build cycles and can exceed the suite default timeout.
+      this.timeout(240000);
+
       // Helper function for file counting
       const countFilesRecursively = async (dir) => {
         let count = 0;
