@@ -6,5 +6,5 @@
         "MD047": true,
         "MD001": false
     },
-    "markdownlint.run": "onSave",
+    "markdownlint.run": "onSave"
 }
