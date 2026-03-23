@@ -12,7 +12,7 @@ tags:
   - payment-page
 ---
 
-### Quick Report
+### Quick Links to Custom Debloated Windows ISOs
 
 This page contains payment links for custom debloated Windows 10 and Windows 11 ISO editions, including both standard and Microsoft Edge removed variants. Use the option that matches the version and feature set you need before checkout.
 <!-- more -->
