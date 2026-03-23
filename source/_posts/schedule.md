@@ -27,3 +27,20 @@ You can connect with me on Topmate platform and support my work. Your support me
         async=""
         defer=""
       ></script> --!>
+<!--  -->
+
+My schedule is quite flexible, and I\'m open to connecting with you. Whether you want to discuss a project, share ideas, or just have a chat about technology, feel free to reach out. I\'m always happy to connect with fellow tech enthusiasts and professionals.
+
+I've added paypal links for donations and support. Your contributions help me continue creating content and sharing knowledge with the community. Thank you for your support!
+
+- [Windows 11 Debloated ISO (Current Supported Version)][def1]
+- [Windows 11 Debloated Custom Edition (Edge Removed)][def2]
+- [Windows 10 Debloated ESU ISO][def3]
+- [Windows 10 Debloated ISO (MS Edge Removed) Pre-ESU][def4]
+- [Donate and Support My Work][def5]
+
+[def1]: https://www.paypal.com/ncp/payment/UME93XVXG8ZHN
+[def2]: https://www.paypal.com/ncp/payment/G63PH89K48QNA
+[def3]: https://www.paypal.com/ncp/payment/YLAUJV34X82PA
+[def4]: https://www.paypal.com/ncp/payment/CJ7HYKPLY6ZWN
+[def5]: https://www.paypal.com/ncp/payment/S7C4XBYG2BBCJ
