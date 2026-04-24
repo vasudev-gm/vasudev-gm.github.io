@@ -1,5 +1,5 @@
 ---
-title: "Johny Srouji Named Apple Chief Hardware Officer"
+title: "Johny Srouji Named Apple's Chief Hardware Officer"
 date: 2026-04-24 20:41:16
 description: "Apple promoted Johny Srouji to Chief Hardware Officer, expanding his role to lead hardware engineering and hardware technologies."
 tags:
