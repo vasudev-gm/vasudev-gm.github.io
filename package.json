@@ -4,7 +4,7 @@
   "description": "My Hexo Blog Project",
   "main": "index.js",
   "private": true,
-  "packageManager": "vlt@1.0.0-rc.18",
+  "packageManager": "vlt@latest",
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
     "validate-posts": "node scripts/validate-posts.js",
@@ -17,11 +17,11 @@
     "test": "mocha test/**/*.test.js --timeout 30000"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "*"
   },
   "dependencies": {
     "glob": "^13.0.6",
-    "hexo": "^8.1.1",
+    "hexo": "^8.1.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
     "hexo-generator-feed": "^4.0.0",
@@ -35,13 +35,13 @@
     "hexo-theme-next": "^8.27.0"
   },
   "devDependencies": {
-    "dotenv": "^17.3.1",
+    "dotenv": "^17.4.2",
     "mocha": "^11.7.5"
   },
   "overrides": {
-    "stylus": "^0.64.0",
-    "minimatch": "10.2.4",
-    "diff": "8.0.3",
-    "serialize-javascript": "7.0.3"
+    "stylus": "*",
+    "minimatch": "*",
+    "diff": "*",
+    "serialize-javascript": "*"
   }
 }

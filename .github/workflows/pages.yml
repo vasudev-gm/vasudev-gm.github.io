@@ -34,7 +34,7 @@ jobs:
         restore-keys: |
           ${{ runner.OS }}-vlt-cache
     - name: Install vlt
-      run: npm install -g vlt@1.0.0-rc.18
+      run: npm install -g vlt@latest
     - name: Install Dependencies
       run: vlt install
       env:

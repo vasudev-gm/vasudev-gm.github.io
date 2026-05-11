@@ -20,7 +20,7 @@ jobs:
       with:
         node-version: '22'
     - name: Install vlt
-      run: npm install -g vlt@1.0.0-rc.18
+      run: npm install -g vlt@latest
     - name: Install dependencies
       run: vlt install
     - name: Run post validation
