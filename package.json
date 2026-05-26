@@ -3,8 +3,11 @@
   "version": "0.0.0",
   "description": "My Hexo Blog Project",
   "main": "index.js",
+  "author": {
+    "name": "Vasudev"
+  },
   "private": true,
-  "packageManager": "vlt@latest",
+  "packageManager": "vlt",
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
     "validate-posts": "node scripts/validate-posts.js",
