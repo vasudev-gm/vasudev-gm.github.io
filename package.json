@@ -39,12 +39,13 @@
   },
   "devDependencies": {
     "dotenv": "^17.4.2",
-    "mocha": "^11.7.5"
+    "mocha": "^11.3.0"
   },
   "overrides": {
     "stylus": "*",
     "minimatch": "*",
     "diff": "*",
-    "serialize-javascript": "*"
+    "serialize-javascript": "*",
+    "mocha": "*"
   }
 }
