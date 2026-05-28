@@ -1,7 +1,7 @@
 ---
 title: "AMD Radeon 26.5.1 Driver Breaks Blender Cycles Path Tracing"
 date: 2026-05-11 21:28:13
-description: "AMD\'s Adrenalin 26.5.1 WHQL driver is crashing Blender 5.1.1 Cycles due to a ROCm 6 versus ROCm 7 runtime mismatch."
+description: "AMD's Adrenalin 26.5.1 WHQL driver is crashing Blender 5.1.1 Cycles due to a ROCm 6 versus ROCm 7 runtime mismatch."
 tags:
   - amd
   - radeon

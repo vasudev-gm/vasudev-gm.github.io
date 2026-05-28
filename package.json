@@ -20,7 +20,7 @@
     "test": "mocha test/**/*.test.js --timeout 30000"
   },
   "hexo": {
-    "version": "*"
+    "version": "8.1.2"
   },
   "dependencies": {
     "glob": "^13.0.6",

@@ -1,7 +1,7 @@
 ---
 title: "Intel CEO Confirms Ongoing Product Collaboration with NVIDIA"
 date: 2026-05-11 21:28:13
-description: "Intel says its product collaboration with NVIDIA is still active, with joint SoC and server plans still moving forward after last year\'s partnership."
+description: "Intel says its product collaboration with NVIDIA is still active, with joint SoC and server plans still moving forward after last year's partnership."
 tags:
   - intel
   - nvidia
