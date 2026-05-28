@@ -44,8 +44,7 @@
   "overrides": {
     "stylus": "*",
     "minimatch": "*",
-    "diff": "*",
-    "serialize-javascript": "*",
-    "mocha": "*"
+    "diff": ">=9.0.0",
+    "serialize-javascript": ">=7.0.5"
   }
 }
