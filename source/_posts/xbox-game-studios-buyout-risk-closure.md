@@ -12,7 +12,8 @@ tags:
 
 ### Quick Report
 
-Multiple reports suggest divisions within Xbox Game Studios could be at risk as some teams seek buyout deals, creating uncertainty about future studio operations.<!-- more -->
+Multiple reports suggest divisions within Xbox Game Studios could be at risk as some teams seek buyout deals, creating uncertainty about future studio operations.
+<!-- more -->
 
 Industry sources say negotiations and strategic reviews are ongoing; outcomes may include sell-offs, restructuring, or continued Microsoft ownership depending on deal feasibility and studio performance.
 

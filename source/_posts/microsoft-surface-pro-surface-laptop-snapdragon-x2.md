@@ -13,7 +13,8 @@ tags:
 
 ### Quick Report
 
-Microsoft announced new Surface Pro and Surface Laptop models powered by Qualcomm\'s Snapdragon X2 processors, emphasizing always-connected cellular capability and significantly improved battery life.<!-- more -->
+Microsoft announced new Surface Pro and Surface Laptop models powered by Qualcomm\'s Snapdragon X2 processors, emphasizing always-connected cellular capability and significantly improved battery life.
+<!-- more -->
 
 The new devices target mobile productivity with optimized power efficiency and integrated modem features; app compatibility on ARM remains a key area to watch as vendors update drivers and software.
 

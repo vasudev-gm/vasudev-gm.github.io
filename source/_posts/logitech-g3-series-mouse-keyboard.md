@@ -13,7 +13,8 @@ tags:
 
 ### Quick Report
 
-Logitech introduced the G3 series, a new lineup of mouse and keyboard products designed for PC gamers seeking affordable performance and contemporary feature sets.<!-- more -->
+Logitech introduced the G3 series, a new lineup of mouse and keyboard products designed for PC gamers seeking affordable performance and contemporary feature sets.
+<!-- more -->
 
 The G3 gear focuses on ergonomics and responsive sensors at competitive price points, positioning Logitech to capture entry-level gamers and esports beginners.
 

@@ -12,7 +12,8 @@ tags:
 
 ### Quick Report
 
-A leaked price lists the MSI Claw 8 EX AI at USD 1,800; the handheld is reported to include Intel Arc G3 graphics and target extreme portable gaming.<!-- more -->
+A leaked price lists the MSI Claw 8 EX AI at USD 1,800; the handheld is reported to include Intel Arc G3 graphics and target extreme portable gaming.
+<!-- more -->
 
 If accurate, the pricing positions the Claw 8 for premium handheld buyers seeking desktop-like graphics; final specifications and availability remain to be confirmed by MSI.
 

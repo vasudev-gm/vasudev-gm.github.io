@@ -12,7 +12,8 @@ tags:
 
 ### Quick Report
 
-AMD announced the acquisition of Mext to strengthen its memory optimization capabilities for large-scale compute and AI infrastructure deployments, aiming to boost performance and efficiency.<!-- more -->
+AMD announced the acquisition of Mext to strengthen its memory optimization capabilities for large-scale compute and AI infrastructure deployments, aiming to boost performance and efficiency.
+<!-- more -->
 
 The move signals AMD\'s focus on software-driven memory management to better exploit hardware for data-center and AI workloads; expect integrations and tooling updates in coming quarters.
 
