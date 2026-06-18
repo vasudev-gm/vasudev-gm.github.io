@@ -21,5 +21,9 @@ The change appears specific to consumer segments and may leave enterprise and se
 ### Source(s)
 
 - [TPU][def]
+- [SME/SME not activating on Ryzen 7 9700X (Zen 5)][def2]
+- [AMD CPU that supports SEV][def3]
 
 [def]: https://www.techpowerup.com/350080/amd-quietly-drops-memory-encryption-feature-from-consumer-ryzen-cpus
+[def2]: https://github.com/AMDESE/AMDSEV/issues/292
+[def3]: https://github.com/AMDESE/AMDSEV/issues/1#issuecomment-621373517
