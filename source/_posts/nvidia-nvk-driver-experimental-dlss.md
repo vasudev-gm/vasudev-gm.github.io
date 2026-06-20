@@ -12,7 +12,8 @@ tags:
 
 ### Quick Report
 
-The open-source NVK Linux driver has gained experimental DLSS support, enabling AI-driven upscaling options for Linux users and distributions.<!-- more -->
+The open-source NVK Linux driver has gained experimental DLSS support, enabling AI-driven upscaling options for Linux users and distributions.
+<!-- more -->
 
 This experimental feature brings NVIDIA\'s upscaling technology closer to the open-source graphics stack, though performance and compatibility will vary by GPU and driver version.
 

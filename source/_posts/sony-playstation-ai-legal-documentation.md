@@ -11,7 +11,8 @@ tags:
 
 ### Quick Report
 
-Sony highlighted how PlayStation uses AI to assist legal documentation and compliance workflows, aiming to reduce manual review time.<!-- more -->
+Sony highlighted how PlayStation uses AI to assist legal documentation and compliance workflows, aiming to reduce manual review time.
+<!-- more -->
 
 The company says AI aids drafting and consistency checks while retaining human oversight for final legal decisions.
 
