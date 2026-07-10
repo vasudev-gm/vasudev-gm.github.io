@@ -37,7 +37,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
 	- Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
 	- `<!-- more -->` after first paragraph
-	- Copilot credit line before Sources
+	- Optional AI credit line before Sources when the post was authored with AI assistance
 	- Build/tests pass, no new errors
 
 
@@ -66,22 +66,24 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- Escape apostrophes in body (use `\'`), but not in `title` or `description`
 	- Keep full factual coverage with no filler, repetition, or generic padding
 	- Every paragraph must add new information
-	- Add Copilot credit line before Sources:
-		- `Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.`
+	- AI credit line before Sources is optional. Add it only when the post was authored with AI assistance, and name the tool/provider actually used.
 - **Sources:** Use reference-style links
 	- For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
 
- - Credit line: add a single credit line immediately before the Sources section. Use this template exactly, replacing {model name} with the model identifier you used:
+ - Credit line: optional. If the post was authored with AI assistance, add a single credit line immediately before the Sources section. Use a clear provider/tool and model identifier:
 
-	Written using GitHub Copilot {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using {tool/provider} {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
-	Example:
+	Examples:
 
 	Written using GitHub Copilot GPT-5 mini in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using Claude Code Claude Sonnet 4.5 in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using OpenRouter API {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
 	Notes for validators and agents:
-	- The repository validator treats a missing credit line as a WARNING (not an error).
-	- The validator looks for the phrase "Written using GitHub Copilot" (case-insensitive) and will accept optional model-name text following that phrase.
+	- Missing Copilot credit line before Sources (optional if authored without Copilot).
+	- The repository validator may warn when no Copilot credit line is present, but this is not an error.
 
 
 ## Quality Gates (before commit)
@@ -132,7 +134,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 1. Create `source/_posts/<slug>.md` with correct front-matter
 2. Add `### Quick Report` and `<!-- more -->` after first paragraph
 3. Escape apostrophes and normalize tags
-4. Add Copilot credit line before `### Source(s)`
+4. Add an optional AI credit line before `### Source(s)` when AI assistance was used
 5. Run quick validations (description, filename, apostrophes)
 6. Commit with clear message and PR summary
 
@@ -148,7 +150,7 @@ If you want, the agent can apply an automatic pre-commit hook and a CI linter in
 
 ## Example post (structure & format)
 
-Below is a copyable example post agents should use as the canonical template. It demonstrates the required front-matter, the `### Quick Report` teaser with `<!-- more -->`, escaped apostrophes in the body, the exact Copilot credit line placement, and reference-style source links.
+Below is a copyable example post agents should use as the canonical template. It demonstrates the required front-matter, the `### Quick Report` teaser with `<!-- more -->`, escaped apostrophes in the body, optional AI credit line placement, and reference-style source links.
 
 ---
 title: "AIB Partners Show Off Radeon 9070 Series GPU at CES 2025"

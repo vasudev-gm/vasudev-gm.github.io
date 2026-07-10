@@ -1,14 +1,14 @@
 ---
 title: Worldwide PC Market Declined 4 percent in 2Q26 Amid Mounting Supply Pressure
 date: 2026-07-10 20:10:00
-description: "The global PC market reportedly contracted in Q2 2026 as memory shortages, rising component prices, and supply pressure slowed shipments after several quarters of recovery."
+description: "The global PC market reportedly contracted in Q2 2026 as memory shortages, rising component prices, and supply pressure slowed shipments."
 tags:
-  - pc market
+  - pc-market
   - idc
   - canalys
-  - pc shipments
+  - pc-shipments
   - memory
-  - supply chain
+  - supply-chain
   - laptops
   - desktops
 ---
@@ -23,7 +23,7 @@ The decline appears to be tied less to a collapse in interest and more to the co
 
 That makes the 2026 slowdown different from the earlier post-pandemic correction. Buyers still need replacement laptops and business desktops, but higher prices can delay refresh cycles, especially in mainstream and budget segments. If memory supply remains tight through the second half of the year, PC makers may have to choose between lower shipments, thinner configurations, or higher average selling prices.
 
-**Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

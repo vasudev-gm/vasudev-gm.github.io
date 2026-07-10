@@ -52,7 +52,7 @@ function hasQuickReport(content) {
 }
 
 function hasCreditLine(content) {
-  return /written using github copilot/i.test(content);
+  return /written using .+ in agentic mode instructed to follow current codebase style and conventions for writing articles\./i.test(content);
 }
 
 function hasEscapedApostrophes(content) {
@@ -167,7 +167,7 @@ function validateFile(filepath) {
     if (postDateForQuick && postDateForQuick < cutoff) warnings.push('Missing "### Quick Report" section or missing <!-- more --> after first paragraph (older post — optional).');
     else errors.push('Missing "### Quick Report" section or missing <!-- more --> after first paragraph.');
   }
-  // Copilot credit line is optional if the author did not use Copilot; flag as WARNING only
+  // AI credit line is optional; flag as WARNING only when absent.
   if (!hasCreditLine(content)) warnings.push('Missing Copilot credit line before Sources (optional if authored without Copilot).');
   // Only enforce escaped apostrophes in the post body (exclude front-matter description)
   let body = content;

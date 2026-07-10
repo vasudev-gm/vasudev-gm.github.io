@@ -1,15 +1,15 @@
 ---
 title: NVIDIA Readies GeForce RTX 5090 SE Graphics Card
 date: 2026-07-10 20:30:00
-description: "NVIDIA is reportedly preparing a GeForce RTX 5090 SE, a new Blackwell flagship variant that may target specific regional, regulatory, or product-segmentation needs."
+description: "NVIDIA is reportedly preparing a GeForce RTX 5090 SE, a Blackwell flagship variant for regional, regulatory, or segmentation needs."
 tags:
   - nvidia
   - geforce
-  - rtx 5090 se
-  - rtx 5090
+  - rtx-5090-se
+  - rtx-5090
   - blackwell
   - gpu
-  - graphics card
+  - graphics-card
   - gaming
 ---
 
@@ -23,7 +23,7 @@ The main question is what NVIDIA means by "SE" in this context. It could indicat
 
 Final specifications have not been confirmed, including CUDA core count, memory configuration, power limits, and launch markets. Even if the RTX 5090 SE is adjusted from the full RTX 5090, it would still likely remain an enthusiast-class Blackwell card aimed at high-end gaming, content creation, and local AI workloads.
 
-**Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

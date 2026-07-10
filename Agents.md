@@ -26,7 +26,7 @@ Keep this file short to reduce prompt bloat.
 - Keep full coverage with no filler or repeated lines.
 - Ensure each paragraph adds new value: event, context, implication.
 - Use `[TPU][def]` for TechPowerUp sources.
-- Keep Copilot credit line exactly as specified in canonical instructions.
+- AI credit line is optional; if used, follow canonical instructions and place it before Sources.
 
 ## Validation
 

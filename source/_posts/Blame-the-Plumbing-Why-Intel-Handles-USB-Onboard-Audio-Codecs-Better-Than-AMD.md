@@ -1,7 +1,7 @@
 ---
 title: Blame the Plumbing Why Intel Handles USB Onboard Audio Codecs Better Than AMD
 date: 2026-07-10 20:25:00
-description: "A closer look at motherboard audio suggests Intel platforms often handle USB-connected onboard audio codecs more cleanly than AMD due to differences in chipset and I/O design."
+description: "A look at why Intel boards may handle USB-connected onboard audio codecs more cleanly than AMD platforms due to chipset and I/O design."
 tags:
   - intel
   - amd
@@ -9,8 +9,8 @@ tags:
   - audio
   - motherboard
   - chipset
-  - onboard audio
-  - pc hardware
+  - onboard-audio
+  - pc-hardware
 ---
 
 ### Quick Report
@@ -23,7 +23,7 @@ The issue is that modern onboard audio is not always wired the way older PC user
 
 Intel platforms appear to have an advantage in some of this low-level plumbing, while AMD boards can vary more depending on implementation. That does not mean every AMD board has poor audio, or that every Intel board is flawless, but it does mean the codec name alone is no longer enough to judge onboard sound quality. The platform and board layout matter just as much.
 
-**Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

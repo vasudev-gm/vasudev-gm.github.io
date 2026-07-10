@@ -5,12 +5,12 @@ description: "AMD has expanded its Hawk Point mobile APU family with 11 new Ryze
 tags:
   - amd
   - ryzen
-  - hawk point
+  - hawk-point
   - apu
   - laptop
-  - ryzen 200
-  - ryzen 100
-  - mobile cpu
+  - ryzen-200
+  - ryzen-100
+  - mobile-cpu
 ---
 
 ### Quick Report
@@ -23,7 +23,7 @@ This expansion is more about product coverage than a new architecture. Hawk Poin
 
 The additional SKUs should also give laptop vendors more flexibility when tuning power limits and price points. A thin-and-light productivity laptop, a budget student system, and a mainstream home notebook may all need slightly different CPU, GPU, and platform combinations, even if they are based on the same underlying family. Hawk Point gives AMD a familiar foundation to keep those segments covered.
 
-**Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
