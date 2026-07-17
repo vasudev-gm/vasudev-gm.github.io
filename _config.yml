@@ -3,10 +3,10 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Your Daily Tech Dose
+title: Vasudev Tech Blog
 subtitle: 'Insights and Trends in Technology'
-description: 'Latest tech news and analysis covering AMD, Apple, and emerging technologies. In-depth coverage of CPUs, GPUs, AI developments, and industry trends.'
-keywords: tech news, AMD, Apple, CPU, GPU, AI, technology news, RDNA, Ryzen, hardware news, tech analysis, tech blog, vasudev tech blog
+description: 'Vasudev Tech Blog delivers technology news and analysis covering CPUs, GPUs, AI, Windows, Linux, Android, and emerging technologies.'
+keywords: Vasudev Tech Blog, Vasudev blog, Vasudev tech news, technology news, AMD, Intel, NVIDIA, CPU, GPU, AI
 author: Vasudev Menon
 language: en
 timezone: 'Asia/Kolkata'

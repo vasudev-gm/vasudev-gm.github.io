@@ -56,16 +56,28 @@ body {
 {
   "@context": "https://schema.org",
   "@type": "Blog",
-  "name": "Your Daily Tech Dose",
-  "description": "Latest tech news and analysis covering AMD, Apple, and emerging technologies. In-depth coverage of CPUs, GPUs, AI developments, and industry trends.",
+  "name": "Vasudev Tech Blog",
+  "alternateName": "Your Daily Tech Dose",
+  "description": "Vasudev Tech Blog delivers technology news and analysis covering CPUs, GPUs, AI, Windows, Linux, Android, and emerging technologies.",
   "url": "https://vasudev-gm.github.io",
   "author": {
     "@type": "Person",
-    "name": "Vasudev Menon"
+    "@id": "https://vasudev-gm.github.io/about/#vasudev-menon",
+    "name": "Vasudev Menon",
+    "url": "https://vasudev-gm.github.io/about/",
+    "sameAs": [
+      "https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ",
+      "https://github.com/vasudev-gm/"
+    ]
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Your Daily Tech Dose",
+    "name": "Vasudev Tech Blog",
+    "alternateName": "Your Daily Tech Dose",
+    "url": "https://vasudev-gm.github.io",
+    "sameAs": [
+      "https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ"
+    ],
     "logo": {
       "@type": "ImageObject",
       "url": "https://vasudev-gm.github.io/images/logo.svg"
@@ -73,3 +85,23 @@ body {
   }
 }
 </script>
+{% if page.path == 'about/index.html' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfilePage",
+  "url": "https://vasudev-gm.github.io/about/",
+  "name": "About Vasudev Menon | Vasudev Tech Blog",
+  "mainEntity": {
+    "@type": "Person",
+    "@id": "https://vasudev-gm.github.io/about/#vasudev-menon",
+    "name": "Vasudev Menon",
+    "url": "https://vasudev-gm.github.io/about/",
+    "sameAs": [
+      "https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ",
+      "https://github.com/vasudev-gm/"
+    ]
+  }
+}
+</script>
+{% endif %}

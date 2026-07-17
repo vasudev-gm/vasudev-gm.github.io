@@ -1,8 +1,3 @@
 User-agent: *
 Allow: /
 Sitemap: https://vasudev-gm.github.io/sitemap.xml
-Disallow: /js/
-Disallow: /css/
-Disallow: /fonts/
-Disallow: /vendors/
-Disallow: /fancybox/

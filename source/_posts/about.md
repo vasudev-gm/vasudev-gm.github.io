@@ -1,5 +1,6 @@
 ---
-title: about
+title: Vasudev Tech Blog | About Vasudev Menon
+description: About Vasudev Menon, the developer and publisher behind Vasudev Tech Blog and its technology news coverage.
 date: 2024-04-21 00:30:28
 titlecase: true
 permalink: /about/
@@ -8,15 +9,15 @@ tags:
    - About Me
 skip_validation: true
 ---
-## About Me
+## Vasudev Tech Blog
 
-Welcome! I\'m Vasudev Menon, a passionate Python developer and tech enthusiast. After exploring various blogging platforms, I discovered Hexo, which has enabled me to create this space where I can share my knowledge and insights with you.
+Vasudev Tech Blog is the personal technology publication of Vasudev Menon. I cover CPUs, GPUs, AI, Windows, Linux, Android, developer tools, and emerging technologies through practical guides, product analysis, and technology news.
 
-My goal is to break down complex technical concepts into clear, actionable insights. Here, you'll find in-depth coverage of cutting-edge AI developments, emerging technologies, practical development tools, and comprehensive guides across Android, iOS, Windows, and Linux platforms. Whether you're a fellow developer, tech enthusiast, or just curious about the latest in technology, there's something here for you.
+The goal is to make complex technical topics clear and useful for developers, PC enthusiasts, and anyone following the technology industry. The site is also known as Your Daily Tech Dose.
 
-## What I do?
+## About Vasudev Menon
 
-I\'m a Python Backend Developer and have worked on Django, Flask, FastAPI, Web Scraping, App Containerization, file based DB (SQLite), RDBMS (MySQL,Postgres), and Document Based (MongoDB)
+I\'m a Python backend developer with experience in Django, Flask, FastAPI, web scraping, application containerization, SQLite, MySQL, PostgreSQL, and MongoDB.
 
 ## Where can we find you?
 
@@ -26,7 +27,7 @@ I\'m not a bot and you can reach me via these links:
 
 [Notebook talk][def2]
 
-[YouTube][def3]
+[Vasudev YouTube channel][def3]
 
 [GitHub][def4]
 
@@ -44,7 +45,7 @@ I\'m not a bot and you can reach me via these links:
 
 [def]: https://old.reddit.com/user/Vasudev1/
 [def2]: https://notebooktalk.net/profile/188-vasudev/
-[def3]: https://www.youtube.com/@vasudevmenon2496
+[def3]: https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ
 [def4]: https://github.com/vasudev-gm/
 [def5]: https://www.nomaher.com/forum/index.php?action=profile;u=62616
 [def6]: https://malwaretips.com/members/vasudev.30411/
