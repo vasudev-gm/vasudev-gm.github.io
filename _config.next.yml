@@ -53,9 +53,6 @@ dns_prefetch:
   enable: true
   urls:
   - https://github.com
-  - https://fonts.googleapis.com
-  - https://fonts.gstatic.com
-  - https://cdnjs.cloudflare.com
 
 back2top:
   # Scroll percent label in b2t button.
@@ -90,5 +87,5 @@ github_banner:
 mobile_layout_economy: true
 
 # Enable FancyBox Plugin for displaying images, videos and more. Touch enabled, responsive and fully customizable.
-fancybox: true # Disable if not needed
+fancybox: true
 mediumzoom: false # Lighter alternative to fancybox
