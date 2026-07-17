@@ -20,6 +20,34 @@ body {
   border-radius: 3px;
   box-shadow: 0 2px 2px rgba(0,0,0,0.1);
 }
+.fa.fa-youtube {
+  font-family: "Font Awesome 7 Brands";
+  font-weight: 400;
+}
+.skip-link {
+  background: #fff;
+  color: #111;
+  left: 1rem;
+  padding: .75rem 1rem;
+  position: fixed;
+  top: -4rem;
+  z-index: 10000;
+}
+.skip-link:focus {
+  top: 1rem;
+}
+:where(a, button, [role="button"], input, select, textarea):focus-visible {
+  outline: 3px solid #005fcc;
+  outline-offset: 3px;
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
 </style>
 
 <!-- Performance optimizations -->
@@ -31,6 +59,38 @@ body {
 {% if theme.motion.enable %}
   {% set motion_enable = true %}
 {% endif %}
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    var main = document.querySelector('main');
+    if (!main) return;
+
+    main.id = 'main-content';
+
+    var skipLink = document.createElement('a');
+    skipLink.className = 'skip-link';
+    skipLink.href = '#main-content';
+    skipLink.textContent = 'Skip to main content';
+    document.body.insertBefore(skipLink, document.body.firstChild);
+
+    document.querySelectorAll('[role="button"]').forEach(function(control) {
+      if (!control.hasAttribute('tabindex')) control.setAttribute('tabindex', '0');
+      if (!control.hasAttribute('aria-label') && control.classList.contains('sidebar-toggle')) {
+        control.setAttribute('aria-label', 'Toggle sidebar navigation');
+      }
+      if (!control.hasAttribute('aria-label') && control.classList.contains('popup-trigger')) {
+        control.setAttribute('aria-label', 'Open search');
+      }
+      if (!control.hasAttribute('aria-label') && control.classList.contains('book-mark-link')) {
+        control.setAttribute('aria-label', 'Bookmark this page');
+      }
+      control.addEventListener('keydown', function(event) {
+        if (event.key !== 'Enter' && event.key !== ' ') return;
+        event.preventDefault();
+        control.click();
+      });
+    });
+  });
+</script>
 <script>
   // Defer non-critical JavaScript
   function loadDeferredStyles() {

@@ -34,7 +34,7 @@ open_graph:
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
-  YouTube: https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ || fa fa-youtube
+  YouTube: https://www.youtube.com/channel/UCpCSkED9eOAQCVFEORQ_qJQ || fa-brands fa-youtube
   # tags: /tags/ || fa fa-tags
   archives: /archives/ || fa fa-archive
   Schedule Meeting: /schedule/ || fa fa-calendar
