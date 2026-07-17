@@ -1,7 +1,7 @@
 ---
 title: "MediaTek and NVIDIA Collaborate on RTX Spark for Agentic Windows PCs"
 date: 2026-06-02 02:59:53
-description: "MediaTek will enable NVIDIA RTX Spark silicon for Windows PCs, combining MediaTek SoC expertise with NVIDIA\'s AI stack for agentic-capable devices."
+description: "MediaTek will enable NVIDIA RTX Spark silicon for Windows PCs, combining MediaTek SoC expertise with NVIDIA's AI stack for agentic-capable devices."
 tags:
   - mediatek
   - nvidia
