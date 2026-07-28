@@ -30,7 +30,7 @@ open_graph:
     twitter_id:
     twitter_site:
 
-      # Menu entries
+# Menu entries
 menu:
   home: / || fa fa-home
   about: /about/ || fa fa-user
