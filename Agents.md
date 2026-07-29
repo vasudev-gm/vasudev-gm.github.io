@@ -21,7 +21,7 @@ Keep this file short to reduce prompt bloat.
 
 - Write posts in `source/_posts/` with slug filenames.
 - Enforce front matter and `### Quick Report` format.
-- Insert `<!-- more -->` after first paragraph.
+- Insert `<!-- more -->` on its own line immediately after the first paragraph.
 - Keep post body to 2-3 paragraphs total.
 - Keep full coverage with no filler or repeated lines.
 - Ensure each paragraph adds new value: event, context, implication.

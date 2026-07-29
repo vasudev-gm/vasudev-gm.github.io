@@ -36,7 +36,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- File saved in `source/_posts/` as a slug (no date prefix)
 	- Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
 	- Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
-	- `<!-- more -->` after first paragraph
+	- `<!-- more -->` on its own line immediately after the first paragraph
 	- Optional AI credit line before Sources when the post was authored with AI assistance
 	- Build/tests pass, no new errors
 
@@ -57,10 +57,10 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- `tags`: lowercase, hyphenate multi-word (except person names)
 - **Body:**
 	- Start with `### Quick Report`
-	- Place `<!-- more -->` after first paragraph
+	- Place `<!-- more -->` on its own line immediately after first paragraph
 	- Keep body length to 2-3 paragraphs total under `### Quick Report`
 	- Paragraph role model:
-		- Paragraph 1: what happened (include `<!-- more -->`)
+		- Paragraph 1: what happened, followed immediately by a standalone `<!-- more -->` line
 		- Paragraph 2: key context or evidence
 		- Paragraph 3 (optional): implications or what to watch next
 	- Escape apostrophes in body (use `\'`), but not in `title` or `description`
@@ -132,7 +132,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 
 ## Example Agent Checklist (for posts)
 1. Create `source/_posts/<slug>.md` with correct front-matter
-2. Add `### Quick Report` and `<!-- more -->` after first paragraph
+2. Add `### Quick Report` and a standalone `<!-- more -->` line after first paragraph
 3. Escape apostrophes and normalize tags
 4. Add an optional AI credit line before `### Source(s)` when AI assistance was used
 5. Run quick validations (description, filename, apostrophes)
@@ -150,7 +150,7 @@ If you want, the agent can apply an automatic pre-commit hook and a CI linter in
 
 ## Example post (structure & format)
 
-Below is a copyable example post agents should use as the canonical template. It demonstrates the required front-matter, the `### Quick Report` teaser with `<!-- more -->`, escaped apostrophes in the body, optional AI credit line placement, and reference-style source links.
+Below is a copyable example post agents should use as the canonical template. It demonstrates the required front-matter, the `### Quick Report` teaser with a standalone `<!-- more -->` line, escaped apostrophes in the body, optional AI credit line placement, and reference-style source links.
 
 ---
 title: "AIB Partners Show Off Radeon 9070 Series GPU at CES 2025"
@@ -171,7 +171,8 @@ tags:
 
 ### Quick Report
 
-AIB partners have shown off their Radeon 9070 series GPUs at CES 2025. RDNA 4 GPUs are targeted at the mainstream market and are expected to be released globally by the end of January 2025. At the moment, there is no pricing information available. RDNA4 brings in better ray tracing performance than RDNA3 and FSR4 for ML based Upscaler to compete against NVIDIA DLSS.<!-- more -->
+AIB partners have shown off their Radeon 9070 series GPUs at CES 2025. RDNA 4 GPUs are targeted at the mainstream market and are expected to be released globally by the end of January 2025. At the moment, there is no pricing information available. RDNA4 brings in better ray tracing performance than RDNA3 and FSR4 for ML based Upscaler to compete against NVIDIA DLSS.
+<!-- more -->
 
 RDNA 4 is based on TSMC 4nm node with naming scheme similar to NVIDIA\'s 5070 series to indicate the performance level. The 9070 series is expected to be available in 16GB GDDR6 memory configuration. It comes in two variants (XT and non-XT) carrying 4096 and 3072 stream processors respectively.
 
