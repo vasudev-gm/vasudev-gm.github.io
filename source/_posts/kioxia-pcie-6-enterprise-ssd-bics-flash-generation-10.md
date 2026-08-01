@@ -12,7 +12,7 @@ tags:
 
 ### Quick Report
 
-Kioxia has introduced its first PCIe 6.0 enterprise SSDs, combining the faster interface with the company\\'s newest BiCS FLASH Generation 10 memory technology. The products target data-center workloads that need higher storage bandwidth and improved performance per server.
+Kioxia has introduced its first PCIe 6.0 enterprise SSDs, combining the faster interface with the latest BiCS FLASH Generation 10 memory technology. The products target data-center workloads that need higher storage bandwidth and improved performance per server.
 <!-- more -->
 
 PCIe 6.0 storage can help reduce bottlenecks for demanding databases, artificial intelligence infrastructure, and other high-throughput applications. Enterprise adoption will depend on platform support, workload requirements, power efficiency, and the availability of compatible server systems.

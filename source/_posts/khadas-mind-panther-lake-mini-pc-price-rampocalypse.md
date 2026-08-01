@@ -1,7 +1,7 @@
 ---
 title: "Khadas Mind Mini PC Price Skyrockets Amid Memory Supply Pressures"
 date: 2026-07-30 16:15:00
-description: "Khadas\\'s Mind mini PC with Intel Panther Lake hardware reportedly faces a sharp price increase as memory supply pressures raise component costs."
+description: "Khadas Mind mini PC with Intel Panther Lake hardware reportedly faces a sharp price increase as memory supply pressures raise component costs."
 tags:
   - khadas
   - mind
@@ -12,7 +12,7 @@ tags:
 
 ### Quick Report
 
-Khadas\'s Mind mini PC built around Intel Panther Lake hardware is reportedly becoming significantly more expensive as memory supply pressures affect the system\\'s cost. The unusual pricing change highlights how component availability can quickly reshape the market for compact PCs.
+The Khadas Mind mini PC built around Intel Panther Lake hardware is reportedly becoming significantly more expensive as memory supply pressures affect the system cost. The unusual pricing change highlights how component availability can quickly reshape the market for compact PCs.
 <!-- more -->
 
 Buyers considering the Mind will need to compare the revised price with competing mini PCs and account for the included memory and storage configuration. Pricing may remain volatile while suppliers and manufacturers adjust to the changing component market.

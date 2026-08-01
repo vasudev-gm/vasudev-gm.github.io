@@ -12,7 +12,7 @@ tags:
 
 ### Quick Report
 
-Developers are reportedly porting the open-source Linux AMD graphics driver to Windows, bringing parts of the community-developed graphics stack to Microsoft\\'s operating system. The effort could provide a useful alternative development path for testing and experimenting with AMD GPU support.
+Developers are reportedly porting the open-source Linux AMD graphics driver to Windows, bringing parts of the community-developed graphics stack to Windows. The effort could provide a useful alternative development path for testing and experimenting with AMD GPU support.
 <!-- more -->
 
 The project still faces major compatibility and maturity challenges because Windows uses different driver interfaces and graphics subsystems. Users should treat early builds as experimental until hardware support, stability, performance, and installation workflows receive broader testing.
