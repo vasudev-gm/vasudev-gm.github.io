@@ -35,12 +35,12 @@
     "hexo-renderer-marked": "^7.0.1",
     "hexo-renderer-stylus": "^3.0.1",
     "hexo-server": "^3.0.0",
-    "hexo-theme-next": "^8.27.0",
-    "vlt": "^1.0.0-rc.32"
+    "hexo-theme-next": "^8.28.0",
+    "vlt": "^1.0.1"
   },
   "devDependencies": {
     "dotenv": "^17.4.2",
-    "mocha": "^11.7.6"
+    "mocha": "^11.8.0"
   },
   "overrides": {
     "stylus": "*",
