@@ -1,7 +1,7 @@
 ---
-title: "Valve\'s Steam Frame VR Headset May Face Price Increase Before Launch"
+title: "Valve's Steam Frame VR Headset May Face Price Increase Before Launch"
 date: 2026-07-30 15:20:00
-description: "Valve\'s upcoming Steam Frame VR headset could become more expensive after reported Qualcomm processor price increases ahead of launch."
+description: "Valve's upcoming Steam Frame VR headset could become more expensive after reported Qualcomm processor price increases ahead of launch."
 tags:
   - valve
   - steam-frame

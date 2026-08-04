@@ -35,7 +35,8 @@ This file defines conventions and rules for agents and contributors. Keep instru
 - **Success:**
 	- File saved in `source/_posts/` as a slug (no date prefix)
 	- Valid front-matter: `title`, `date` (YYYY-MM-DD HH:MM:SS, current local time), `description` (≤160 chars), `tags`
-	- Escaped apostrophes in post body (use `\'`), except in `title` and `description` fields
+		- Valid YAML quoting: never use `\'` inside double-quoted `title` or `description` values; use a plain apostrophe or YAML-safe single-quoted/block scalar syntax
+		- Escape apostrophes in post body only when required by the repository validator (use `\'`)
 	- `<!-- more -->` on its own line immediately after the first paragraph
 	- Optional AI credit line before Sources when the post was authored with AI assistance
 	- Build/tests pass, no new errors
@@ -63,7 +64,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 		- Paragraph 1: what happened, followed immediately by a standalone `<!-- more -->` line
 		- Paragraph 2: key context or evidence
 		- Paragraph 3 (optional): implications or what to watch next
-	- Escape apostrophes in body (use `\'`), but not in `title` or `description`
+	- Escape apostrophes in body only when required by the repository validator (use `\'`), but never put `\'` in YAML double-quoted front matter
 	- Keep full factual coverage with no filler, repetition, or generic padding
 	- Every paragraph must add new information
 	- AI credit line before Sources is optional. Add it only when the post was authored with AI assistance, and name the tool/provider actually used.
@@ -87,12 +88,13 @@ This file defines conventions and rules for agents and contributors. Keep instru
 
 
 ## Quality Gates (before commit)
-1. Build: run prebuild and `npm run build` if it doesn't exist (or `node scripts/generate-clarity-config.js && npx hexo generate`); confirm no build errors
+1. Build: run `npm run build` (or `node scripts/generate-clarity-config.js && npx hexo generate`); confirm no `YAMLException` or other build errors
 2. Test: run `npm test` (Mocha); add minimal test if code changes
 3. Lint/Markdown: check structure, apostrophes, tag format
 
 ### Quick Agent Checks
-- Fix unescaped apostrophes in new/updated posts
+- Fix unescaped apostrophes in post body without introducing invalid YAML escapes
+- Run Hexo parsing/build checks; `npm run validate-posts` alone does not catch all YAML errors
 - Ensure description ≤160 chars
 - Filename is slug-only, in `source/_posts/`
 - TechPowerUp source label is `[TPU][def]`

@@ -1,7 +1,7 @@
 ---
 title: "AMD Radeon RX 9050 4 GB Variant Will Be OEM Exclusive"
 date: 2026-07-30 15:55:00
-description: "AMD\'s Radeon RX 9050 4 GB version is reportedly reserved for OEM systems, while retail models use a larger memory configuration."
+description: "AMD's Radeon RX 9050 4 GB version is reportedly reserved for OEM systems, while retail models use a larger memory configuration."
 tags:
   - amd
   - radeon

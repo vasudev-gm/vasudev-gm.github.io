@@ -30,5 +30,8 @@ Keep this file short to reduce prompt bloat.
 
 ## Validation
 
-- Run: `npm run validate-posts`
+- Run: `npm run validate-posts`.
+- Run: `npm run build` (which runs the Clarity prebuild) before handoff when Hexo or front matter changes are involved.
+- YAML front matter must be valid YAML: never write backslash-apostrophe inside double-quoted title or description values; use an unescaped apostrophe or YAML-safe single-quoted/block syntax.
+- A passing post validator is not sufficient; Hexo must parse every post without YAMLException errors.
 - If validation fails, fix and re-run before concluding.

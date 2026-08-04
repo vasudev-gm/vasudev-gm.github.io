@@ -1,7 +1,7 @@
 ---
 title: "NVIDIA RTX Spark Laptop Prototype Reviewed Before Official Launch"
 date: 2026-07-30 15:35:00
-description: "A reportedly recovered NVIDIA RTX Spark laptop prototype has been reviewed ahead of the platform\'s official launch."
+description: "A reportedly recovered NVIDIA RTX Spark laptop prototype has been reviewed ahead of the platform's official launch."
 tags:
   - nvidia
   - rtx-spark
