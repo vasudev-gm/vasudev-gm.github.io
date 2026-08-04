@@ -46,7 +46,7 @@ jobs:
       env:
         MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Build
-      run: vlt run build
+      run: npm build
       env:
         MSFT_CLARITY: ${{ secrets.MSFT_CLARITY }}
     - name: Upload Pages artifact
