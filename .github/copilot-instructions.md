@@ -48,6 +48,10 @@ This file defines conventions and rules for agents and contributors. Keep instru
 - `source/_posts/`: all posts live here
 - `.github/workflows/pages.yml`: CI/deploy logic
 
+### Dependency Installation
+- Use `npm ci` with the committed `package-lock.json` for local and CI installs.
+- Do not use `vlt install`; VLT can fail while resolving npm alias packages such as `strip-ansi-cjs`.
+
 
 ## Post Conventions (strict)
 - **Filename:** Slug of title, no date prefix (e.g., `intel-panther-lake-configurations-leak.md`)

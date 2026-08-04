@@ -7,7 +7,7 @@
     "name": "Vasudev"
   },
   "private": true,
-  "packageManager": "vlt",
+  "packageManager": "npm",
   "scripts": {
     "prebuild": "node scripts/generate-clarity-config.js",
     "validate-posts": "node scripts/validate-posts.js",
