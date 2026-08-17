@@ -46,7 +46,7 @@ menu_settings:
   badges: true
 
 # Vanilla JavaScript plugin for lazyloading images.
-lazyload: true
+marked.lazyload: true
 
 # Prefetch Critical Resources
 preconnect: true
