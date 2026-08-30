@@ -1,7 +1,7 @@
 ---
 title: "SteamOS 3.9.0 Preview Launches with KDE 6.7.3 and Linux Kernel 7.2"
 date: 2026-08-30 08:25:00
-description: "SteamOS 3.9.0 preview brings KDE 6.7.3 and Linux kernel 7.2, continuing Valve\'s push to refine the Linux-based gaming experience."
+description: "SteamOS 3.9.0 preview brings KDE 6.7.3 and Linux kernel 7.2, continuing Valve's push to refine the Linux-based gaming experience."
 tags:
   - steamos
   - kde
