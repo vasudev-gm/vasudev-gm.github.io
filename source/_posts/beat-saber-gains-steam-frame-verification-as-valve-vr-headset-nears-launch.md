@@ -1,7 +1,7 @@
 ---
 title: "Beat Saber Gains Steam Frame Verification as Valve VR Headset Nears Launch"
 date: 2026-08-29 00:23:00
-description: "Beat Saber is now Steam Frame verified, underscoring Valve\'s push to ready VR games for its upcoming headset launch."
+description: "Beat Saber is now Steam Frame verified, underscoring Valve's push to ready VR games for its upcoming headset launch."
 tags:
   - beat-saber
   - steam-frame
