@@ -16,7 +16,8 @@ tags:
 
 ### Quick Report
 
-A fresh round of Nova Lake-S speculation suggests Intel\'s second-best unlocked desktop SKU with big last level cache (bLLC) could ship with fewer performance cores than earlier theorized. The updated configuration described by a leaker points to two compute tiles with seven performance cores each, resulting in 14 P-cores overall, while still pairing with a large bLLC pool.<!-- more -->
+A fresh round of Nova Lake-S speculation suggests Intel\'s second-best unlocked desktop SKU with big last level cache (bLLC) could ship with fewer performance cores than earlier theorized. The updated configuration described by a leaker points to two compute tiles with seven performance cores each, resulting in 14 P-cores overall, while still pairing with a large bLLC pool.
+<!-- more -->
 
 TechPowerUp summarizes the rumored stack as a set of \"Core Ultra 400K\"-class parts, with the top configurations allegedly using dual compute tiles and up to 288
 MB bLLC. The specific adjustment called out is a move from an 8+12 tile layout to a 7+12 tile layout for the sub-flagship dual-tile part, while the flagship is still described as two 8+16 tiles.
