@@ -38,7 +38,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 		- Valid YAML quoting: never use `\'` inside double-quoted `title` or `description` values; use a plain apostrophe or YAML-safe single-quoted/block scalar syntax
 		- Escape apostrophes in post body only when required by the repository validator (use `\'`)
 	- `<!-- more -->` on its own line immediately after the first paragraph
-	- Optional AI credit line before Sources when the post was authored with AI assistance
+	- Required AI credit line before Sources when the post was authored with AI assistance; identify the actual agent/provider and model
 	- Build/tests pass, no new errors
 
 
@@ -71,7 +71,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	- Escape apostrophes in body only when required by the repository validator (use `\'`), but never put `\'` in YAML double-quoted front matter
 	- Keep full factual coverage with no filler, repetition, or generic padding
 	- Every paragraph must add new information
-	- AI credit line before Sources is optional. Add it only when the post was authored with AI assistance, and name the tool/provider actually used.
+	- AI credit line before Sources is required when the post was authored with AI assistance. Identify the actual agent/provider and model used.
 - **Sources:** Use reference-style links
 	- For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
 
@@ -84,11 +84,11 @@ This file defines conventions and rules for agents and contributors. Keep instru
 	Written using GitHub Copilot GPT-5 mini in agentic mode instructed to follow current codebase style and conventions for writing articles.
 	Written using Codex GPT-5 in agentic mode instructed to follow current codebase style and conventions for writing articles.
 	Written using Claude Code Claude Sonnet 4.5 in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using Kimi Code {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
 	Written using OpenRouter API {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
 	Notes for validators and agents:
-	- Missing Copilot credit line before Sources (optional if authored without Copilot).
-	- The repository validator may warn when no Copilot credit line is present, but this is not an error.
+	- The repository validator may warn when no AI credit line is present; posts authored without AI assistance do not need one.
 
 
 ## Quality Gates (before commit)
