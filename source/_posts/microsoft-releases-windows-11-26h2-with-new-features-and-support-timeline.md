@@ -23,5 +23,6 @@ The release also adds new Magnifier controls, a Braille Viewer for Narrator, exp
 ### Source(s)
 
 - [TPU][def]
+- [VideoCardz](https://videocardz.com/newz/windows-11-26h2-is-now-available)
 
 [def]: https://www.techpowerup.com/353239/microsoft-launches-windows-11-26h2-update
