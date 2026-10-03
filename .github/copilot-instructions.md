@@ -38,7 +38,7 @@ This file defines conventions and rules for agents and contributors. Keep instru
 		- Valid YAML quoting: never use `\'` inside double-quoted `title` or `description` values; use a plain apostrophe or YAML-safe single-quoted/block scalar syntax
 		- Escape apostrophes in post body only when required by the repository validator (use `\'`)
 	- `<!-- more -->` on its own line immediately after the first paragraph
-	- Required AI credit line before Sources when the post was authored with AI assistance; identify the actual agent/provider and model
+	- Required AI credit line before Sources when the post was authored with AI assistance; identify the actual agent/provider and exact model ID when available
 	- Build/tests pass, no new errors
 
 
@@ -75,9 +75,10 @@ This file defines conventions and rules for agents and contributors. Keep instru
 - **Sources:** Use reference-style links
 	- For TechPowerUp sources, the link label must be exactly `[TPU][def]` (not `[TechPowerUp ...][def]` or `[TechPowerUp][def]`)
 
- - Credit line: optional. If the post was authored with AI assistance, add a single credit line immediately before the Sources section. Use a clear provider/tool and model identifier:
+ - Credit line: optional. If the post was authored with AI assistance, add a single credit line immediately before the Sources section. Record the provider/tool and exact model ID reported by the current session. Model names are not a fixed list; accept any current or future label, including GPT, Claude, or other providers. Never substitute a newer, more familiar, or guessed model name. If the runtime does not expose the model, identify the provider and say that the model was not disclosed.
 
 	Written using {tool/provider} {model name} in agentic mode instructed to follow current codebase style and conventions for writing articles.
+	Written using {tool/provider} (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.
 
 	Examples:
 
