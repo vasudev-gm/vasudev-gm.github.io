@@ -19,7 +19,7 @@ The HX designation is associated with Intel\'s high-performance mobile processor
 
 Until Intel publishes an official processor lineup, the reported branding and product positioning remain subject to change. Further leaks or an eventual announcement will be needed to clarify how Nova Lake-HX fits into the company\'s mobile portfolio.
 
-**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot MAI-Code-1.1-Flash in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

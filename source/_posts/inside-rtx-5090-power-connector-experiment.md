@@ -19,7 +19,7 @@ The temperature figure applies to this particular build and its test conditions;
 
 This is best viewed as an individual hardware experiment, not a general installation recommendation. Anyone considering power-connector changes should follow the GPU and power-supply manufacturers\' specifications, since an incorrectly built connection can damage components or create a safety hazard.
 
-**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot MAI-Code-1.1-Flash in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
