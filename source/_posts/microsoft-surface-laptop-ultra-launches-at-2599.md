@@ -1,7 +1,7 @@
 ---
-title: "Microsoft's Premium Surface Laptop Ultra Starts at $2,599 and Ships October 16"
+title: "Microsoft Pushes the Surface Laptop into a New Premium Tier"
 date: 2026-10-08 09:10:00
-description: "Microsoft is pricing the premium Surface Laptop Ultra at $2,599, with shipping slated for October 16 as a higher-end Windows laptop option."
+description: "A $2,599 starting price and October 16 shipping date suggest Microsoft is placing a more expensive flagship laptop at the center of its premium Windows pitch."
 tags:
   - microsoft
   - surface

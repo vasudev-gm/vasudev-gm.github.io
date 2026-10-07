@@ -1,7 +1,7 @@
 ---
-title: "AMD Prepares to Bring FSR 4 to More APUs by the End of 2026"
+title: "AMD's FSR 4 Expansion Could Make More APUs Competitive by 2026"
 date: 2026-10-08 09:00:00
-description: "AMD confirms FSR 4 is heading to APUs by the end of 2026, expanding the upscaling feature beyond current Radeon-only hardware."
+description: "AMD plans to bring FSR 4 to a wider set of APUs, which could strengthen the integrated graphics story in laptops and small systems."
 tags:
   - amd
   - fsr-4

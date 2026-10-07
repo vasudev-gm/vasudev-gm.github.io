@@ -1,7 +1,7 @@
 ---
-title: "Intel Prepares a New Core 2000HX Laptop Line Around Raptor Lake-Next"
+title: "Raptor Lake-Next Naming Hints at a Larger Intel Core 2000HX Laptop Push"
 date: 2026-10-08 09:01:00
-description: "Intel is reportedly preparing a Core 2000HX laptop series based on Raptor Lake-Next, signaling a broader mobile refresh."
+description: "Intel's naming pattern suggests a broader premium mobile refresh, with Raptor Lake-Next likely setting the stage for a new Core 2000HX wave."
 tags:
   - intel
   - raptor-lake-next

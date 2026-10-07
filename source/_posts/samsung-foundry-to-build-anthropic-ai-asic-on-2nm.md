@@ -1,7 +1,7 @@
 ---
-title: "Samsung Foundry Will Build Anthropic's Next AI ASIC on a 2 nm Node"
+title: "Anthropic's Custom AI ASIC Gains a 2 nm Manufacturing Backer in Samsung"
 date: 2026-10-08 09:02:00
-description: "Samsung Foundry will reportedly manufacture Anthropic's next AI ASIC on a 2 nm node, highlighting the push into custom silicon."
+description: "Samsung's foundry capacity could give Anthropic a major custom AI silicon push, with a 2 nm process adding more performance and efficiency upside."
 tags:
   - samsung
   - foundry

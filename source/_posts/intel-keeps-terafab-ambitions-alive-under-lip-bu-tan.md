@@ -1,7 +1,7 @@
 ---
-title: "Intel Keeps TeraFabrics Ambitions Alive Under Lip-Bu Tan"
+title: "Intel Keeps a Long-Term Foundry Bet Alive as TeraFabrics Stays in Play"
 date: 2026-10-08 09:12:00
-description: "Intel is continuing to work on TeraFabrics, with CEO Lip-Bu Tan signaling the effort remains important to the company's manufacturing strategy."
+description: "Intel's CEO says the company is still backing TeraFabrics, a signal that the long-range manufacturing bet remains strategically relevant."
 tags:
   - intel
   - terafab
