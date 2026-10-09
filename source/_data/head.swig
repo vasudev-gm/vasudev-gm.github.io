@@ -111,6 +111,9 @@ body {
 <script src="/js/clarity-config.js" defer></script>
 <script src="/js/clarity-init.js" defer></script>
 
+<!-- app impact verification script -->
+<script type="text/javascript">(function(i,m,p,a,c,t){c.ire_o=p;c[p]=c[p]||function(){(c[p].a=c[p].a||[]).push(arguments)};t=a.createElement(m);var z=a.getElementsByTagName(m)[0];t.async=1;t.src=i;z.parentNode.insertBefore(t,z)})('https://utt.impactcdn.com/P-A7935577-6d97-4bf6-971a-935ae90f4bf91.js','script','impactStat',document,window);impactStat('transformLinks');impactStat('trackImpression');</script>
+
 <!-- Schema.org markup -->
 <script type="application/ld+json">
 {
