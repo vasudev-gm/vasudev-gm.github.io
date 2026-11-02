@@ -23,7 +23,7 @@
     "version": "8.1.2"
   },
   "dependencies": {
-    "glob": "^13.0.6",
+    "glob": "^14.0.2",
     "hexo": "^8.1.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
