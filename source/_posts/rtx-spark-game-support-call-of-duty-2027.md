@@ -19,7 +19,7 @@ RTX Spark is an Arm-based platform pairing an NVIDIA Blackwell graphics processo
 
 For prospective buyers, the practical question is less about the headline game count and more about whether the specific games they play are supported natively. Microsoft and NVIDIA will need to keep expanding compatibility after launch, with Call of Duty serving as a prominent test of that effort in 2027.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

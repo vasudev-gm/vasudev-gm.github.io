@@ -18,7 +18,7 @@ AMD and Microsoft have confirmed FSR 4.1 for Xbox Series X and Series S, but hav
 
 Xbox CTO Scott Van Vliet also pointed to FSR Diamond for Project Helix, Microsoft\'s next-generation Xbox platform. AMD describes the upcoming technology as using machine-learning upscaling and multi-frame generation. The teaser outlines the direction of the platform, but leaves performance targets and implementation details for a future announcement.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

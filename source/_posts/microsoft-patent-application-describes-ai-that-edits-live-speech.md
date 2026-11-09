@@ -18,7 +18,7 @@ Microsoft has filed a patent application for an AI system that can change what s
 
 In the filing, an AI agent scans live audio, swaps or removes words based on rules and user profile data, and then regenerates both audio and visuals with a delay of roughly one to ten seconds. The system could run on AR glasses, phones, tablets, or cameras, and the patent also covers live translation with lip-sync matching, while suggesting use cases such as lectures, award shows, game shows, and live sports.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

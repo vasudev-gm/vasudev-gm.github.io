@@ -18,7 +18,7 @@ A Chinese startup has unveiled what it describes as a homegrown extreme-ultravio
 
 EUV lithography depends on specialized light sources as part of a complex manufacturing system, so a single component announcement should not be read as proof that a complete domestic EUV scanner is ready. Further technical disclosure and independent verification will be needed to assess the source\'s performance and its role in any manufacturing tool.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

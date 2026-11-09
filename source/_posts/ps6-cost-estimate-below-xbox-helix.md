@@ -18,7 +18,7 @@ A new estimate attributed to hardware leaker Kepler_L2 puts the PlayStation 6’
 
 Even if the gap proves accurate, the estimate does not guarantee a cheaper PS6: Sony has indicated it does not plan to sell hardware at significant losses, and recent reports have already placed the console’s own component costs at a high level. The same reporting suggests Helix may have greater theoretical compute performance, but specifications and pricing remain unconfirmed, making any direct price or performance comparison provisional.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

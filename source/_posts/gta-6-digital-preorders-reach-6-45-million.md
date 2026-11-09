@@ -18,7 +18,7 @@ Sensor Tower estimates GTA 6 has reached 6.45 million digital pre-orders worldwi
 
 The tracker counted 6.08 million pre-orders the previous week, a rise of about 370,000, but the figures are third-party estimates and Take-Two has not confirmed them. Sensor Tower revised its estimation model on October 5, so older platform-share comparisons may not be directly comparable. The game is scheduled to launch on PS5 and Xbox Series X|S on November 19.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

@@ -17,7 +17,7 @@ Microsoft is reportedly contacting some Xbox Series X|S owners who have not used
 
 The offer appears limited to the United States, and the top Series X valuation assumes the console is in good condition with its controller and cables. The campaign follows Microsoft\'s earlier plan to use traded-in consoles for lower-priced resale. Because the payout is store credit rather than cash, the stated maximum is not equivalent to a cash resale price.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

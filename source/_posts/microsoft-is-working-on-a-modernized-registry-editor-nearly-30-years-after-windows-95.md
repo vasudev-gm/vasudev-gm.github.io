@@ -18,7 +18,7 @@ The classic Registry Editor in Windows has barely changed since Windows 95, and 
 
 The underlying issue is not just cosmetic: the registry is one of the most sensitive parts of the operating system, and the current tool still feels built for the 1990s. Modern proposals include tabs, non-blocking search, automatic backups, undo and redo, and more obvious safeguards before risky changes are applied, which would make the tool far safer for both power users and system administrators. If Microsoft does eventually refresh it, the update would be a long-overdue modernization of one of the oldest pieces of the Windows experience.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

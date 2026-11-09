@@ -18,7 +18,7 @@ Marvell has introduced a second-generation Structera-X memory expander featuring
 
 CXL memory expansion is intended to let systems attach memory beyond the capacity directly installed with a host processor. Marvell is positioning this generation for inference workloads, but the available headline does not provide capacity, bandwidth, latency, or system availability figures needed to compare it with other memory-expansion products.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

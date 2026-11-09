@@ -18,7 +18,7 @@ AMD is bringing FSR 4.1 to its Radeon RX 6000 lineup, spanning the RX 6950 XT th
 
 The expansion adds support for RDNA 2 hardware that was not part of the initial RX 7000-focused rollout. AMD also plans a Vulkan implementation, opening another route for developers to integrate the feature. The company did not give a firm availability date in this announcement and said it is working on support for more APU models.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

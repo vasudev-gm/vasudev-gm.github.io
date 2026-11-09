@@ -18,7 +18,7 @@ A report says Intel\'s future Razor Lake-AX platform could deliver up to 700 TOP
 
 This adds a performance target to earlier reporting about Razor Lake-AX possibly returning to on-package memory. The two claims concern different aspects of the rumored platform, and neither alone establishes a final design, launch schedule, or real-world application performance.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

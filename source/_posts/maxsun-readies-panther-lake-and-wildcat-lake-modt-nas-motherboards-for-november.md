@@ -18,7 +18,7 @@ Maxsun has shared full specifications for the SK-PTLNAS and SK-WCLAIO, two NAS-f
 
 The SK-PTLNAS tops out at the Core Ultra 9 386H, a 16-core chip with four Xe3 GPU cores, up to 128 GB of DDR5-7200 memory, five M.2 slots, three Mini SAS ports, and a variety of high-speed network ports. The SK-WCLAIO is the smaller sibling, measuring 90 x 165 mm with a six-core Core 7 350, a single DDR5-6400 SO-DIMM slot, 1 TB of onboard UFS 3.1 storage, and four M.2 slots, aimed at a compact always-on NAS build.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

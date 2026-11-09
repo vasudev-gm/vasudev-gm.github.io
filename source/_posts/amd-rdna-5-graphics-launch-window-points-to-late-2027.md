@@ -18,7 +18,7 @@ A new report places AMD’s RDNA 5 graphics products in the second half of 2027.
 
 The estimate differs from an earlier rumor in this blog that suggested RDNA 5 gaming GPUs might wait until 2028. These claims may reflect different assumptions about product timing, and neither establishes when specific Radeon cards will reach buyers. More detail from AMD or its partners will be needed to clarify the roadmap.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

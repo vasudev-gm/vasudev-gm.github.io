@@ -18,7 +18,7 @@ Corsair launched an updated 1200 W RM1200e power supply with PinProtect, its per
 
 The PSU is Cybenetics Platinum certified, reaches up to 91% overall efficiency, and carries Intel ATX 3.1 and PCIe 5.1 certifications plus a 10-year warranty. Corsair lists launch pricing from US$204.99 in the United States; the feature and price details come from the manufacturer\'s announcement.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

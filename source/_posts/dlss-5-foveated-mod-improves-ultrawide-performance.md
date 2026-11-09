@@ -18,7 +18,7 @@ A community ReShade add-on called FoveatedDLSS5 applies a VR-style technique to 
 
 The trade-off depends on display shape: default settings leave about 71% of pixels at full processing for the tested ultrawide resolution, compared with 93% at 4K, while the mod disables itself at 3440×1440 unless users adjust the center zone. It remains a pre-release tool tested in one game and requires DLSS 5 neural rendering after upscaling, so it cannot be combined with the Neural Upstream method. DLSS 5 is not officially supported on RTX 4090, making that result dependent on a modified runtime.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

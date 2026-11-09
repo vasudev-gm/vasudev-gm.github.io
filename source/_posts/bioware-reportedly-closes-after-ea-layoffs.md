@@ -17,7 +17,7 @@ BioWare confirmed that it is closing and that early development on the next Mass
 
 The closure is a major change for the studio behind the Mass Effect and Dragon Age series. EA has not publicly detailed what will happen to BioWare\'s remaining staff or intellectual property; the reported project cancellation concerns early development of the next Mass Effect, not the status of every franchise or existing game.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

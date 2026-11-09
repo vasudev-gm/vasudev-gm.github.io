@@ -17,7 +17,7 @@ US Representative Ritchie Torres has announced the Power to the Players Act, a p
 
 The issue overlaps with an existing debate about digital purchases, licenses, and access when a service or storefront changes. This proposal is distinct from the legal arguments already covered here: its significance will depend on the bill text, its progress through Congress, and how it addresses consumer access to purchased games.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

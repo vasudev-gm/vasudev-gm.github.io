@@ -18,7 +18,7 @@ Microsoft is retiring eight OneDrive-linked Copilot actions from the Windows 11 
 
 Microsoft describes the change as simplifying the context menu. Reporting says a staged removal will begin in mid-November 2026 and finish by December; users can still reach Copilot features through Ask Copilot, File Explorer Home, or the OneDrive activity center.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

@@ -19,7 +19,7 @@ The key issue is that the Surface Laptop Ultra appears to sit well above the sta
 
 The broader takeaway is that premium Windows laptops are continuing to move upward in price, even as the market remains sensitive to cost. Microsoft is clearly trying to anchor a high-end narrative with a clear availability window, which makes the October 16 ship date a meaningful signal for buyers and competitors alike.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

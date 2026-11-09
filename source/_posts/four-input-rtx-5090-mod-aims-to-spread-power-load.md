@@ -17,7 +17,7 @@ A modder has modified an NVIDIA GeForce RTX 5090 to use four 8-pin power connect
 
 This differs from an earlier RTX 5090 connector experiment covered here, which used two 8-pin inputs on a custom board. Neither modification establishes that similar changes are broadly compatible or safe; the new report describes an individual project, and no installation instructions are provided here.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

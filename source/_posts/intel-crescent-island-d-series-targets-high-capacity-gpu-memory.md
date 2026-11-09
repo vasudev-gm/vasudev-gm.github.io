@@ -18,7 +18,7 @@ Intel’s Crescent Island GPU has gained a D-series designation, and the reporte
 
 The large stated memory capacity points to a data-center role rather than a conventional gaming graphics card. Earlier coverage in this blog focused on Linux media-driver support for Crescent Island; this report instead concerns its product naming and memory configuration. Intel has not provided further details in the source headline.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

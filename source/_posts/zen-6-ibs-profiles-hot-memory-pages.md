@@ -19,7 +19,7 @@ That information can help identify hot pages, or memory regions accessed frequen
 
 The feature could be useful as server platforms add more memory tiers, including CXL-attached capacity, but the operational impact depends on the kernel integration and workload. The presentation describes a profiling capability, not a guarantee that every Zen 6 system will automatically move data between memory tiers.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

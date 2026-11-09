@@ -17,7 +17,7 @@ Shipping records have surfaced four identifiers for Intel\'s rumored Raptor Lake
 
 The records do not confirm final product names or retail specifications. The 16-core sample may correspond to an earlier rumor about an LGA1700 replacement for the Core i5-14600K, while Gigabyte BIOS updates for B760 and H610 boards suggest the existing socket remains relevant. The refreshed desktop CPUs are expected in 2027, but Intel has not announced a date or identified the other two SKUs.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

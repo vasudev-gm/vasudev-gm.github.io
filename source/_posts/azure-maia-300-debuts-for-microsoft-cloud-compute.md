@@ -18,7 +18,7 @@ Microsoft has released Maia 300, a compute processor for its Azure cloud platfor
 
 The announcement places Maia 300 within Azure’s hardware portfolio, where purpose-built processors can give Microsoft another way to serve cloud workloads alongside third-party compute products. The supplied report headline does not specify performance, configuration, or availability details, so those capabilities will need to be judged from further technical information.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

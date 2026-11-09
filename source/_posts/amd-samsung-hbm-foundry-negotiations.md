@@ -19,7 +19,7 @@ AMD has a stated HBM relationship with Samsung: a March memorandum of understand
 
 For now, this is a reported negotiation, not a completed deal. Any shift in AMD foundry sourcing would carry technical and execution risks, so the key signal to watch is whether either company confirms a manufacturing commitment beyond the existing memory relationship.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

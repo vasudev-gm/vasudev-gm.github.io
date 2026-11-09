@@ -17,7 +17,7 @@ A PlayStation 5 homebrew developer reportedly demonstrated a jailbreak on firmwa
 
 The console\'s hypervisor remains unbroken, according to the report, leaving the private demonstration short of enabling game backups or a broader homebrew release. The timing has drawn attention because GTA 6 is also reported to require firmware 14.10, though Rockstar and Sony have not confirmed that requirement. Until more details are made public, the jailbreak\'s reach and prospects remain unclear.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

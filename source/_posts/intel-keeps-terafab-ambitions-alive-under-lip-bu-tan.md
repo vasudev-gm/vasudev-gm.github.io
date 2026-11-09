@@ -19,7 +19,7 @@ TeraFabrics has been viewed as part of Intel’s wider effort to expand its manu
 
 The real takeaway is that Intel is trying to balance near-term operational pressure with long-range manufacturing bets. Even if the roadmap remains difficult, the message from Lip-Bu Tan is that strategic programs with future leverage continue to matter, especially in a market where AI infrastructure demands more advanced packaging and supply-chain control.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

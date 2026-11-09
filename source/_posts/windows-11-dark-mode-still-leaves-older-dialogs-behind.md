@@ -17,7 +17,7 @@ Microsoft is adding dark-mode styling to some older Windows 11 interface element
 
 Windows 11 has accumulated interface components from different generations, which makes a consistent theme harder to achieve across every dialog and control. The reported additions address some of those older areas, but the headline indicates that users should not expect a complete dark-mode treatment yet.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

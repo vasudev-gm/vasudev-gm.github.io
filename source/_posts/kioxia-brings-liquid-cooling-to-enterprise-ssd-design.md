@@ -17,7 +17,7 @@ Kioxia is introducing direct liquid cooling support for enterprise SSDs. The mov
 
 Enterprise SSDs operate in systems where storage performance, power, and thermal management all affect deployment choices. Direct liquid cooling support gives infrastructure designers another option to consider when planning high-density storage, though the report headline does not identify compatible drive models or provide performance and deployment details.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

@@ -19,7 +19,7 @@ Custom ASICs matter because they can be tuned for the exact workload mix an AI c
 
 The broader implication is that AI infrastructure is no longer just about general-purpose GPUs. More specialized silicon is likely to become part of the stack, allowing large model developers to optimize cost, performance, and power for their unique workloads.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

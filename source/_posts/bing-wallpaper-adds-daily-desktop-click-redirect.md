@@ -17,7 +17,7 @@ The Bing Wallpaper app reportedly opens Bing.com when users click an unused part
 
 An earlier version of the app offered a control for this behavior, but the current release reportedly has no equivalent opt-out. The app has also been prompting users to make Bing their default search provider. Anyone who wants rotating desktop images without the redirect can switch to Windows Spotlight or another wallpaper tool.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

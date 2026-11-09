@@ -18,7 +18,7 @@ A new report says NVIDIA may introduce a 24 GB GeForce RTX 5080 in the first qua
 
 An earlier RTX 50-series refresh rumor in this blog also mentioned a 24 GB RTX 5080, but attached that capacity to a possible SUPER lineup and a different schedule. This latest report adds a Q1 2027 window; without partner briefings or an NVIDIA announcement, the product name, configuration, and timing remain uncertain.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

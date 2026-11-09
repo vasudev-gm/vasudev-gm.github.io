@@ -19,7 +19,7 @@ The HX label is typically associated with powerful laptops aimed at creators, ga
 
 The bigger point is that Intel\'s mobile roadmap remains fluid, and a new naming generation can signal more than incremental silicon improvements. It often points to a broader product strategy that includes laptops, cooling solutions, and platform expectations across the premium market.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

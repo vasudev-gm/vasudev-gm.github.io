@@ -17,7 +17,7 @@ A leaked PassMark result attributed to a 28-core Nova Lake-S desktop sample list
 
 These figures are preliminary: the benchmark identifies an engineering platform, not a retail processor, and its run conditions are unknown. The sample also scores unusually low in PassMark Memory Mark, at up to 2,523.4 versus roughly 3,500 for the Core Ultra 9 285K, so memory configuration and early firmware may affect the comparison. Intel has not confirmed these scores or the processor\'s launch specifications.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

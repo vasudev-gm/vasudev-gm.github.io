@@ -19,7 +19,7 @@ Validation is often the point where memory vendors and GPU designers confirm tha
 
 The bigger story is strategic. HBM4E is expected to be central to the next wave of AI infrastructure, and successful validation helps reduce risk for hyperscalers and AI platform builders that are planning equipment around the most demanding inference and training workloads.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

@@ -17,7 +17,7 @@ Xiaomi has confirmed that its Redmi Book 14 2027 will use Intel’s Wildcat Lake
 
 Xiaomi lists a 2.8K display and a 72 Wh battery, claiming up to 20.2 hours of office use and around 1.26 days of local video playback. The machine will use LPDDR5X-7467 memory, and a 16 GB configuration is confirmed, though other capacities remain unclear. The screen’s resolution is public, but Xiaomi has not specified its panel technology.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

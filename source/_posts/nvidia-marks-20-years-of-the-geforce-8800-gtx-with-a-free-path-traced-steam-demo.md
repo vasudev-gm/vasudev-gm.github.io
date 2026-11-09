@@ -19,7 +19,7 @@ NVIDIA is celebrating 20 years of the GeForce 8800 GTX with a free Steam demo ca
 
 The joke is that the original 8800 GTX cannot actually run the demo it inspired: Steam lists an RTX 4070 as the minimum requirement and an RTX 5080 as the recommended GPU, alongside 32 GB of system memory and 30 GB of storage. The 8800 GTX launched in 2006 with 768 MB of GDDR3 memory and a $599 launch price, which makes the modern hardware demands a sharp reminder of how much gaming technology has evolved in two decades.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

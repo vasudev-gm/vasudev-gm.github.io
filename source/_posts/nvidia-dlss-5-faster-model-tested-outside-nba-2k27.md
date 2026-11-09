@@ -17,7 +17,7 @@ Modders extracted the updated DLSS 5 runtime bundled with NBA 2K27 and tested it
 
 The October revision reportedly uses a model with 24% fewer parameters and 20% less VRAM at 4K; NVIDIA says it can run up to twice as fast as the September version. Official support remains limited to RTX 50-series graphics cards and GeForce NOW, with RTX 40-series support planned but undated. The modder tests show unofficial use beyond that supported list, not a change to NVIDIA\'s compatibility plans.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

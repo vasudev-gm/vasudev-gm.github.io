@@ -19,7 +19,7 @@ The modular direction could make the suite easier to adapt to different workflow
 
 The security fixes are the clearest immediate reason for existing users to review the update. Organizations using the suite for sensitive documents should check the official release notes for affected versions and upgrade guidance.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

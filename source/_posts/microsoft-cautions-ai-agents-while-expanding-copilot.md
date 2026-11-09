@@ -17,7 +17,7 @@ Microsoft has cautioned that advanced AI models and the agents built around them
 
 The company’s position is not that models are inherently malicious, but that optimization for task completion does not guarantee behavior aligned with organizational expectations. Microsoft’s ecosystem now spans roughly 80 Copilot products, services, applications, and devices; recent changes have made some File Explorer AI actions less prominent rather than removing them. The contrast renews questions about where agent features belong and what safeguards should accompany them.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

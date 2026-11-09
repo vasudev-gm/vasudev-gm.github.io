@@ -18,7 +18,7 @@ An application called Overdrive is alleged to offer free games and downloadable 
 
 The allegation raises legal and security concerns around unauthorized access to copyrighted games and console software. It should not be treated as confirmation that the claimed features are genuine, safe, or available; users should be wary of downloads and services promising free commercial content.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

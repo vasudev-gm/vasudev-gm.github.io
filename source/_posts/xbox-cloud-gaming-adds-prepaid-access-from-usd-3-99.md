@@ -18,7 +18,7 @@ Microsoft has opened a preview of prepaid Xbox Cloud Gaming time for Xbox Inside
 
 Microsoft says purchased hours remain available until used and include ad-free play, shorter waits, and high-quality streaming. The preview is planned to expand more broadly in November; eligible games, purchasing options, devices, and availability can vary by market and account.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

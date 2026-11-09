@@ -17,7 +17,7 @@ A Linux Foundation Research survey found that maintainers estimate about 25% of 
 
 The findings present a mixed picture: respondents reported productivity gains of up to 50%, but AI adoption is outpacing project rules. Only 35% of projects have a formal policy permitting generative AI, while 32% have no policy and no plans to create one. The report points to review, testing, and clear disclosure policies as practical ways to manage the extra maintainer workload.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 

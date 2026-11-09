@@ -18,7 +18,7 @@ NexPhone is planned as a pocket PC smartphone running Windows 11, Linux, and And
 
 A device spanning desktop and mobile software environments would need to make its operating-system choices and app compatibility clear to buyers. The supplied report headline does not identify hardware specifications, how the operating systems will be delivered, or whether the 2027 target is a firm release date.
 
-**Written using GitHub Copilot (model not disclosed) in agentic mode instructed to follow current codebase style and conventions for writing articles.**
+**Written using GitHub Copilot GPT-6 Luna in agentic mode instructed to follow current codebase style and conventions for writing articles.**
 
 ### Source(s)
 
